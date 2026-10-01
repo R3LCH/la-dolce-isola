@@ -1,0 +1,280 @@
+{
+  "pages": [
+    {
+      "page": 13,
+      "categoryIds": [
+        "food"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "White paper, left page of spread (next page 'Cornetto salato' edge visible at right). Orange rounded pill heading 'Food' top-left. Four sub-sections (Focaccia, Pan Pizza, Rustico, Tramezzino) zig-zag: heading + price with orange dotted rule, numbered orange-circle filling lines; circular photos alternate right (Focaccia, Rustico) and left (Pan Pizza, Tramezzino).",
+      "crops": [
+        {
+          "file": "dish-crops/p13-focaccia.png",
+          "depicts": "Stacked squares of focaccia",
+          "relatedItemIds": [
+            "focaccia-1"
+          ]
+        },
+        {
+          "file": "dish-crops/p13-focaccia-round.png",
+          "depicts": "Stacked squares of focaccia (circular, transparent background)",
+          "relatedItemIds": [
+            "focaccia-1"
+          ]
+        },
+        {
+          "file": "dish-crops/p13-pan-pizza.png",
+          "depicts": "Round pan-pizza bun filled with rocket, tomato, mozzarella/cheese",
+          "relatedItemIds": [
+            "pan-pizza-2",
+            "pan-pizza-3"
+          ]
+        },
+        {
+          "file": "dish-crops/p13-pan-pizza-round.png",
+          "depicts": "Round pan-pizza bun filled with rocket, tomato, mozzarella/cheese (circular, transparent background)",
+          "relatedItemIds": [
+            "pan-pizza-2",
+            "pan-pizza-3"
+          ]
+        },
+        {
+          "file": "dish-crops/p13-rustico.png",
+          "depicts": "Rustic baguette sandwich with cured meat and lettuce",
+          "relatedItemIds": [
+            "rustico-4",
+            "rustico-5",
+            "rustico-6"
+          ]
+        },
+        {
+          "file": "dish-crops/p13-rustico-round.png",
+          "depicts": "Rustic baguette sandwich with cured meat and lettuce (circular, transparent background)",
+          "relatedItemIds": [
+            "rustico-4",
+            "rustico-5",
+            "rustico-6"
+          ]
+        },
+        {
+          "file": "dish-crops/p13-tramezzino.png",
+          "depicts": "Triangular white-bread tramezzini with salami, tomato and lettuce",
+          "relatedItemIds": [
+            "tramezzino-7",
+            "tramezzino-8"
+          ]
+        },
+        {
+          "file": "dish-crops/p13-tramezzino-round.png",
+          "depicts": "Triangular white-bread tramezzini with salami, tomato and lettuce (circular, transparent background)",
+          "relatedItemIds": [
+            "tramezzino-7",
+            "tramezzino-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "food",
+      "title": {
+        "it": "Food",
+        "en": "Food",
+        "ru": "Еда",
+        "uk": "Їжа",
+        "pl": "Jedzenie",
+        "de": "Speisen"
+      },
+      "pages": [
+        13
+      ],
+      "groups": [
+        {
+          "title": {
+            "it": "Focaccia",
+            "en": "Focaccia",
+            "ru": "Фокачча",
+            "uk": "Фокача",
+            "pl": "Focaccia",
+            "de": "Focaccia"
+          },
+          "items": [
+            {
+              "id": "focaccia-1",
+              "name": "Prosciutto crudo, provola e lattuga",
+              "nameT": {
+                "it": "Prosciutto crudo, provola e lattuga",
+                "en": "Prosciutto (cured ham), provola and lettuce",
+                "ru": "Прошутто крудо, провола и салат латук",
+                "uk": "Прошуто крудо, провола та салат латук",
+                "pl": "Prosciutto crudo, provola i sałata",
+                "de": "Prosciutto crudo, Provola und Kopfsalat"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "title": {
+            "it": "Pan Pizza",
+            "en": "Pan pizza",
+            "ru": "Пан-пицца",
+            "uk": "Пан-піца",
+            "pl": "Pan pizza",
+            "de": "Pan Pizza"
+          },
+          "items": [
+            {
+              "id": "pan-pizza-2",
+              "name": "Prosciutto crudo, formaggio, pomodoro",
+              "nameT": {
+                "it": "Prosciutto crudo, formaggio, pomodoro",
+                "en": "Prosciutto (cured ham), cheese, tomato",
+                "ru": "Прошутто крудо, сыр, помидор",
+                "uk": "Прошуто крудо, сир, помідор",
+                "pl": "Prosciutto crudo, ser, pomidor",
+                "de": "Prosciutto crudo, Käse, Tomate"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "pan-pizza-3",
+              "name": "Mortadella, provola e pomodoro",
+              "nameT": {
+                "it": "Mortadella, provola e pomodoro",
+                "en": "Mortadella, provola and tomato",
+                "ru": "Мортаделла, провола и помидор",
+                "uk": "Мортадела, провола та помідор",
+                "pl": "Mortadela, provola i pomidor",
+                "de": "Mortadella, Provola und Tomate"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "title": {
+            "it": "Rustico",
+            "en": "Rustic sandwich",
+            "ru": "Рустико (сэндвич в багете)",
+            "uk": "Рустіко (сендвіч у багеті)",
+            "pl": "Rustico (kanapka w bagietce)",
+            "de": "Rustico (Baguette-Sandwich)"
+          },
+          "items": [
+            {
+              "id": "rustico-4",
+              "name": "Bacon, formaggio, lattuga",
+              "nameT": {
+                "it": "Bacon, formaggio, lattuga",
+                "en": "Bacon, cheese, lettuce",
+                "ru": "Бекон, сыр, салат латук",
+                "uk": "Бекон, сир, салат латук",
+                "pl": "Bekon, ser, sałata",
+                "de": "Bacon, Käse, Kopfsalat"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "rustico-5",
+              "name": "Salame piccante, scamorza, melanzane grigliate",
+              "nameT": {
+                "it": "Salame piccante, scamorza, melanzane grigliate",
+                "en": "Spicy salami, scamorza, grilled aubergine",
+                "ru": "Острая салями, скаморца, баклажаны гриль",
+                "uk": "Гостра салямі, скаморца, баклажани гриль",
+                "pl": "Pikantne salami, scamorza, grillowany bakłażan",
+                "de": "Scharfe Salami, Scamorza, gegrillte Auberginen"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "rustico-6",
+              "name": "Prosciutto cotto, provola, maionese",
+              "nameT": {
+                "it": "Prosciutto cotto, provola, maionese",
+                "en": "Cooked ham, provola, mayonnaise",
+                "ru": "Варёная ветчина, провола, майонез",
+                "uk": "Варена шинка, провола, майонез",
+                "pl": "Szynka gotowana, provola, majonez",
+                "de": "Kochschinken, Provola, Mayonnaise"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "title": {
+            "it": "Tramezzino",
+            "en": "Tramezzino (sandwich)",
+            "ru": "Трамеццино (сэндвич)",
+            "uk": "Трамецино (сендвіч)",
+            "pl": "Tramezzino (kanapka)",
+            "de": "Tramezzino (Sandwich)"
+          },
+          "items": [
+            {
+              "id": "tramezzino-7",
+              "name": "Pomodoro, maionese e tonno",
+              "nameT": {
+                "it": "Pomodoro, maionese e tonno",
+                "en": "Tomato, mayonnaise and tuna",
+                "ru": "Помидор, майонез и тунец",
+                "uk": "Помідор, майонез і тунець",
+                "pl": "Pomidor, majonez i tuńczyk",
+                "de": "Tomate, Mayonnaise und Thunfisch"
+              },
+              "desc": null,
+              "price": 4.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "tramezzino-8",
+              "name": "Salame piccante, lattuga, maionese",
+              "nameT": {
+                "it": "Salame piccante, lattuga, maionese",
+                "en": "Spicy salami, lettuce, mayonnaise",
+                "ru": "Острая салями, салат латук, майонез",
+                "uk": "Гостра салямі, салат латук, майонез",
+                "pl": "Pikantne salami, sałata, majonez",
+                "de": "Scharfe Salami, Kopfsalat, Mayonnaise"
+              },
+              "desc": null,
+              "price": 4.5,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "Prezzo indicato per tipo di pane; farciture numerate 1–8.",
+        "en": "Price is per bread type; fillings numbered 1–8.",
+        "ru": "Цена указана за вид хлеба; начинки пронумерованы 1–8.",
+        "uk": "Ціна вказана за вид хліба; начинки пронумеровані 1–8.",
+        "pl": "Cena podana za rodzaj pieczywa; nadzienia numerowane 1–8.",
+        "de": "Preis gilt je Brotsorte; Füllungen nummeriert 1–8."
+      }
+    }
+  ]
+}

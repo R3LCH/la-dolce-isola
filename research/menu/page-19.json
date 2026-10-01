@@ -1,0 +1,634 @@
+{
+  "pages": [
+    {
+      "page": 19,
+      "categoryIds": [
+        "dessert",
+        "crepes"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "Two columns. Left: lilac/purple 'Dessert' pill; 4 items stacked (Soufflè, Waffel, Brioches, Frappè) each with a circular photo to the right. Right: lilac 'Crêpes' pill, 6 crêpes at €5,00 with prices right-aligned (printed slightly offset upward), then italic 'Aggiungi piacere al tuo dolce…' € 0,50 with 16 toppings in small type; large irregular-frame crêpe-with-gelato photo bottom right.",
+      "crops": [
+        {
+          "file": "research/dish-crops/p19-souffle.png",
+          "depicts": "Chocolate lava cake with vanilla ice cream and redcurrants",
+          "relatedItemIds": [
+            "souffle"
+          ]
+        },
+        {
+          "file": "research/dish-crops/p19-souffle-round.png",
+          "depicts": "Chocolate lava cake with vanilla ice cream and redcurrants (circular, transparent background)",
+          "relatedItemIds": [
+            "souffle"
+          ]
+        },
+        {
+          "file": "research/dish-crops/p19-waffel.png",
+          "depicts": "Waffle topped with chocolate, nut-covered ice cream scoops",
+          "relatedItemIds": [
+            "waffel",
+            "waffel-con-gelato"
+          ]
+        },
+        {
+          "file": "research/dish-crops/p19-waffel-round.png",
+          "depicts": "Waffle topped with chocolate, nut-covered ice cream scoops (circular, transparent background)",
+          "relatedItemIds": [
+            "waffel",
+            "waffel-con-gelato"
+          ]
+        },
+        {
+          "file": "research/dish-crops/p19-brioches.png",
+          "depicts": "Brioche filled with strawberry, pistachio and chocolate gelato",
+          "relatedItemIds": [
+            "brioches-con-gelato",
+            "brioches-con-panna"
+          ]
+        },
+        {
+          "file": "research/dish-crops/p19-brioches-round.png",
+          "depicts": "Brioche filled with strawberry, pistachio and chocolate gelato (circular, transparent background)",
+          "relatedItemIds": [
+            "brioches-con-gelato",
+            "brioches-con-panna"
+          ]
+        },
+        {
+          "file": "research/dish-crops/p19-frappe.png",
+          "depicts": "Pink strawberry frappè in a tall glass with whipped cream and strawberry",
+          "relatedItemIds": [
+            "frappe",
+            "frappe-con-panna"
+          ]
+        },
+        {
+          "file": "research/dish-crops/p19-frappe-round.png",
+          "depicts": "Pink strawberry frappè in a tall glass with whipped cream and strawberry (circular, transparent background)",
+          "relatedItemIds": [
+            "frappe",
+            "frappe-con-panna"
+          ]
+        },
+        {
+          "file": "research/dish-crops/p19-crepes-gelato.png",
+          "depicts": "Folded crêpe with ice cream and chocolate sauce (large photo, irregular frame)",
+          "relatedItemIds": [
+            "crepes-con-gelato"
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "dessert",
+      "title": {
+        "it": "Dessert",
+        "en": "Desserts",
+        "ru": "Десерты",
+        "uk": "Десерти",
+        "pl": "Desery",
+        "de": "Desserts"
+      },
+      "pages": [
+        19
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "souffle",
+              "name": "Soufflè",
+              "nameT": {
+                "it": "Soufflè",
+                "en": "Soufflé",
+                "ru": "Суфле",
+                "uk": "Суфле",
+                "pl": "Suflet",
+                "de": "Soufflé"
+              },
+              "desc": {
+                "it": "Tortino al cioccolato dal cuore caldo con gelato",
+                "en": "Chocolate lava cake with a warm molten centre, served with ice cream",
+                "ru": "Шоколадный кекс с горячей начинкой и мороженым",
+                "uk": "Шоколадний кекс із гарячою начинкою та морозивом",
+                "pl": "Czekoladowe ciastko z gorącym środkiem i lodami",
+                "de": "Schokoladenküchlein mit warmem, flüssigem Kern und Eis"
+              },
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "waffel",
+              "name": "Waffel",
+              "nameT": {
+                "it": "Waffel",
+                "en": "Waffle",
+                "ru": "Вафля",
+                "uk": "Вафля",
+                "pl": "Gofr",
+                "de": "Waffel"
+              },
+              "desc": {
+                "it": "con Nutella / cioccolato bianco",
+                "en": "with Nutella / white chocolate",
+                "ru": "с Nutella / белым шоколадом",
+                "uk": "з Nutella / білим шоколадом",
+                "pl": "z Nutellą / białą czekoladą",
+                "de": "mit Nutella / weißer Schokolade"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "waffel-con-gelato",
+              "name": "Waffel con gelato",
+              "nameT": {
+                "it": "Waffel con gelato",
+                "en": "Waffle with ice cream",
+                "ru": "Вафля с мороженым",
+                "uk": "Вафля з морозивом",
+                "pl": "Gofr z lodami",
+                "de": "Waffel mit Eis"
+              },
+              "desc": null,
+              "price": 6.0,
+              "priceNote": "con gelato",
+              "uncertain": false
+            },
+            {
+              "id": "brioches-con-gelato",
+              "name": "Brioches con gelato",
+              "nameT": {
+                "it": "Brioche con gelato",
+                "en": "Brioche with ice cream",
+                "ru": "Бриошь с мороженым",
+                "uk": "Бріош з морозивом",
+                "pl": "Brioszka z lodami",
+                "de": "Brioche mit Eis"
+              },
+              "desc": {
+                "it": "con gelato",
+                "en": "with ice cream",
+                "ru": "с мороженым",
+                "uk": "з морозивом",
+                "pl": "z lodami",
+                "de": "mit Eis"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "brioches-con-panna",
+              "name": "Brioches con panna",
+              "nameT": {
+                "it": "Brioche con gelato e panna",
+                "en": "Brioche with ice cream and whipped cream",
+                "ru": "Бриошь с мороженым и сливками",
+                "uk": "Бріош з морозивом і вершками",
+                "pl": "Brioszka z lodami i bitą śmietaną",
+                "de": "Brioche mit Eis und Sahne"
+              },
+              "desc": {
+                "it": "con panna",
+                "en": "with whipped cream",
+                "ru": "со взбитыми сливками",
+                "uk": "зі збитими вершками",
+                "pl": "z bitą śmietaną",
+                "de": "mit Sahne"
+              },
+              "price": 5.5,
+              "priceNote": "con panna",
+              "uncertain": false
+            },
+            {
+              "id": "frappe",
+              "name": "Frappè",
+              "nameT": {
+                "it": "Frappè",
+                "en": "Milkshake",
+                "ru": "Фраппе (молочный коктейль)",
+                "uk": "Фрапе (молочний коктейль)",
+                "pl": "Frappé (koktajl mleczny)",
+                "de": "Frappé (Milchshake)"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "frappe-con-panna",
+              "name": "Frappè con panna",
+              "nameT": {
+                "it": "Frappè con panna",
+                "en": "Milkshake with whipped cream",
+                "ru": "Фраппе со взбитыми сливками",
+                "uk": "Фрапе зі збитими вершками",
+                "pl": "Frappé z bitą śmietaną",
+                "de": "Frappé mit Sahne"
+              },
+              "desc": {
+                "it": "con panna",
+                "en": "with whipped cream",
+                "ru": "со взбитыми сливками",
+                "uk": "зі збитими вершками",
+                "pl": "z bitą śmietaną",
+                "de": "mit Sahne"
+              },
+              "price": 5.5,
+              "priceNote": "Con panna",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "crepes",
+      "title": {
+        "it": "Crêpes",
+        "en": "Crêpes",
+        "ru": "Блинчики (крепы)",
+        "uk": "Млинці (крепи)",
+        "pl": "Naleśniki (crêpes)",
+        "de": "Crêpes"
+      },
+      "pages": [
+        19
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "crepes-nutella",
+              "name": "Nutella",
+              "nameT": {
+                "it": "Crêpes alla Nutella",
+                "en": "Nutella crêpe",
+                "ru": "Креп с Nutella",
+                "uk": "Креп з Nutella",
+                "pl": "Naleśnik z Nutellą",
+                "de": "Crêpe mit Nutella"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "crepes-cioccolato-bianco",
+              "name": "Cioccolato Bianco",
+              "nameT": {
+                "it": "Crêpes al cioccolato bianco",
+                "en": "White chocolate crêpe",
+                "ru": "Креп с белым шоколадом",
+                "uk": "Креп з білим шоколадом",
+                "pl": "Naleśnik z białą czekoladą",
+                "de": "Crêpe mit weißer Schokolade"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "crepes-marmellata",
+              "name": "Marmellata",
+              "nameT": {
+                "it": "Crêpes alla marmellata",
+                "en": "Jam crêpe",
+                "ru": "Креп с джемом",
+                "uk": "Креп з джемом",
+                "pl": "Naleśnik z dżemem",
+                "de": "Crêpe mit Marmelade"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "crepes-con-gelato",
+              "name": "Crepês con Gelato",
+              "nameT": {
+                "it": "Crêpes con gelato",
+                "en": "Crêpe with ice cream",
+                "ru": "Креп с мороженым",
+                "uk": "Креп з морозивом",
+                "pl": "Naleśnik z lodami",
+                "de": "Crêpe mit Eis"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "crepes-nutella-e-banana",
+              "name": "Crepês Nutella e banana",
+              "nameT": {
+                "it": "Crêpes Nutella e banana",
+                "en": "Nutella and banana crêpe",
+                "ru": "Креп с Nutella и бананом",
+                "uk": "Креп з Nutella і бананом",
+                "pl": "Naleśnik z Nutellą i bananem",
+                "de": "Crêpe mit Nutella und Banane"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "crepes-bigusto",
+              "name": "Crepês Bigusto",
+              "nameT": {
+                "it": "Crêpes Bigusto (due gusti)",
+                "en": "Bigusto crêpe (two flavours)",
+                "ru": "Креп «Бигусто» (два вкуса)",
+                "uk": "Креп «Бігусто» (два смаки)",
+                "pl": "Naleśnik Bigusto (dwa smaki)",
+                "de": "Crêpe Bigusto (zwei Sorten)"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "title": {
+            "it": "Aggiungi piacere al tuo dolce…",
+            "en": "Add some pleasure to your dessert…",
+            "ru": "Добавьте удовольствия к своему десерту…",
+            "uk": "Додайте задоволення до свого десерту…",
+            "pl": "Dodaj przyjemności do swojego deseru…",
+            "de": "Gönn deinem Dessert etwas mehr…"
+          },
+          "items": [
+            {
+              "id": "extra-caramello",
+              "name": "Caramello",
+              "nameT": {
+                "it": "Caramello",
+                "en": "Caramel",
+                "ru": "Карамель",
+                "uk": "Карамель",
+                "pl": "Karmel",
+                "de": "Karamell"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-cioccolato-fondente",
+              "name": "Cioccolato fondente",
+              "nameT": {
+                "it": "Cioccolato fondente",
+                "en": "Dark chocolate",
+                "ru": "Тёмный шоколад",
+                "uk": "Чорний шоколад",
+                "pl": "Gorzka czekolada",
+                "de": "Zartbitterschokolade"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-fragola",
+              "name": "Fragola",
+              "nameT": {
+                "it": "Fragola",
+                "en": "Strawberry",
+                "ru": "Клубника",
+                "uk": "Полуниця",
+                "pl": "Truskawka",
+                "de": "Erdbeere"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-pistacchio",
+              "name": "Pistacchio",
+              "nameT": {
+                "it": "Pistacchio",
+                "en": "Pistachio",
+                "ru": "Фисташка",
+                "uk": "Фісташка",
+                "pl": "Pistacja",
+                "de": "Pistazie"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-frutti-di-bosco",
+              "name": "Frutti di bosco",
+              "nameT": {
+                "it": "Frutti di bosco",
+                "en": "Mixed berries",
+                "ru": "Лесные ягоды",
+                "uk": "Лісові ягоди",
+                "pl": "Owoce leśne",
+                "de": "Waldbeeren"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-cocco",
+              "name": "Cocco",
+              "nameT": {
+                "it": "Cocco",
+                "en": "Coconut",
+                "ru": "Кокос",
+                "uk": "Кокос",
+                "pl": "Kokos",
+                "de": "Kokos"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-nocciola",
+              "name": "Nocciola",
+              "nameT": {
+                "it": "Nocciola",
+                "en": "Hazelnut",
+                "ru": "Фундук",
+                "uk": "Фундук",
+                "pl": "Orzech laskowy",
+                "de": "Haselnuss"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-granelle-di-nocciola",
+              "name": "Granelle di nocciola",
+              "nameT": {
+                "it": "Granelle di nocciola",
+                "en": "Chopped hazelnuts",
+                "ru": "Дроблёный фундук",
+                "uk": "Подрібнений фундук",
+                "pl": "Posiekane orzechy laskowe",
+                "de": "Gehackte Haselnüsse"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-granelle-di-pistacchio",
+              "name": "Granelle di pistacchio",
+              "nameT": {
+                "it": "Granelle di pistacchio",
+                "en": "Chopped pistachios",
+                "ru": "Дроблёные фисташки",
+                "uk": "Подрібнені фісташки",
+                "pl": "Posiekane pistacje",
+                "de": "Gehackte Pistazien"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-smarties",
+              "name": "Smarties",
+              "nameT": null,
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-riso-soffiato",
+              "name": "Riso soffiato",
+              "nameT": {
+                "it": "Riso soffiato",
+                "en": "Puffed rice",
+                "ru": "Воздушный рис",
+                "uk": "Повітряний рис",
+                "pl": "Ryż preparowany",
+                "de": "Puffreis"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-cereali",
+              "name": "Cereali",
+              "nameT": {
+                "it": "Cereali",
+                "en": "Cereal",
+                "ru": "Хлопья",
+                "uk": "Пластівці",
+                "pl": "Płatki zbożowe",
+                "de": "Cerealien"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-gocce-di-cioccolato",
+              "name": "Gocce di cioccolato",
+              "nameT": {
+                "it": "Gocce di cioccolato",
+                "en": "Chocolate chips",
+                "ru": "Шоколадные капли",
+                "uk": "Шоколадні краплі",
+                "pl": "Kropelki czekolady",
+                "de": "Schokotropfen"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-meringhe",
+              "name": "Meringhe",
+              "nameT": {
+                "it": "Meringhe",
+                "en": "Meringues",
+                "ru": "Безе",
+                "uk": "Безе",
+                "pl": "Bezy",
+                "de": "Baiser"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-cheerios",
+              "name": "Cheerios",
+              "nameT": null,
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            },
+            {
+              "id": "extra-panna-montata",
+              "name": "Panna montata",
+              "nameT": {
+                "it": "Panna montata",
+                "en": "Whipped cream",
+                "ru": "Взбитые сливки",
+                "uk": "Збиті вершки",
+                "pl": "Bita śmietana",
+                "de": "Schlagsahne"
+              },
+              "desc": null,
+              "price": 0.5,
+              "priceNote": "€ 0,50 per aggiunta (prezzo unico per il gruppo)",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "Aggiunte a € 0,50 ciascuna; il prezzo è stampato una volta accanto al titolo del gruppo.",
+        "en": "Toppings €0.50 each; the price is printed once next to the group title.",
+        "ru": "Добавки по €0,50 каждая; цена указана один раз рядом с заголовком группы.",
+        "uk": "Добавки по €0,50 кожна; ціну вказано один раз біля заголовка групи.",
+        "pl": "Dodatki po 0,50 € każdy; cena podana raz przy tytule grupy.",
+        "de": "Extras je 0,50 €; der Preis steht einmal neben der Gruppenüberschrift."
+      }
+    }
+  ]
+}

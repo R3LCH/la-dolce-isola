@@ -1,0 +1,106 @@
+{
+  "pages": [
+    {
+      "page": 9,
+      "categoryIds": ["vodka", "coolers-energizers"],
+      "continuesFrom": false,
+      "layoutNotes": "Left page of spread (beer page 10 visible at right edge). Text column on left half; gold/ochre rounded pill headings with white italic text: 'Vodka' top-left, 'Coolers & Energizers' lower-left overlapping a cocktail glass photo. Prices right-aligned in text column. Background is a full-bleed photo: soft green blurred foliage, large Belvedere Vodka bottle on right half, stemmed glass with peach/orange cocktail and herb sprig centre-left behind the text.",
+      "crops": [
+        {
+          "file": "dish-crops/p09-belvedere-vodka-bottle.png",
+          "depicts": "Frosted Belvedere Vodka bottle (Poland) with tree and palace print",
+          "relatedItemIds": ["bottiglia-vodka-belvedere"]
+        },
+        {
+          "file": "dish-crops/p09-vodka-cocktail-glass.png",
+          "depicts": "Stemmed wine glass with peach/orange vodka cocktail, ice and herb sprig (some menu text overlaps the photo)",
+          "relatedItemIds": ["vodka", "red-bull-vodka", "monster-vodka"]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "vodka",
+      "title": {"it": "Vodka", "en": "Vodka", "ru": "Водка", "uk": "Горілка", "pl": "Wódka", "de": "Wodka"},
+      "pages": [9],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "vodka",
+              "name": "Vodka",
+              "nameT": {"it": "Vodka", "en": "Vodka", "ru": "Водка", "uk": "Горілка", "pl": "Wódka", "de": "Wodka"},
+              "desc": {
+                "it": "Liscia / melone / pesca / menta / fragola",
+                "en": "Plain / melon / peach / mint / strawberry",
+                "ru": "Чистая / дыня / персик / мята / клубника",
+                "uk": "Чиста / диня / персик / м'ята / полуниця",
+                "pl": "Czysta / melon / brzoskwinia / mięta / truskawka",
+                "de": "Pur / Melone / Pfirsich / Minze / Erdbeere"
+              },
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "bottiglia-vodka",
+              "name": "Bottiglia Vodka",
+              "nameT": {"it": "Bottiglia di vodka", "en": "Bottle of vodka", "ru": "Бутылка водки", "uk": "Пляшка горілки", "pl": "Butelka wódki", "de": "Flasche Wodka"},
+              "desc": null,
+              "price": 40.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "bottiglia-vodka-belvedere",
+              "name": "Bottiglia Vodka Belvedere",
+              "nameT": {"it": "Bottiglia di vodka Belvedere", "en": "Bottle of Belvedere vodka", "ru": "Бутылка водки Belvedere", "uk": "Пляшка горілки Belvedere", "pl": "Butelka wódki Belvedere", "de": "Flasche Belvedere Wodka"},
+              "desc": {"it": "Polonia", "en": "Poland", "ru": "Польша", "uk": "Польща", "pl": "Polska", "de": "Polen"},
+              "price": 70.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "bottiglia-vodka-grey-goose",
+              "name": "Bottiglia Vodka Grey Goose",
+              "nameT": {"it": "Bottiglia di vodka Grey Goose", "en": "Bottle of Grey Goose vodka", "ru": "Бутылка водки Grey Goose", "uk": "Пляшка горілки Grey Goose", "pl": "Butelka wódki Grey Goose", "de": "Flasche Grey Goose Wodka"},
+              "desc": {"it": "Francia", "en": "France", "ru": "Франция", "uk": "Франція", "pl": "Francja", "de": "Frankreich"},
+              "price": 70.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "bottiglia-vodka-ghost",
+              "name": "Bottiglia Vodka Ghost",
+              "nameT": {"it": "Bottiglia di vodka Ghost", "en": "Bottle of Ghost vodka", "ru": "Бутылка водки Ghost", "uk": "Пляшка горілки Ghost", "pl": "Butelka wódki Ghost", "de": "Flasche Ghost Wodka"},
+              "desc": {"it": "Inghilterra (England)", "en": "England", "ru": "Англия", "uk": "Англія", "pl": "Anglia", "de": "England"},
+              "price": 70.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "coolers-energizers",
+      "title": {"it": "Coolers & Energizers", "en": "Coolers & Energizers", "ru": "Охлаждающие и энергетические напитки", "uk": "Охолоджувальні та енергетичні напої", "pl": "Napoje orzeźwiające i energetyczne", "de": "Erfrischungs- & Energydrinks"},
+      "pages": [9],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {"id": "red-bull", "name": "Red Bull", "nameT": null, "desc": null, "price": 4.0, "priceNote": null, "uncertain": false},
+            {"id": "monster", "name": "Monster", "nameT": null, "desc": null, "price": 4.0, "priceNote": null, "uncertain": false},
+            {"id": "red-bull-vodka", "name": "Red Bull & Vodka", "nameT": null, "desc": null, "price": 8.0, "priceNote": null, "uncertain": false},
+            {"id": "monster-vodka", "name": "Monster & Vodka", "nameT": null, "desc": null, "price": 8.0, "priceNote": null, "uncertain": false}
+          ]
+        }
+      ],
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "pages": [
+    {
+      "page": 20,
+      "categoryIds": [
+        "caffetteria",
+        "delizie-con-caffe",
+        "mousse-di-caffe"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "2 columns on right-hand page; brown/taupe rounded pill headings with white italic text ('Caffetteria / Coffe', 'Delizie con Caffè / Special coffe drink', 'Mousse di caffè'); prices right-aligned '€ 1,50'; Delizie has single € 5,00 beside its pill; rectangular photo of two coffee mousse glasses with whipped swirl bottom-right; white paper. Left edge of next page (Batidos/Bibite) visible but not part of this page.",
+      "crops": [
+        {
+          "file": "dish-crops/p20-mousse-di-caffe.png",
+          "depicts": "Two glass cups of coffee mousse topped with mousse swirl on glass saucers",
+          "relatedItemIds": [
+            "mousse-classica",
+            "mousse-nocciola",
+            "mousse-cioccolato-nero",
+            "mousse-cioccolato-bianco",
+            "mousse-con-panna",
+            "mousse-con-panna-e-baileys",
+            "mousse-nocciolino",
+            "mousse-pistacchino"
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "caffetteria",
+      "title": {
+        "it": "Caffetteria",
+        "en": "Coffee bar",
+        "ru": "Кофейня",
+        "uk": "Кав'ярня",
+        "pl": "Kawiarnia",
+        "de": "Kaffeebar"
+      },
+      "pages": [
+        20
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "espresso",
+              "name": "Espresso",
+              "nameT": {
+                "it": "Espresso",
+                "en": "Espresso",
+                "ru": "Эспрессо",
+                "uk": "Еспресо",
+                "pl": "Espresso",
+                "de": "Espresso"
+              },
+              "desc": null,
+              "price": 1.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "espresso-con-panna-e-cacao",
+              "name": "Espresso con panna e cacao",
+              "nameT": {
+                "it": "Espresso con panna e cacao",
+                "en": "Espresso with whipped cream and cocoa",
+                "ru": "Эспрессо со сливками и какао",
+                "uk": "Еспресо з вершками та какао",
+                "pl": "Espresso z bitą śmietaną i kakao",
+                "de": "Espresso mit Sahne und Kakao"
+              },
+              "desc": null,
+              "price": 2.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "decaffeinato",
+              "name": "Decaffeinato",
+              "nameT": {
+                "it": "Decaffeinato",
+                "en": "Decaf coffee",
+                "ru": "Кофе без кофеина",
+                "uk": "Кава без кофеїну",
+                "pl": "Kawa bezkofeinowa",
+                "de": "Entkoffeinierter Kaffee"
+              },
+              "desc": null,
+              "price": 1.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "orzo-piccolo",
+              "name": "Orzo Piccolo",
+              "nameT": {
+                "it": "Orzo piccolo",
+                "en": "Barley coffee, small",
+                "ru": "Ячменный кофе, маленький",
+                "uk": "Ячмінна кава, мала",
+                "pl": "Kawa jęczmienna, mała",
+                "de": "Gerstenkaffee, klein"
+              },
+              "desc": null,
+              "price": 2.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "orzo-grande",
+              "name": "Orzo Grande",
+              "nameT": {
+                "it": "Orzo grande",
+                "en": "Barley coffee, large",
+                "ru": "Ячменный кофе, большой",
+                "uk": "Ячмінна кава, велика",
+                "pl": "Kawa jęczmienna, duża",
+                "de": "Gerstenkaffee, groß"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "caffe-corretto",
+              "name": "Caffè Corretto",
+              "nameT": {
+                "it": "Caffè corretto",
+                "en": "Espresso with a shot of liqueur",
+                "ru": "Эспрессо с ликёром",
+                "uk": "Еспресо з лікером",
+                "pl": "Espresso z dodatkiem likieru",
+                "de": "Espresso mit Schuss Likör"
+              },
+              "desc": null,
+              "price": 2.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "caffe-freddo",
+              "name": "Caffè Freddo",
+              "nameT": {
+                "it": "Caffè freddo",
+                "en": "Iced coffee",
+                "ru": "Холодный кофе",
+                "uk": "Холодна кава",
+                "pl": "Kawa mrożona",
+                "de": "Eiskaffee"
+              },
+              "desc": null,
+              "price": 2.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "cappuccino",
+              "name": "Cappuccino",
+              "nameT": {
+                "it": "Cappuccino",
+                "en": "Cappuccino",
+                "ru": "Капучино",
+                "uk": "Капучино",
+                "pl": "Cappuccino",
+                "de": "Cappuccino"
+              },
+              "desc": null,
+              "price": 2.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "cappuccino-di-soia",
+              "name": "Cappuccino di soia",
+              "nameT": {
+                "it": "Cappuccino di soia",
+                "en": "Soy cappuccino",
+                "ru": "Капучино на соевом молоке",
+                "uk": "Капучино на соєвому молоці",
+                "pl": "Cappuccino na mleku sojowym",
+                "de": "Cappuccino mit Sojamilch"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "latte-freddo",
+              "name": "Latte Freddo",
+              "nameT": {
+                "it": "Latte freddo",
+                "en": "Cold milk",
+                "ru": "Холодное молоко",
+                "uk": "Холодне молоко",
+                "pl": "Zimne mleko",
+                "de": "Kalte Milch"
+              },
+              "desc": null,
+              "price": 1.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "caffe-ginseng",
+              "name": "Caffè Ginseng",
+              "nameT": {
+                "it": "Caffè al ginseng",
+                "en": "Ginseng coffee",
+                "ru": "Кофе с женьшенем",
+                "uk": "Кава з женьшенем",
+                "pl": "Kawa z żeń-szeniem",
+                "de": "Ginseng-Kaffee"
+              },
+              "desc": null,
+              "price": 2.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "cornetto",
+              "name": "Cornetto",
+              "nameT": {
+                "it": "Cornetto",
+                "en": "Croissant",
+                "ru": "Круассан",
+                "uk": "Круасан",
+                "pl": "Rogalik (cornetto)",
+                "de": "Hörnchen (Croissant)"
+              },
+              "desc": null,
+              "price": 2.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "the-caldo",
+              "name": "The Caldo",
+              "nameT": {
+                "it": "Tè caldo",
+                "en": "Hot tea",
+                "ru": "Горячий чай",
+                "uk": "Гарячий чай",
+                "pl": "Gorąca herbata",
+                "de": "Heißer Tee"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "cioccolata-calda",
+              "name": "Cioccolata Calda",
+              "nameT": {
+                "it": "Cioccolata calda",
+                "en": "Hot chocolate",
+                "ru": "Горячий шоколад",
+                "uk": "Гарячий шоколад",
+                "pl": "Gorąca czekolada",
+                "de": "Heiße Schokolade"
+              },
+              "desc": null,
+              "price": 3.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "cioccolata-calda-con-panna",
+              "name": "Cioccolata Calda con panna",
+              "nameT": {
+                "it": "Cioccolata calda con panna",
+                "en": "Hot chocolate with whipped cream",
+                "ru": "Горячий шоколад со сливками",
+                "uk": "Гарячий шоколад з вершками",
+                "pl": "Gorąca czekolada z bitą śmietaną",
+                "de": "Heiße Schokolade mit Sahne"
+              },
+              "desc": null,
+              "price": 4.5,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "delizie-con-caffe",
+      "title": {
+        "it": "Delizie con Caffè",
+        "en": "Special coffee drinks",
+        "ru": "Кофейные деликатесы",
+        "uk": "Кавові делікатеси",
+        "pl": "Kawowe specjały",
+        "de": "Kaffee-Spezialitäten"
+      },
+      "pages": [
+        20
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "fashion",
+              "name": "Fashion",
+              "nameT": null,
+              "desc": {
+                "it": "Nocciola, amaretto, Kalua, panna, cacao",
+                "en": "Hazelnut, amaretto, Kahlúa, whipped cream, cocoa",
+                "ru": "Фундук, амаретто, Калуа, сливки, какао",
+                "uk": "Фундук, амарето, Калуа, вершки, какао",
+                "pl": "Orzech laskowy, amaretto, Kahlúa, bita śmietana, kakao",
+                "de": "Haselnuss, Amaretto, Kahlúa, Sahne, Kakao"
+              },
+              "price": 5.0,
+              "priceNote": "Prezzo unico di categoria (€ 5,00 accanto al titolo)",
+              "uncertain": false
+            },
+            {
+              "id": "bagdad",
+              "name": "Bagdad",
+              "nameT": null,
+              "desc": {
+                "it": "Nocciola, amaretto, Baileys, panna, cacao",
+                "en": "Hazelnut, amaretto, Baileys, whipped cream, cocoa",
+                "ru": "Фундук, амаретто, Бейлис, сливки, какао",
+                "uk": "Фундук, амарето, Бейліс, вершки, какао",
+                "pl": "Orzech laskowy, amaretto, Baileys, bita śmietana, kakao",
+                "de": "Haselnuss, Amaretto, Baileys, Sahne, Kakao"
+              },
+              "price": 5.0,
+              "priceNote": "Prezzo unico di categoria (€ 5,00 accanto al titolo)",
+              "uncertain": false
+            },
+            {
+              "id": "spiritoso",
+              "name": "Spiritoso",
+              "nameT": null,
+              "desc": {
+                "it": "Cioccolato, Baileys, panna, cacao",
+                "en": "Chocolate, Baileys, whipped cream, cocoa",
+                "ru": "Шоколад, Бейлис, сливки, какао",
+                "uk": "Шоколад, Бейліс, вершки, какао",
+                "pl": "Czekolada, Baileys, bita śmietana, kakao",
+                "de": "Schokolade, Baileys, Sahne, Kakao"
+              },
+              "price": 5.0,
+              "priceNote": "Prezzo unico di categoria (€ 5,00 accanto al titolo)",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "Prezzo unico: € 5,00",
+        "en": "Single price: € 5.00",
+        "ru": "Единая цена: € 5,00",
+        "uk": "Єдина ціна: € 5,00",
+        "pl": "Cena jednolita: 5,00 €",
+        "de": "Einheitspreis: 5,00 €"
+      }
+    },
+    {
+      "id": "mousse-di-caffe",
+      "title": {
+        "it": "Mousse di caffè",
+        "en": "Coffee mousse",
+        "ru": "Кофейный мусс",
+        "uk": "Кавовий мус",
+        "pl": "Mus kawowy",
+        "de": "Kaffeemousse"
+      },
+      "pages": [
+        20
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "mousse-classica",
+              "name": "Classica",
+              "nameT": {
+                "it": "Classica",
+                "en": "Classic",
+                "ru": "Классический",
+                "uk": "Класичний",
+                "pl": "Klasyczny",
+                "de": "Klassisch"
+              },
+              "desc": null,
+              "price": 2.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mousse-nocciola",
+              "name": "Nocciola",
+              "nameT": {
+                "it": "Nocciola",
+                "en": "Hazelnut",
+                "ru": "Фундук",
+                "uk": "Фундук",
+                "pl": "Orzech laskowy",
+                "de": "Haselnuss"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mousse-cioccolato-nero",
+              "name": "Cioccolato Nero",
+              "nameT": {
+                "it": "Cioccolato fondente",
+                "en": "Dark chocolate",
+                "ru": "Тёмный шоколад",
+                "uk": "Чорний шоколад",
+                "pl": "Ciemna czekolada",
+                "de": "Zartbitterschokolade"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mousse-cioccolato-bianco",
+              "name": "Cioccolato Bianco",
+              "nameT": {
+                "it": "Cioccolato bianco",
+                "en": "White chocolate",
+                "ru": "Белый шоколад",
+                "uk": "Білий шоколад",
+                "pl": "Biała czekolada",
+                "de": "Weiße Schokolade"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mousse-con-panna",
+              "name": "Con Panna",
+              "nameT": {
+                "it": "Con panna",
+                "en": "With whipped cream",
+                "ru": "Со сливками",
+                "uk": "З вершками",
+                "pl": "Z bitą śmietaną",
+                "de": "Mit Sahne"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mousse-con-panna-e-baileys",
+              "name": "Con Panna & Bayles",
+              "nameT": {
+                "it": "Con panna e Baileys",
+                "en": "With whipped cream & Baileys",
+                "ru": "Со сливками и Бейлис",
+                "uk": "З вершками та Бейліс",
+                "pl": "Z bitą śmietaną i Baileys",
+                "de": "Mit Sahne & Baileys"
+              },
+              "desc": null,
+              "price": 4.0,
+              "priceNote": "Printed 'Bayles' (= Baileys)",
+              "uncertain": false
+            },
+            {
+              "id": "mousse-nocciolino",
+              "name": "Nocciolino",
+              "nameT": null,
+              "desc": {
+                "it": "Mousse di caffè, nocciola, panna, granella di nocciola",
+                "en": "Coffee mousse, hazelnut, whipped cream, chopped hazelnuts",
+                "ru": "Кофейный мусс, фундук, сливки, дроблёный фундук",
+                "uk": "Кавовий мус, фундук, вершки, подрібнений фундук",
+                "pl": "Mus kawowy, orzech laskowy, bita śmietana, posiekane orzechy laskowe",
+                "de": "Kaffeemousse, Haselnuss, Sahne, Haselnusskrokant"
+              },
+              "price": 4.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mousse-pistacchino",
+              "name": "Pistacchino",
+              "nameT": null,
+              "desc": {
+                "it": "Mousse di caffè, pistacchio, panna, granella di pistacchio",
+                "en": "Coffee mousse, pistachio, whipped cream, chopped pistachios",
+                "ru": "Кофейный мусс, фисташка, сливки, дроблёная фисташка",
+                "uk": "Кавовий мус, фісташка, вершки, подрібнена фісташка",
+                "pl": "Mus kawowy, pistacja, bita śmietana, posiekane pistacje",
+                "de": "Kaffeemousse, Pistazie, Sahne, Pistazienkrokant"
+              },
+              "price": 4.5,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    }
+  ]
+}

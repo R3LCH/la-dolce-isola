@@ -1,0 +1,318 @@
+{
+  "items": [
+    {
+      "id": "calabrese",
+      "field": "uncertain",
+      "old": true,
+      "new": false
+    },
+    {
+      "id": "fattilla-tu",
+      "field": "notes",
+      "old": {
+        "it": "Prezzo per aggiunta (per categoria)",
+        "en": "Price per add-on (per category)",
+        "ru": "Цена за добавку (за категорию)",
+        "uk": "Ціна за додаток (за категорію)",
+        "pl": "Cena za dodatek (za kategorię)",
+        "de": "Preis pro Zutat (je Kategorie)"
+      },
+      "new": null
+    }
+  ],
+  "verifiedUnchanged": [
+    "mozzari",
+    "mozzacrudo",
+    "scamosa",
+    "calabrese(name/desc/price)",
+    "tonnazza",
+    "purgatorio",
+    "mortazza",
+    "piadina-base",
+    "verdure",
+    "formaggi",
+    "salumi"
+  ],
+  "addOns": {
+    "Piadina base": {
+      "price": 3.0,
+      "items": []
+    },
+    "Verdure": {
+      "price": 1.0,
+      "items": [
+        "Lattuga",
+        "pomodoro",
+        "melanzane",
+        "funghi"
+      ]
+    },
+    "Formaggi": {
+      "price": 1.0,
+      "items": [
+        "Mozzarella",
+        "scamorza",
+        "provola",
+        "crema di formaggio",
+        "sottiletta"
+      ]
+    },
+    "Salumi": {
+      "price": 1.0,
+      "items": [
+        "Prosciutto crudo",
+        "prosciutto cotto",
+        "salame piccante",
+        "mortadella",
+        "pancetta",
+        "capocollo",
+        "soppressata",
+        "'nduja"
+      ]
+    }
+  },
+  "printNotes": "Formaggi line printed with a double comma \"crema di formaggio,, sottiletta\"; Verdure ends with a trailing comma. No per-add-on price note is printed; each category line simply shows € 1,00.",
+  "categoriesCorrected": [
+    {
+      "id": "piadine",
+      "title": {
+        "it": "Piadine",
+        "en": "Piadinas (flatbread wraps)",
+        "ru": "Пьядины",
+        "uk": "П'ядіни",
+        "pl": "Piadiny",
+        "de": "Piadinas"
+      },
+      "pages": [
+        15
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "mozzari",
+              "name": "Mozzarì",
+              "nameT": null,
+              "desc": {
+                "it": "Prosciutto cotto, mozzarella, pomodoro",
+                "en": "Cooked ham, mozzarella, tomato",
+                "ru": "Варёная ветчина, моцарелла, помидор",
+                "uk": "Варена шинка, моцарела, помідор",
+                "pl": "Szynka gotowana, mozzarella, pomidor",
+                "de": "Kochschinken, Mozzarella, Tomate"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mozzacrudo",
+              "name": "Mozzacrudo",
+              "nameT": null,
+              "desc": {
+                "it": "Prosciutto crudo, mozzarella, pomodoro, lattuga",
+                "en": "Cured ham, mozzarella, tomato, lettuce",
+                "ru": "Сыровяленая ветчина, моцарелла, помидор, салат",
+                "uk": "В'ялена шинка, моцарела, помідор, салат",
+                "pl": "Szynka dojrzewająca, mozzarella, pomidor, sałata",
+                "de": "Rohschinken, Mozzarella, Tomate, Kopfsalat"
+              },
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "scamosa",
+              "name": "Scamosa",
+              "nameT": null,
+              "desc": {
+                "it": "Pancetta, scamorza, pomodoro",
+                "en": "Pancetta, scamorza cheese, tomato",
+                "ru": "Панчетта, скаморца, помидор",
+                "uk": "Панчета, скаморца, помідор",
+                "pl": "Pancetta, ser scamorza, pomidor",
+                "de": "Pancetta, Scamorza, Tomate"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "calabrese",
+              "name": "Calabrese",
+              "nameT": null,
+              "desc": {
+                "it": "Salame piccante, crema di formaggio, 'nduja, funghi",
+                "en": "Spicy salami, cream cheese, 'nduja, mushrooms",
+                "ru": "Острая салями, сливочный сыр, ндуя, грибы",
+                "uk": "Гостра салямі, вершковий сир, ндуя, гриби",
+                "pl": "Pikantne salami, serek kremowy, 'nduja, grzyby",
+                "de": "Scharfe Salami, Frischkäsecreme, 'Nduja, Pilze"
+              },
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "tonnazza",
+              "name": "Tonnazza",
+              "nameT": null,
+              "desc": {
+                "it": "Tonno, formaggio spalmabile, lattuga",
+                "en": "Tuna, cream cheese, lettuce",
+                "ru": "Тунец, сливочный сыр, салат",
+                "uk": "Тунець, вершковий сир, салат",
+                "pl": "Tuńczyk, serek do smarowania, sałata",
+                "de": "Thunfisch, Streichkäse, Kopfsalat"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "purgatorio",
+              "name": "Purgatorio",
+              "nameT": null,
+              "desc": {
+                "it": "Salame piccante, provola, peperoncino",
+                "en": "Spicy salami, provola cheese, chili",
+                "ru": "Острая салями, провола, перец чили",
+                "uk": "Гостра салямі, провола, перець чилі",
+                "pl": "Pikantne salami, ser provola, papryczka chili",
+                "de": "Scharfe Salami, Provola, Chili"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mortazza",
+              "name": "Mortazza",
+              "nameT": null,
+              "desc": {
+                "it": "Mortadella, formaggio fresco",
+                "en": "Mortadella, fresh cheese",
+                "ru": "Мортаделла, свежий сыр",
+                "uk": "Мортадела, свіжий сир",
+                "pl": "Mortadela, świeży ser",
+                "de": "Mortadella, Frischkäse"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "fattilla-tu",
+      "title": {
+        "it": "Fattilla Tu!",
+        "en": "Build your own!",
+        "ru": "Собери сам!",
+        "uk": "Збери сам!",
+        "pl": "Zrób ją sam!",
+        "de": "Stell sie dir selbst zusammen!"
+      },
+      "pages": [
+        15
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "piadina-base",
+              "name": "Piadina base",
+              "nameT": {
+                "it": "Piadina base",
+                "en": "Plain piadina",
+                "ru": "Базовая пьядина",
+                "uk": "Базова п'ядіна",
+                "pl": "Piadina podstawowa",
+                "de": "Basis-Piadina"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "verdure",
+              "name": "Verdure",
+              "nameT": {
+                "it": "Verdure",
+                "en": "Vegetables",
+                "ru": "Овощи",
+                "uk": "Овочі",
+                "pl": "Warzywa",
+                "de": "Gemüse"
+              },
+              "desc": {
+                "it": "Lattuga, pomodoro, melanzane, funghi",
+                "en": "Lettuce, tomato, aubergine, mushrooms",
+                "ru": "Салат, помидор, баклажаны, грибы",
+                "uk": "Салат, помідор, баклажани, гриби",
+                "pl": "Sałata, pomidor, bakłażan, grzyby",
+                "de": "Kopfsalat, Tomate, Auberginen, Pilze"
+              },
+              "price": 1.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "formaggi",
+              "name": "Formaggi",
+              "nameT": {
+                "it": "Formaggi",
+                "en": "Cheeses",
+                "ru": "Сыры",
+                "uk": "Сири",
+                "pl": "Sery",
+                "de": "Käse"
+              },
+              "desc": {
+                "it": "Mozzarella, scamorza, provola, crema di formaggio, sottiletta",
+                "en": "Mozzarella, scamorza, provola, cream cheese, cheese slice",
+                "ru": "Моцарелла, скаморца, провола, сливочный сыр, плавленый ломтик",
+                "uk": "Моцарела, скаморца, провола, вершковий сир, плавлений скибковий сир",
+                "pl": "Mozzarella, scamorza, provola, serek kremowy, ser w plastrach",
+                "de": "Mozzarella, Scamorza, Provola, Frischkäsecreme, Schmelzkäsescheibe"
+              },
+              "price": 1.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "salumi",
+              "name": "Salumi",
+              "nameT": {
+                "it": "Salumi",
+                "en": "Cured meats",
+                "ru": "Мясные деликатесы",
+                "uk": "М'ясні делікатеси",
+                "pl": "Wędliny",
+                "de": "Wurstwaren"
+              },
+              "desc": {
+                "it": "Prosciutto crudo, prosciutto cotto, salame piccante, mortadella, pancetta, capocollo, soppressata, 'nduja",
+                "en": "Cured ham, cooked ham, spicy salami, mortadella, pancetta, capocollo, soppressata, 'nduja",
+                "ru": "Сыровяленая и варёная ветчина, острая салями, мортаделла, панчетта, капоколло, соппрессата, ндуя",
+                "uk": "В'ялена та варена шинка, гостра салямі, мортадела, панчета, капоколо, сопресата, ндуя",
+                "pl": "Szynka dojrzewająca, szynka gotowana, pikantne salami, mortadela, pancetta, capocollo, soppressata, 'nduja",
+                "de": "Rohschinken, Kochschinken, scharfe Salami, Mortadella, Pancetta, Capocollo, Soppressata, 'Nduja"
+              },
+              "price": 1.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,2136 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "categoryIds": [
+        "cocktail-long-drinks"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "First photographed page of the drinks booklet (not a cover; no logo visible). White page, single left text column: bold dark-grey item names, small grey ingredient line underneath, prices '€ 9,00' right-aligned in a column. Category title in a gold/ochre rounded pill with white italic bold sans text, top-left, with a slight shadow/curl. Top-right: small orange/ochre italic caption 'in abbinamento tagliere salumi tartare di pesce' above a circular photo framed by a thin gold ring. Bottom right: cut-out photo of a copper Moscow-Mule mug with mint and a Corona can (continues onto page 2), small orange zig-zag decor strokes.",
+      "crops": [
+        {
+          "file": "p01-tagliere-salumi-tartare.png",
+          "depicts": "Circular photo: board of salami/cured meats and pink fish (tuna) tartare cubes, gold ring frame",
+          "relatedItemIds": []
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "categoryIds": [
+        "cocktail-long-drinks"
+      ],
+      "continuesFrom": true,
+      "layoutNotes": "No heading; continues Cocktail & Long Drinks. Text column right of centre: first a tight list of gin/vodka 'Tonic o Lemon' items (brand bold, 'Tonic o Lemon' regular), then cocktails with ingredient sub-lines. Prices right-aligned. Left: cut-out (no frame) photo of Corona Extra can, mason-jar Mojito with mint and copper mule mug, spanning the gutter from page 1. Small orange dot decor top-left.",
+      "crops": [
+        {
+          "file": "p02-corona-mojito-moscow-mule.png",
+          "depicts": "Cut-out photo: Corona Extra can, Mojito in mason-jar glass with mint, copper Moscow Mule mug (left edge shows part of p1 tagliere photo)",
+          "relatedItemIds": [
+            "mojito",
+            "moscow-mule"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "categoryIds": [],
+      "continuesFrom": true,
+      "layoutNotes": "Left page of the spread with page 4: no text; a large circular cocktail photo sits across the gutter (left half here, right half on page 4). Same photo as on page 4.",
+      "crops": [
+        {
+          "file": "p03-colorful-cocktails.png",
+          "depicts": "Partial view of the same circular cocktail photo as p04 (yellow passion-fruit cocktail, blue drink, lime)",
+          "relatedItemIds": []
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "categoryIds": [
+        "cocktail-long-drinks",
+        "delizie-analcoliche"
+      ],
+      "continuesFrom": true,
+      "layoutNotes": "Continues cocktails (no heading at top; first price '€ 8,00' printed above Manhattan line). Right column text with ingredient sub-lines; lower half a gold pill 'Delizie analcoliche / Virgin delights' with a single price € 7,00 next to the pill for all virgin drinks. Left: large circular photo of three cocktails (yellow passion-fruit coupe, blue layered glass, red crystal tumbler with rosemary, lime glass) crossing the gutter.",
+      "crops": [
+        {
+          "file": "p04-cocktails-passion-fruit.png",
+          "depicts": "Circular photo: passion-fruit yellow cocktail, blue cocktail, red cocktail with rosemary, gin tonic with lime",
+          "relatedItemIds": [
+            "red-passion",
+            "negroni"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "categoryIds": [
+        "amari-calabresi",
+        "amari",
+        "liquori"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "Gold pill 'Amari calabresi' top-left with list + right price column; gold pill 'Amari' with single price € 4,00 at the right, list below. Circular framed photos (thin white ring, drop shadow): row of Calabrian amaro bottles (Jefferson, Frack…) top-right; Articolo 1 bottle with snifter bottom-left. Right edge shows start of 'Liquori Tradizionali italiani' (page 6).",
+      "crops": [
+        {
+          "file": "p05-amari-calabresi-bottles.png",
+          "depicts": "Circular photo: row of Calabrian amaro bottles (Jefferson, Frack, others)",
+          "relatedItemIds": [
+            "jefferson",
+            "frack"
+          ]
+        },
+        {
+          "file": "p05-amari-calabresi-bottles-round.png",
+          "depicts": "Same, circular transparent mask",
+          "relatedItemIds": [
+            "jefferson",
+            "frack"
+          ]
+        },
+        {
+          "file": "p05-articolo-1-bottle.png",
+          "depicts": "Circular photo: Articolo 1 amaro bottle with a snifter glass",
+          "relatedItemIds": [
+            "articolo-1"
+          ]
+        },
+        {
+          "file": "p05-articolo-1-bottle-round.png",
+          "depicts": "Same, circular transparent mask",
+          "relatedItemIds": [
+            "articolo-1"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "categoryIds": [
+        "liquori",
+        "liquori-dolci",
+        "grappe"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "Two columns. Left: gold pill 'Liquori / Tradizionali italiani' with single price € 4,00 beside it, plain list; circular photo of grappa being poured into a tulip glass at bottom-left. Right: gold pill 'Liquori dolci / Sweet liqueurs' with € 5,00, then gold pill 'Grappe / Distillati di vinacce' with per-item prices.",
+      "crops": [
+        {
+          "file": "p06-grappa-glass.png",
+          "depicts": "Circular photo: golden grappa poured into a glass, dark background",
+          "relatedItemIds": []
+        },
+        {
+          "file": "p06-grappa-glass-round.png",
+          "depicts": "Same, circular transparent mask",
+          "relatedItemIds": []
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "categoryIds": [
+        "cognac-brandy",
+        "tequila",
+        "whisky"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "Gold pill 'Cognac & Brandy' with single € 6,00; gold pill 'Tequila / Distillati di agave' top-right with two prices; gold pill 'Whisky / Distillati di cereali' with per-item prices and small grey age notes ('12 anni'). Bottom right: cut-out photo of a tilted whisky tumbler with ice (spills onto next page).",
+      "crops": [
+        {
+          "file": "p07-whisky-glass.png",
+          "depicts": "Cut-out photo: whisky in a tilted tumbler with ice cubes (partial, continues on next page)",
+          "relatedItemIds": [
+            "bourbon"
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "cocktail-long-drinks",
+      "title": {
+        "it": "Cocktail & Long Drinks",
+        "en": "Cocktails & Long Drinks",
+        "ru": "Коктейли и лонг-дринки",
+        "uk": "Коктейлі та лонг-дрінки",
+        "pl": "Koktajle i long drinki",
+        "de": "Cocktails & Longdrinks"
+      },
+      "pages": [
+        1,
+        2,
+        4
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "miami-ice",
+              "name": "Miami ice",
+              "nameT": null,
+              "desc": {
+                "it": "Vodka, rum, gin, blue curaçao, sweet and sour",
+                "en": "Vodka, rum, gin, blue curaçao, sweet and sour",
+                "ru": "Водка, ром, джин, блю кюрасао, свит-энд-сауэр",
+                "uk": "Горілка, ром, джин, блю кюрасао, світ-енд-сауер",
+                "pl": "Wódka, rum, gin, blue curaçao, sweet and sour",
+                "de": "Wodka, Rum, Gin, Blue Curaçao, Sweet and Sour"
+              },
+              "price": 9.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "japanese-ice-tea",
+              "name": "Japanese ice tea",
+              "nameT": null,
+              "desc": {
+                "it": "Vodka, gin, rum, midori, succo di limone",
+                "en": "Vodka, gin, rum, Midori, lemon juice",
+                "ru": "Водка, джин, ром, мидори, лимонный сок",
+                "uk": "Горілка, джин, ром, мідорі, лимонний сік",
+                "pl": "Wódka, gin, rum, Midori, sok z cytryny",
+                "de": "Wodka, Gin, Rum, Midori, Zitronensaft"
+              },
+              "price": 9.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "long-island-ice-tea",
+              "name": "Long island ice tea",
+              "nameT": null,
+              "desc": {
+                "it": "Rum, gin, vodka, cointreau, Coca Cola, succo di limone",
+                "en": "Rum, gin, vodka, Cointreau, Coca-Cola, lemon juice",
+                "ru": "Ром, джин, водка, куантро, кока-кола, лимонный сок",
+                "uk": "Ром, джин, горілка, куантро, кока-кола, лимонний сік",
+                "pl": "Rum, gin, wódka, Cointreau, Coca-Cola, sok z cytryny",
+                "de": "Rum, Gin, Wodka, Cointreau, Coca-Cola, Zitronensaft"
+              },
+              "price": 9.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "laguna-blu",
+              "name": "Laguna blu",
+              "nameT": null,
+              "desc": {
+                "it": "Blu Curaçao, Gin, Tonica",
+                "en": "Blue curaçao, gin, tonic",
+                "ru": "Блю кюрасао, джин, тоник",
+                "uk": "Блю кюрасао, джин, тонік",
+                "pl": "Blue curaçao, gin, tonik",
+                "de": "Blue Curaçao, Gin, Tonic"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "tequila-sunrise",
+              "name": "Tequila sunrise",
+              "nameT": null,
+              "desc": {
+                "it": "Tequila, succo d'arancia, granatina",
+                "en": "Tequila, orange juice, grenadine",
+                "ru": "Текила, апельсиновый сок, гренадин",
+                "uk": "Текіла, апельсиновий сік, гренадин",
+                "pl": "Tequila, sok pomarańczowy, grenadyna",
+                "de": "Tequila, Orangensaft, Grenadine"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "pina-colada",
+              "name": "Piña colada",
+              "nameT": null,
+              "desc": {
+                "it": "Rum, succo d'ananas, batida de cocco",
+                "en": "Rum, pineapple juice, Batida de Coco",
+                "ru": "Ром, ананасовый сок, батида де коко",
+                "uk": "Ром, ананасовий сік, батида де коко",
+                "pl": "Rum, sok ananasowy, Batida de Coco",
+                "de": "Rum, Ananassaft, Batida de Coco"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "midori-sour",
+              "name": "Midori sour",
+              "nameT": null,
+              "desc": {
+                "it": "Midori, sweet and sour, succo di limone, soda",
+                "en": "Midori, sweet and sour, lemon juice, soda",
+                "ru": "Мидори, свит-энд-сауэр, лимонный сок, содовая",
+                "uk": "Мідорі, світ-енд-сауер, лимонний сік, содова",
+                "pl": "Midori, sweet and sour, sok z cytryny, woda sodowa",
+                "de": "Midori, Sweet and Sour, Zitronensaft, Soda"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "sex-on-the-beach",
+              "name": "Sex on the beach",
+              "nameT": null,
+              "desc": {
+                "it": "Vodka, liquore alla pesca, succo d'arancia, succo di limone",
+                "en": "Vodka, peach liqueur, orange juice, lemon juice",
+                "ru": "Водка, персиковый ликёр, апельсиновый сок, лимонный сок",
+                "uk": "Горілка, персиковий лікер, апельсиновий сік, лимонний сік",
+                "pl": "Wódka, likier brzoskwiniowy, sok pomarańczowy, sok z cytryny",
+                "de": "Wodka, Pfirsichlikör, Orangensaft, Zitronensaft"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mai-tai",
+              "name": "Mai tai",
+              "nameT": null,
+              "desc": {
+                "it": "Rum chiaro, rum scuro, orange, couracao, orzata",
+                "en": "Light rum, dark rum, orange, curaçao, orgeat (almond syrup)",
+                "ru": "Светлый ром, тёмный ром, апельсин, кюрасао, оршад (миндальный сироп)",
+                "uk": "Світлий ром, темний ром, апельсин, кюрасао, оршад (мигдальний сироп)",
+                "pl": "Jasny rum, ciemny rum, pomarańcza, curaçao, orgeat (syrop migdałowy)",
+                "de": "Heller Rum, dunkler Rum, Orange, Curaçao, Orgeat (Mandelsirup)"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "paloma",
+              "name": "Paloma",
+              "nameT": null,
+              "desc": {
+                "it": "Tequila, soda al pompelmo rosa, succo di lime",
+                "en": "Tequila, pink grapefruit soda, lime juice",
+                "ru": "Текила, газировка с розовым грейпфрутом, сок лайма",
+                "uk": "Текіла, газована вода з рожевим грейпфрутом, сік лайма",
+                "pl": "Tequila, napój z różowego grejpfruta, sok z limonki",
+                "de": "Tequila, Pink-Grapefruit-Limonade, Limettensaft"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "rum-old-fashioned",
+              "name": "Rum old fashioned",
+              "nameT": null,
+              "desc": {
+                "it": "Rum, zucchero, angostura",
+                "en": "Rum, sugar, Angostura bitters",
+                "ru": "Ром, сахар, ангостура",
+                "uk": "Ром, цукор, ангостура",
+                "pl": "Rum, cukier, angostura",
+                "de": "Rum, Zucker, Angostura"
+              },
+              "price": 8.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "old-fashioned",
+              "name": "Old fashioned",
+              "nameT": null,
+              "desc": {
+                "it": "Barbon whisky, zucchero, angostura",
+                "en": "Bourbon whiskey, sugar, Angostura bitters",
+                "ru": "Бурбон, сахар, ангостура",
+                "uk": "Бурбон, цукор, ангостура",
+                "pl": "Whiskey bourbon, cukier, angostura",
+                "de": "Bourbon Whiskey, Zucker, Angostura"
+              },
+              "price": 8.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "cosmopolitan",
+              "name": "Cosmopolitan",
+              "nameT": null,
+              "desc": {
+                "it": "Vodka, cointreau, succo di mirtillo, succo di lime",
+                "en": "Vodka, Cointreau, cranberry juice, lime juice",
+                "ru": "Водка, куантро, клюквенный сок, сок лайма",
+                "uk": "Горілка, куантро, журавлинний сік, сік лайма",
+                "pl": "Wódka, Cointreau, sok żurawinowy, sok z limonki",
+                "de": "Wodka, Cointreau, Cranberrysaft, Limettensaft"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mojito",
+              "name": "Mojito",
+              "nameT": null,
+              "desc": {
+                "it": "Rum, lime, zucchero di canna, menta",
+                "en": "Rum, lime, cane sugar, mint",
+                "ru": "Ром, лайм, тростниковый сахар, мята",
+                "uk": "Ром, лайм, тростинний цукор, м'ята",
+                "pl": "Rum, limonka, cukier trzcinowy, mięta",
+                "de": "Rum, Limette, Rohrzucker, Minze"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mojito-fidel",
+              "name": "Mojito Fidel",
+              "nameT": null,
+              "desc": {
+                "it": "Rum, lime, zucchero bianco, menta fresca, top birra",
+                "en": "Rum, lime, white sugar, fresh mint, topped with beer",
+                "ru": "Ром, лайм, белый сахар, свежая мята, долит пивом",
+                "uk": "Ром, лайм, білий цукор, свіжа м'ята, долитий пивом",
+                "pl": "Rum, limonka, biały cukier, świeża mięta, dopełniony piwem",
+                "de": "Rum, Limette, weißer Zucker, frische Minze, mit Bier aufgefüllt"
+              },
+              "price": 10.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "moscow-mule",
+              "name": "Moscow Mule",
+              "nameT": null,
+              "desc": {
+                "it": "Vodka, ginger beer, lime",
+                "en": "Vodka, ginger beer, lime",
+                "ru": "Водка, имбирное пиво, лайм",
+                "uk": "Горілка, імбирне пиво, лайм",
+                "pl": "Wódka, piwo imbirowe, limonka",
+                "de": "Wodka, Ginger Beer, Limette"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "title": {
+            "it": "Gin & Vodka Tonic o Lemon",
+            "en": "Gin & vodka with tonic or lemon soda",
+            "ru": "Джин и водка с тоником или лимонадом",
+            "uk": "Джин і горілка з тоніком або лимонадом",
+            "pl": "Gin i wódka z tonikiem lub lemoniadą",
+            "de": "Gin & Wodka mit Tonic oder Lemon"
+          },
+          "items": [
+            {
+              "id": "gin-tonic-gin-lemon",
+              "name": "Gin Tonic / Gin Lemon",
+              "nameT": null,
+              "desc": null,
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "gin-bombay",
+              "name": "Gin Bombay",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "gin-cannabis",
+              "name": "Gin Cannabis",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "gin-mare",
+              "name": "Gin Mare",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 12.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "gin-gill",
+              "name": "Gin Gill",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 12.0,
+              "priceNote": null,
+              "uncertain": true
+            },
+            {
+              "id": "gin-hendricks",
+              "name": "Gin Hendrick's",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 10.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "gin-hendricks-lunar",
+              "name": "Gin Hendrick's Lunar",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 12.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "gin-hendricks-neptunia",
+              "name": "Gin Hendrick's Neptunia",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 12.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "gin-tanqueray",
+              "name": "Gin Tanqueray",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "gin-rosa",
+              "name": "Gin Rosa",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "gin-malfy",
+              "name": "Gin Malfy",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 10.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "vodka-tonic",
+              "name": "Vodka Tonic",
+              "nameT": null,
+              "desc": {
+                "it": "Vodka Tonic o Lemon",
+                "en": "Vodka with tonic or lemon soda",
+                "ru": "Водка с тоником или лимонадом",
+                "uk": "Горілка з тоніком або лимонадом",
+                "pl": "Wódka z tonikiem lub lemoniadą",
+                "de": "Wodka mit Tonic oder Lemon"
+              },
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "vodka-finlandia",
+              "name": "Vodka Finlandia",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "vodka-belvedere",
+              "name": "Vodka Belvedere",
+              "nameT": null,
+              "desc": {
+                "it": "Tonic o Lemon",
+                "en": "Tonic or Lemon",
+                "ru": "с тоником или лимонадом",
+                "uk": "з тоніком або лимонадом",
+                "pl": "z tonikiem lub lemoniadą",
+                "de": "mit Tonic oder Lemon"
+              },
+              "price": 10.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "cuba-libre",
+              "name": "Cuba Libre",
+              "nameT": null,
+              "desc": {
+                "it": "Rum, Coca Cola, succo di limone",
+                "en": "Rum, Coca-Cola, lemon juice",
+                "ru": "Ром, кока-кола, лимонный сок",
+                "uk": "Ром, кока-кола, лимонний сік",
+                "pl": "Rum, Coca-Cola, sok z cytryny",
+                "de": "Rum, Coca-Cola, Zitronensaft"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "espresso-martini",
+              "name": "Espresso Martini",
+              "nameT": null,
+              "desc": {
+                "it": "Vodka, liquore al caffè, caffè espresso",
+                "en": "Vodka, coffee liqueur, espresso",
+                "ru": "Водка, кофейный ликёр, эспрессо",
+                "uk": "Горілка, кавовий лікер, еспресо",
+                "pl": "Wódka, likier kawowy, espresso",
+                "de": "Wodka, Kaffeelikör, Espresso"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "irish-coffe",
+              "name": "Irish Coffe",
+              "nameT": null,
+              "desc": {
+                "it": "Whisky, caffè espresso, panna fresca, zucchero di canna",
+                "en": "Whisky, espresso, fresh cream, cane sugar",
+                "ru": "Виски, эспрессо, свежие сливки, тростниковый сахар",
+                "uk": "Віскі, еспресо, свіжі вершки, тростинний цукор",
+                "pl": "Whisky, espresso, świeża śmietanka, cukier trzcinowy",
+                "de": "Whisky, Espresso, frische Sahne, Rohrzucker"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "margarita",
+              "name": "Margarita",
+              "nameT": null,
+              "desc": {
+                "it": "Tequila, cointreau, succo di limone",
+                "en": "Tequila, Cointreau, lemon juice",
+                "ru": "Текила, куантро, лимонный сок",
+                "uk": "Текіла, куантро, лимонний сік",
+                "pl": "Tequila, Cointreau, sok z cytryny",
+                "de": "Tequila, Cointreau, Zitronensaft"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "dakar",
+              "name": "Dakar",
+              "nameT": null,
+              "desc": {
+                "it": "Succo d'ananas, gin, cointreau",
+                "en": "Pineapple juice, gin, Cointreau",
+                "ru": "Ананасовый сок, джин, куантро",
+                "uk": "Ананасовий сік, джин, куантро",
+                "pl": "Sok ananasowy, gin, Cointreau",
+                "de": "Ananassaft, Gin, Cointreau"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "white-lady",
+              "name": "White Lady",
+              "nameT": null,
+              "desc": {
+                "it": "Gin, cointreau, succo di limone",
+                "en": "Gin, Cointreau, lemon juice",
+                "ru": "Джин, куантро, лимонный сок",
+                "uk": "Джин, куантро, лимонний сік",
+                "pl": "Gin, Cointreau, sok z cytryny",
+                "de": "Gin, Cointreau, Zitronensaft"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "caipirina",
+              "name": "Caipiriña",
+              "nameT": null,
+              "desc": {
+                "it": "Lime, zucchero di canna, cachaça",
+                "en": "Lime, cane sugar, cachaça",
+                "ru": "Лайм, тростниковый сахар, кашаса",
+                "uk": "Лайм, тростинний цукор, кашаса",
+                "pl": "Limonka, cukier trzcinowy, cachaça",
+                "de": "Limette, Rohrzucker, Cachaça"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "caipiroska",
+              "name": "Caipiroska",
+              "nameT": null,
+              "desc": {
+                "it": "Lime, zucchero di canna, vodka",
+                "en": "Lime, cane sugar, vodka",
+                "ru": "Лайм, тростниковый сахар, водка",
+                "uk": "Лайм, тростинний цукор, горілка",
+                "pl": "Limonka, cukier trzcinowy, wódka",
+                "de": "Limette, Rohrzucker, Wodka"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "caipirissima",
+              "name": "Caipirissima",
+              "nameT": null,
+              "desc": {
+                "it": "Lime, zucchero di canna, rum",
+                "en": "Lime, cane sugar, rum",
+                "ru": "Лайм, тростниковый сахар, ром",
+                "uk": "Лайм, тростинний цукор, ром",
+                "pl": "Limonka, cukier trzcinowy, rum",
+                "de": "Limette, Rohrzucker, Rum"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "orgasmo",
+              "name": "Orgasmo",
+              "nameT": null,
+              "desc": {
+                "it": "Rum, cointreau, batido de coco, blu curaçao",
+                "en": "Rum, Cointreau, Batida de Coco, blue curaçao",
+                "ru": "Ром, куантро, батида де коко, блю кюрасао",
+                "uk": "Ром, куантро, батида де коко, блю кюрасао",
+                "pl": "Rum, Cointreau, Batida de Coco, blue curaçao",
+                "de": "Rum, Cointreau, Batida de Coco, Blue Curaçao"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "inferno-verde",
+              "name": "Inferno Verde",
+              "nameT": null,
+              "desc": {
+                "it": "Gin, vodka alla pesca, coca buton",
+                "en": "Gin, peach vodka, Coca Buton (herbal liqueur)",
+                "ru": "Джин, персиковая водка, кока бутон (травяной ликёр)",
+                "uk": "Джин, персикова горілка, кока бутон (трав'яний лікер)",
+                "pl": "Gin, wódka brzoskwiniowa, Coca Buton (likier ziołowy)",
+                "de": "Gin, Pfirsichwodka, Coca Buton (Kräuterlikör)"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "black-russian",
+              "name": "Black Russian",
+              "nameT": null,
+              "desc": {
+                "it": "Vodka, Kalua",
+                "en": "Vodka, Kahlúa",
+                "ru": "Водка, калуа",
+                "uk": "Горілка, калуа",
+                "pl": "Wódka, Kahlúa",
+                "de": "Wodka, Kahlúa"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "daiquiri",
+              "name": "Daiquiri",
+              "nameT": null,
+              "desc": {
+                "it": "Rum bianco, succo di lime o limone, sciroppo di zucchero",
+                "en": "White rum, lime or lemon juice, sugar syrup",
+                "ru": "Белый ром, сок лайма или лимона, сахарный сироп",
+                "uk": "Білий ром, сік лайма або лимона, цукровий сироп",
+                "pl": "Biały rum, sok z limonki lub cytryny, syrop cukrowy",
+                "de": "Weißer Rum, Limetten- oder Zitronensaft, Zuckersirup"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "manhattan",
+              "name": "Manhattan",
+              "nameT": null,
+              "desc": {
+                "it": "Whisky, Martini rosso, angostura",
+                "en": "Whisky, red Martini (sweet vermouth), Angostura",
+                "ru": "Виски, красный мартини, ангостура",
+                "uk": "Віскі, червоний мартіні, ангостура",
+                "pl": "Whisky, czerwone Martini, angostura",
+                "de": "Whisky, Martini Rosso, Angostura"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "americano",
+              "name": "Americano",
+              "nameT": null,
+              "desc": {
+                "it": "Martini rosso, Campari bitter, soda",
+                "en": "Red Martini, Campari bitter, soda",
+                "ru": "Красный мартини, кампари биттер, содовая",
+                "uk": "Червоний мартіні, кампарі біттер, содова",
+                "pl": "Czerwone Martini, Campari bitter, woda sodowa",
+                "de": "Martini Rosso, Campari Bitter, Soda"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "negroni",
+              "name": "Negroni",
+              "nameT": null,
+              "desc": {
+                "it": "Martini rosso, Campari bitter, gin",
+                "en": "Red Martini, Campari bitter, gin",
+                "ru": "Красный мартини, кампари биттер, джин",
+                "uk": "Червоний мартіні, кампарі біттер, джин",
+                "pl": "Czerwone Martini, Campari bitter, gin",
+                "de": "Martini Rosso, Campari Bitter, Gin"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "negroni-sbagliato",
+              "name": "Negroni Sbagliato",
+              "nameT": null,
+              "desc": {
+                "it": "Martini rosso, Campari bitter, prosecco",
+                "en": "Red Martini, Campari bitter, prosecco",
+                "ru": "Красный мартини, кампари биттер, просекко",
+                "uk": "Червоний мартіні, кампарі біттер, просекко",
+                "pl": "Czerwone Martini, Campari bitter, prosecco",
+                "de": "Martini Rosso, Campari Bitter, Prosecco"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "negrosky",
+              "name": "Negrosky",
+              "nameT": null,
+              "desc": {
+                "it": "Martini rosso, Campari bitter, vodka liscia",
+                "en": "Red Martini, Campari bitter, plain vodka",
+                "ru": "Красный мартини, кампари биттер, чистая водка",
+                "uk": "Червоний мартіні, кампарі біттер, чиста горілка",
+                "pl": "Czerwone Martini, Campari bitter, czysta wódka",
+                "de": "Martini Rosso, Campari Bitter, purer Wodka"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": true
+            },
+            {
+              "id": "negroni-bull",
+              "name": "Negroni Bull",
+              "nameT": null,
+              "desc": {
+                "it": "Martini rosso, Campari bitter, Gin Bulldog",
+                "en": "Red Martini, Campari bitter, Bulldog gin",
+                "ru": "Красный мартини, кампари биттер, джин Bulldog",
+                "uk": "Червоний мартіні, кампарі біттер, джин Bulldog",
+                "pl": "Czerwone Martini, Campari bitter, gin Bulldog",
+                "de": "Martini Rosso, Campari Bitter, Bulldog Gin"
+              },
+              "price": 9.0,
+              "priceNote": null,
+              "uncertain": true
+            },
+            {
+              "id": "negroni-calabrese",
+              "name": "Negroni Calabrese",
+              "nameT": null,
+              "desc": {
+                "it": "Roger, Gill, Frack",
+                "en": "Roger, Gill, Frack (Calabrian spirits)",
+                "ru": "Roger, Gill, Frack (калабрийские напитки)",
+                "uk": "Roger, Gill, Frack (калабрійські напої)",
+                "pl": "Roger, Gill, Frack (trunki z Kalabrii)",
+                "de": "Roger, Gill, Frack (kalabrische Spirituosen)"
+              },
+              "price": 11.0,
+              "priceNote": null,
+              "uncertain": true
+            },
+            {
+              "id": "boulevardier",
+              "name": "Boulevardier",
+              "nameT": null,
+              "desc": {
+                "it": "Martini rosso, Campari bitter, bourbon whisky",
+                "en": "Red Martini, Campari bitter, bourbon whiskey",
+                "ru": "Красный мартини, кампари биттер, бурбон",
+                "uk": "Червоний мартіні, кампарі біттер, бурбон",
+                "pl": "Czerwone Martini, Campari bitter, whiskey bourbon",
+                "de": "Martini Rosso, Campari Bitter, Bourbon Whiskey"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "red-passion",
+              "name": "Red Passion",
+              "nameT": null,
+              "desc": {
+                "it": "Bitter Campari, succo d'arancia",
+                "en": "Campari bitter, orange juice",
+                "ru": "Кампари биттер, апельсиновый сок",
+                "uk": "Кампарі біттер, апельсиновий сік",
+                "pl": "Campari bitter, sok pomarańczowy",
+                "de": "Campari Bitter, Orangensaft"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "james-bond",
+              "name": "James Bond",
+              "nameT": null,
+              "desc": {
+                "it": "Vodka liscia, Martini bianco",
+                "en": "Plain vodka, white Martini",
+                "ru": "Чистая водка, белый мартини",
+                "uk": "Чиста горілка, білий мартіні",
+                "pl": "Czysta wódka, białe Martini",
+                "de": "Purer Wodka, Martini Bianco"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "In abbinamento: tagliere salumi, tartare di pesce",
+        "en": "Pairs well with: cured meats board, fish tartare",
+        "ru": "Рекомендуем к напиткам: мясная нарезка, тартар из рыбы",
+        "uk": "Рекомендуємо до напоїв: м'ясна нарізка, тартар з риби",
+        "pl": "Polecamy do drinków: deska wędlin, tatar rybny",
+        "de": "Passt dazu: Wurstplatte, Fischtatar"
+      }
+    },
+    {
+      "id": "delizie-analcoliche",
+      "title": {
+        "it": "Delizie analcoliche",
+        "en": "Virgin delights (non-alcoholic)",
+        "ru": "Безалкогольные коктейли",
+        "uk": "Безалкогольні коктейлі",
+        "pl": "Przysmaki bezalkoholowe",
+        "de": "Alkoholfreie Köstlichkeiten"
+      },
+      "pages": [
+        4
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "la-dolce-isola",
+              "name": "La Dolce Isola",
+              "nameT": null,
+              "desc": {
+                "it": "Succo d'arancia, succo d'ananas, granatina, succo di limone",
+                "en": "Orange juice, pineapple juice, grenadine, lemon juice",
+                "ru": "Апельсиновый сок, ананасовый сок, гренадин, лимонный сок",
+                "uk": "Апельсиновий сік, ананасовий сік, гренадин, лимонний сік",
+                "pl": "Sok pomarańczowy, sok ananasowy, grenadyna, sok z cytryny",
+                "de": "Orangensaft, Ananassaft, Grenadine, Zitronensaft"
+              },
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "iceberg",
+              "name": "Iceberg",
+              "nameT": null,
+              "desc": {
+                "it": "Sorbetto al limone, tonica, succo di limone",
+                "en": "Lemon sorbet, tonic water, lemon juice",
+                "ru": "Лимонный сорбет, тоник, лимонный сок",
+                "uk": "Лимонний сорбет, тонік, лимонний сік",
+                "pl": "Sorbet cytrynowy, tonik, sok z cytryny",
+                "de": "Zitronensorbet, Tonic, Zitronensaft"
+              },
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mediterraneo",
+              "name": "Mediterraneo",
+              "nameT": null,
+              "desc": {
+                "it": "Succo di pesca, succo di mela, zucchero di canna, succo di limone",
+                "en": "Peach juice, apple juice, cane sugar, lemon juice",
+                "ru": "Персиковый сок, яблочный сок, тростниковый сахар, лимонный сок",
+                "uk": "Персиковий сік, яблучний сік, тростинний цукор, лимонний сік",
+                "pl": "Sok brzoskwiniowy, sok jabłkowy, cukier trzcinowy, sok z cytryny",
+                "de": "Pfirsichsaft, Apfelsaft, Rohrzucker, Zitronensaft"
+              },
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "sicily",
+              "name": "Sicily",
+              "nameT": null,
+              "desc": {
+                "it": "Succo d'arancia, succo di pompelmo, tonica",
+                "en": "Orange juice, grapefruit juice, tonic water",
+                "ru": "Апельсиновый сок, грейпфрутовый сок, тоник",
+                "uk": "Апельсиновий сік, грейпфрутовий сік, тонік",
+                "pl": "Sok pomarańczowy, sok grejpfrutowy, tonik",
+                "de": "Orangensaft, Grapefruitsaft, Tonic"
+              },
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "virgin-mojito",
+              "name": "Virgin Mojito",
+              "nameT": null,
+              "desc": {
+                "it": "Ginger ale, limonata, zucchero di canna, lime, menta",
+                "en": "Ginger ale, lemonade, cane sugar, lime, mint",
+                "ru": "Имбирный эль, лимонад, тростниковый сахар, лайм, мята",
+                "uk": "Імбирний ель, лимонад, тростинний цукор, лайм, м'ята",
+                "pl": "Ginger ale, lemoniada, cukier trzcinowy, limonka, mięta",
+                "de": "Ginger Ale, Limonade, Rohrzucker, Limette, Minze"
+              },
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "amari-calabresi",
+      "title": {
+        "it": "Amari calabresi",
+        "en": "Calabrian bitters (amari)",
+        "ru": "Калабрийские амаро (горькие ликёры)",
+        "uk": "Калабрійські амаро (гіркі лікери)",
+        "pl": "Kalabryjskie amari (likiery ziołowe)",
+        "de": "Kalabrische Amari (Kräuterbitter)"
+      },
+      "pages": [
+        5
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "amaro-del-capo-piccante",
+              "name": "Amaro del Capo Piccante",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "amaro-del-capo",
+              "name": "Amaro del Capo",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "silano",
+              "name": "Silano",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "zagara",
+              "name": "Zagara",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "rupes",
+              "name": "Rupes",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "jefferson",
+              "name": "Jefferson",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "norman",
+              "name": "Norman",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "bergamotto-fantastico",
+              "name": "Bergamotto Fantastico",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "madame-milu",
+              "name": "Madame Milù",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "dopolavoro",
+              "name": "Dopolavoro",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "abracadabra-liquirizia",
+              "name": "Abracadabra (Liquirizia)",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "intervallo",
+              "name": "Intervallo",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "diamante",
+              "name": "Diamante",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "frack",
+              "name": "Frack",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "articolo-1",
+              "name": "Articolo 1",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "amari",
+      "title": {
+        "it": "Amari",
+        "en": "Bitters (amari)",
+        "ru": "Амаро (горькие ликёры)",
+        "uk": "Амаро (гіркі лікери)",
+        "pl": "Amari (likiery ziołowe)",
+        "de": "Amari (Kräuterbitter)"
+      },
+      "pages": [
+        5
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "disaronno",
+              "name": "Disaronno",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "averna",
+              "name": "Averna",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "lucano",
+              "name": "Lucano",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "montenegro",
+              "name": "Montenegro",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "brancamenta",
+              "name": "Brancamenta",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "fernet",
+              "name": "Fernet",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "jagermeister",
+              "name": "Jägermeister",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "petrus",
+              "name": "Petrus",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "€ 4,00 per tutti",
+        "en": "€4.00 each",
+        "ru": "€ 4,00 за любой",
+        "uk": "€ 4,00 за будь-який",
+        "pl": "4,00 € każdy",
+        "de": "je 4,00 €"
+      }
+    },
+    {
+      "id": "liquori",
+      "title": {
+        "it": "Liquori – Tradizionali italiani",
+        "en": "Liqueurs – traditional Italian",
+        "ru": "Ликёры – традиционные итальянские",
+        "uk": "Лікери – традиційні італійські",
+        "pl": "Likiery – tradycyjne włoskie",
+        "de": "Liköre – traditionell italienisch"
+      },
+      "pages": [
+        5,
+        6
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "limoncello",
+              "name": "Limoncello",
+              "nameT": {
+                "it": "Limoncello",
+                "en": "Limoncello (lemon liqueur)",
+                "ru": "Лимончелло",
+                "uk": "Лимончело",
+                "pl": "Limoncello",
+                "de": "Limoncello"
+              },
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "cedro",
+              "name": "Cedro",
+              "nameT": {
+                "it": "Cedro",
+                "en": "Citron liqueur",
+                "ru": "Ликёр из цедрата",
+                "uk": "Лікер з цедрату",
+                "pl": "Likier z cedratu",
+                "de": "Zedratlikör"
+              },
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "liquirizia",
+              "name": "Liquirizia",
+              "nameT": {
+                "it": "Liquirizia",
+                "en": "Liquorice liqueur",
+                "ru": "Лакричный ликёр",
+                "uk": "Лакричний лікер",
+                "pl": "Likier lukrecjowy",
+                "de": "Lakritzlikör"
+              },
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "meloncello",
+              "name": "Meloncello",
+              "nameT": {
+                "it": "Meloncello",
+                "en": "Meloncello (melon liqueur)",
+                "ru": "Меллончелло (дынный ликёр)",
+                "uk": "Мелончело (динний лікер)",
+                "pl": "Meloncello (likier melonowy)",
+                "de": "Meloncello (Melonenlikör)"
+              },
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "sambuca",
+              "name": "Sambuca",
+              "nameT": {
+                "it": "Sambuca",
+                "en": "Sambuca",
+                "ru": "Самбука",
+                "uk": "Самбука",
+                "pl": "Sambuca",
+                "de": "Sambuca"
+              },
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "anice",
+              "name": "Anice",
+              "nameT": {
+                "it": "Anice",
+                "en": "Anise liqueur",
+                "ru": "Анисовый ликёр",
+                "uk": "Анісовий лікер",
+                "pl": "Likier anyżowy",
+                "de": "Anislikör"
+              },
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mirto",
+              "name": "Mirto",
+              "nameT": {
+                "it": "Mirto",
+                "en": "Myrtle liqueur",
+                "ru": "Миртовый ликёр",
+                "uk": "Миртовий лікер",
+                "pl": "Likier mirtowy",
+                "de": "Myrtenlikör"
+              },
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "mandarinetto",
+              "name": "Mandarinetto",
+              "nameT": {
+                "it": "Mandarinetto",
+                "en": "Mandarin liqueur",
+                "ru": "Мандариновый ликёр",
+                "uk": "Мандариновий лікер",
+                "pl": "Likier mandarynkowy",
+                "de": "Mandarinenlikör"
+              },
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "caffe-borghetti",
+              "name": "Caffè Borghetti",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "€ 4,00 per tutti",
+        "en": "€4.00 each",
+        "ru": "€ 4,00 за любой",
+        "uk": "€ 4,00 за будь-який",
+        "pl": "4,00 € każdy",
+        "de": "je 4,00 €"
+      }
+    },
+    {
+      "id": "liquori-dolci",
+      "title": {
+        "it": "Liquori dolci",
+        "en": "Sweet liqueurs",
+        "ru": "Сладкие ликёры",
+        "uk": "Солодкі лікери",
+        "pl": "Słodkie likiery",
+        "de": "Süße Liköre"
+      },
+      "pages": [
+        6
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "grand-marnier",
+              "name": "Grand Marnier",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "cointreau",
+              "name": "Cointreau",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "baileys",
+              "name": "Baileys",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "€ 5,00 per tutti",
+        "en": "€5.00 each",
+        "ru": "€ 5,00 за любой",
+        "uk": "€ 5,00 за будь-який",
+        "pl": "5,00 € każdy",
+        "de": "je 5,00 €"
+      }
+    },
+    {
+      "id": "grappe",
+      "title": {
+        "it": "Grappe – Distillati di vinacce",
+        "en": "Grappas – pomace brandies",
+        "ru": "Граппа – виноградные дистилляты",
+        "uk": "Граппа – виноградні дистиляти",
+        "pl": "Grappy – destylaty z wytłoków",
+        "de": "Grappe – Tresterbrände"
+      },
+      "pages": [
+        6
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "nonino",
+              "name": "Nonino",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "amarone",
+              "name": "Amarone",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "903-barrique",
+              "name": "903 Barrique",
+              "nameT": null,
+              "desc": null,
+              "price": 4.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "903-barrique-riserva",
+              "name": "903 Barrique riserva",
+              "nameT": null,
+              "desc": null,
+              "price": 9.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "barolo",
+              "name": "Barolo",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "moscato",
+              "name": "Moscato",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "diciotto-lune",
+              "name": "Diciotto Lune",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "calvados-distillato-di-mele",
+              "name": "Calvados distillato di mele",
+              "nameT": {
+                "it": "Calvados distillato di mele",
+                "en": "Calvados apple brandy",
+                "ru": "Кальвадос, яблочный дистиллят",
+                "uk": "Кальвадос, яблучний дистилят",
+                "pl": "Calvados, destylat jabłkowy",
+                "de": "Calvados, Apfelbrand"
+              },
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "prime-uve-bianche",
+              "name": "Prime Uve bianche",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "prime-uve-oro",
+              "name": "Prime Uve oro",
+              "nameT": null,
+              "desc": null,
+              "price": 4.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "prime-uve-nere",
+              "name": "Prime Uve nere",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "brunello",
+              "name": "Brunello",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "miele",
+              "name": "Miele",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "camilla",
+              "name": "Camilla",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "berta",
+              "name": "Berta",
+              "nameT": null,
+              "desc": null,
+              "price": 12.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "riserva-di-passito",
+              "name": "Riserva di passito",
+              "nameT": {
+                "it": "Riserva di passito",
+                "en": "Passito reserve grappa",
+                "ru": "Граппа резерва из пассито",
+                "uk": "Граппа резерва з пасито",
+                "pl": "Grappa riserva z passito",
+                "de": "Passito-Grappa Riserva"
+              },
+              "desc": null,
+              "price": 10.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "riserva-di-barolo",
+              "name": "Riserva di barolo",
+              "nameT": {
+                "it": "Riserva di barolo",
+                "en": "Barolo reserve grappa",
+                "ru": "Граппа резерва из бароло",
+                "uk": "Граппа резерва з бароло",
+                "pl": "Grappa riserva z barolo",
+                "de": "Barolo-Grappa Riserva"
+              },
+              "desc": null,
+              "price": 10.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "cognac-brandy",
+      "title": {
+        "it": "Cognac & Brandy",
+        "en": "Cognac & Brandy",
+        "ru": "Коньяк и бренди",
+        "uk": "Коньяк і бренді",
+        "pl": "Koniak i brandy",
+        "de": "Cognac & Brandy"
+      },
+      "pages": [
+        7
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "cardinal-mendoza",
+              "name": "Cardinal Mendoza",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "remy-martin",
+              "name": "Remy Martin",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "martell",
+              "name": "Martell",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "courvoisier",
+              "name": "Courvoisier",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "bass-armagnac",
+              "name": "Bass Armagnac",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "€ 6,00 per tutti",
+        "en": "€6.00 each",
+        "ru": "€ 6,00 за любой",
+        "uk": "€ 6,00 за будь-який",
+        "pl": "6,00 € każdy",
+        "de": "je 6,00 €"
+      }
+    },
+    {
+      "id": "tequila",
+      "title": {
+        "it": "Tequila – Distillati di agave",
+        "en": "Tequila – agave spirits",
+        "ru": "Текила – дистилляты агавы",
+        "uk": "Текіла – дистиляти агави",
+        "pl": "Tequila – destylaty z agawy",
+        "de": "Tequila – Agavenbrände"
+      },
+      "pages": [
+        7
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "jose-cuervo",
+              "name": "Josè Cuervo",
+              "nameT": null,
+              "desc": null,
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "jose-cuervo-especial",
+              "name": "Josè Cuervo Especial",
+              "nameT": null,
+              "desc": null,
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "whisky",
+      "title": {
+        "it": "Whisky – Distillati di cereali",
+        "en": "Whisky – grain spirits",
+        "ru": "Виски – зерновые дистилляты",
+        "uk": "Віскі – зернові дистиляти",
+        "pl": "Whisky – destylaty zbożowe",
+        "de": "Whisky – Getreidebrände"
+      },
+      "pages": [
+        7
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "bourbon",
+              "name": "Bourbon",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "jack-daniels",
+              "name": "Jack Daniels",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "jack-daniels-honey",
+              "name": "Jack Daniels Honey",
+              "nameT": null,
+              "desc": {
+                "it": "al miele",
+                "en": "with honey",
+                "ru": "с мёдом",
+                "uk": "з медом",
+                "pl": "z miodem",
+                "de": "mit Honig"
+              },
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "southern-comfort",
+              "name": "Southern Comfort",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "glen-grant",
+              "name": "Glen Grant",
+              "nameT": null,
+              "desc": {
+                "it": "5 anni",
+                "en": "5 years old",
+                "ru": "5 лет",
+                "uk": "5 років",
+                "pl": "5 lat",
+                "de": "5 Jahre"
+              },
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "j-b",
+              "name": "J&B",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "jameson",
+              "name": "Jameson",
+              "nameT": null,
+              "desc": null,
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "chivas-regal",
+              "name": "Chivas Regal",
+              "nameT": null,
+              "desc": {
+                "it": "12 anni",
+                "en": "12 years old",
+                "ru": "12 лет",
+                "uk": "12 років",
+                "pl": "12 lat",
+                "de": "12 Jahre"
+              },
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "laphroaig",
+              "name": "Laphroaig",
+              "nameT": null,
+              "desc": {
+                "it": "10 anni",
+                "en": "10 years old",
+                "ru": "10 лет",
+                "uk": "10 років",
+                "pl": "10 lat",
+                "de": "10 Jahre"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "talisker",
+              "name": "Talisker",
+              "nameT": null,
+              "desc": {
+                "it": "10 anni",
+                "en": "10 years old",
+                "ru": "10 лет",
+                "uk": "10 років",
+                "pl": "10 lat",
+                "de": "10 Jahre"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "macallan",
+              "name": "Macallan",
+              "nameT": null,
+              "desc": {
+                "it": "8 anni",
+                "en": "8 years old",
+                "ru": "8 лет",
+                "uk": "8 років",
+                "pl": "8 lat",
+                "de": "8 Jahre"
+              },
+              "price": 9.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "lagavulin",
+              "name": "Lagavulin",
+              "nameT": null,
+              "desc": {
+                "it": "8 anni",
+                "en": "8 years old",
+                "ru": "8 лет",
+                "uk": "8 років",
+                "pl": "8 lat",
+                "de": "8 Jahre"
+              },
+              "price": 10.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "oban",
+              "name": "Oban",
+              "nameT": null,
+              "desc": {
+                "it": "14 anni",
+                "en": "14 years old",
+                "ru": "14 лет",
+                "uk": "14 років",
+                "pl": "14 lat",
+                "de": "14 Jahre"
+              },
+              "price": 10.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    }
+  ]
+}

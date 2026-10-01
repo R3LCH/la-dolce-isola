@@ -1,0 +1,204 @@
+{
+  "pages": [
+    {
+      "page": 18,
+      "categoryIds": [
+        "smoothies",
+        "pancake"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "Single-column page (right page of spread; next page 'Dessert' partly visible at right edge). Lilac/mauve rounded pill headings: 'Smoothies' top-left with '€ 5,00' to its right; 'Pancake' mid-right with '€ 5,00' right-aligned and topping list below. 'The Smoothie Factory – Real fruit real good' logo mid-left plus three badges (Vegan, 100% Fruit, Senza glutine/Gluten free). Bottom: rectangular photos – fruit & juice glasses (left) and chocolate-topped pancake stack (right). White paper.",
+      "crops": [
+        {
+          "file": "dish-crops/p18-smoothie-fruits.png",
+          "depicts": "Fresh fruit (oranges, grapes, kiwi, strawberries, pear, apricots) with glasses of juice/smoothies and orange juice splash",
+          "relatedItemIds": [
+            "tropical-colada",
+            "melon-fresh"
+          ]
+        },
+        {
+          "file": "dish-crops/p18-pancake-chocolate.png",
+          "depicts": "Stack of pancakes covered in chocolate sauce with white and dark chocolate sprinkles",
+          "relatedItemIds": [
+            "pancake-nutella",
+            "pancake-bigusto",
+            "pancake-cioccolato-bianco"
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "smoothies",
+      "title": {
+        "it": "Smoothies",
+        "en": "Smoothies",
+        "ru": "Смузи",
+        "uk": "Смузі",
+        "pl": "Smoothie",
+        "de": "Smoothies"
+      },
+      "pages": [
+        18
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "tropical-colada",
+              "name": "Tropical Colada",
+              "nameT": null,
+              "desc": {
+                "it": "Banana, cocco e ananas",
+                "en": "Banana, coconut and pineapple",
+                "ru": "Банан, кокос и ананас",
+                "uk": "Банан, кокос і ананас",
+                "pl": "Banan, kokos i ananas",
+                "de": "Banane, Kokosnuss und Ananas"
+              },
+              "price": 5.0,
+              "priceNote": "single price € 5,00 printed by the heading for all smoothies",
+              "uncertain": false
+            },
+            {
+              "id": "melon-fresh",
+              "name": "Melon Fresh",
+              "nameT": null,
+              "desc": {
+                "it": "Fragola, melone e mango",
+                "en": "Strawberry, melon and mango",
+                "ru": "Клубника, дыня и манго",
+                "uk": "Полуниця, диня і манго",
+                "pl": "Truskawka, melon i mango",
+                "de": "Erdbeere, Melone und Mango"
+              },
+              "price": 5.0,
+              "priceNote": "single price € 5,00 printed by the heading for all smoothies",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "The Smoothie Factory – Real fruit real good. Vegan · 100% frutta · Senza glutine",
+        "en": "The Smoothie Factory – Real fruit real good. Vegan · 100% fruit · Gluten free",
+        "ru": "The Smoothie Factory – настоящие фрукты. Веганские · 100% фрукты · Без глютена",
+        "uk": "The Smoothie Factory – справжні фрукти. Веганські · 100% фрукти · Без глютену",
+        "pl": "The Smoothie Factory – prawdziwe owoce. Wegańskie · 100% owoców · Bez glutenu",
+        "de": "The Smoothie Factory – echte Früchte. Vegan · 100% Frucht · Glutenfrei"
+      }
+    },
+    {
+      "id": "pancake",
+      "title": {
+        "it": "Pancake",
+        "en": "Pancakes",
+        "ru": "Панкейки",
+        "uk": "Панкейки",
+        "pl": "Pancakes",
+        "de": "Pancakes"
+      },
+      "pages": [
+        18
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "pancake-nutella",
+              "name": "Nutella",
+              "nameT": null,
+              "desc": {
+                "it": "Crema alla nocciola Nutella",
+                "en": "Nutella hazelnut spread",
+                "ru": "Ореховая паста Nutella",
+                "uk": "Горіхова паста Nutella",
+                "pl": "Krem orzechowy Nutella",
+                "de": "Nutella-Haselnusscreme"
+              },
+              "price": 5.0,
+              "priceNote": "single price € 5,00 printed by the 'Pancake' heading; list = topping choices",
+              "uncertain": false
+            },
+            {
+              "id": "pancake-cioccolato-bianco",
+              "name": "Cioccolato bianco",
+              "nameT": {
+                "it": "Cioccolato bianco",
+                "en": "White chocolate",
+                "ru": "Белый шоколад",
+                "uk": "Білий шоколад",
+                "pl": "Biała czekolada",
+                "de": "Weiße Schokolade"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": "single price € 5,00 printed by the 'Pancake' heading; list = topping choices",
+              "uncertain": false
+            },
+            {
+              "id": "pancake-bigusto",
+              "name": "Bigusto",
+              "nameT": null,
+              "desc": {
+                "it": "Crema bigusto (cioccolato al latte e bianco)",
+                "en": "Bigusto spread (milk and white chocolate)",
+                "ru": "Крем «бигусто» (молочный и белый шоколад)",
+                "uk": "Крем «бігусто» (молочний і білий шоколад)",
+                "pl": "Krem bigusto (mleczna i biała czekolada)",
+                "de": "Bigusto-Creme (Milch- und weiße Schokolade)"
+              },
+              "price": 5.0,
+              "priceNote": "single price € 5,00 printed by the 'Pancake' heading; list = topping choices",
+              "uncertain": false
+            },
+            {
+              "id": "pancake-pistacchio",
+              "name": "Pistacchio",
+              "nameT": {
+                "it": "Pistacchio",
+                "en": "Pistachio",
+                "ru": "Фисташка",
+                "uk": "Фісташка",
+                "pl": "Pistacja",
+                "de": "Pistazie"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": "single price € 5,00 printed by the 'Pancake' heading; list = topping choices",
+              "uncertain": false
+            },
+            {
+              "id": "pancake-sciroppo-dacero",
+              "name": "Sciroppo d'acero",
+              "nameT": {
+                "it": "Sciroppo d'acero",
+                "en": "Maple syrup",
+                "ru": "Кленовый сироп",
+                "uk": "Кленовий сироп",
+                "pl": "Syrop klonowy",
+                "de": "Ahornsirup"
+              },
+              "desc": null,
+              "price": 5.0,
+              "priceNote": "single price € 5,00 printed by the 'Pancake' heading; list = topping choices",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "Pancake € 5,00 – farcitura a scelta (elenco non intitolato sul menu)",
+        "en": "Pancakes € 5.00 – choice of topping (list printed without a sub-heading)",
+        "ru": "Панкейки 5,00 € – топпинг на выбор (список без подзаголовка)",
+        "uk": "Панкейки 5,00 € – топінг на вибір (список без підзаголовка)",
+        "pl": "Pancakes 5,00 € – dodatek do wyboru (lista bez podtytułu)",
+        "de": "Pancakes 5,00 € – Topping nach Wahl (Liste ohne Unterüberschrift)"
+      }
+    }
+  ]
+}

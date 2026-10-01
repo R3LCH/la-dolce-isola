@@ -1,0 +1,133 @@
+{
+  "pages": [
+    {
+      "page": 12,
+      "categoryIds": [
+        "spumanti"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "Right page of spread with dark slate/black full-bleed background photo. Mustard/ochre rounded pill heading top-right 'Spumanti – Italiani & Champagne' (white text). Below it a semi-transparent light panel with a single-column list of 10 sparkling wines, prices right-aligned; due to photo perspective each price sits slightly above its name, mapped in printed order. Background: two tilted wine glasses (behind list) and large cheese board (brie, wedge cheese, figs, grapes, pecans, honey with dipper, toasted bread) occupying the lower-left/centre. Left edge shows page 11 (salmon tartare photo) – not part of this page. Prices are per bottle (no glass prices printed).",
+      "crops": [
+        {
+          "file": "dish-crops/p12-tagliere-formaggi.png",
+          "depicts": "Background photo: wooden board with brie, wedge cheese, halved figs, grapes, pecans, honey bowl with dipper and toasted bread slices; part of the wine list overlaps the top-right",
+          "relatedItemIds": []
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "spumanti",
+      "title": {
+        "it": "Spumanti – Italiani & Champagne",
+        "en": "Sparkling Wines – Italian & Champagne",
+        "ru": "Игристые вина – итальянские и шампанское",
+        "uk": "Ігристі вина – італійські та шампанське",
+        "pl": "Wina musujące – włoskie i szampany",
+        "de": "Schaumweine – Italienische & Champagner"
+      },
+      "pages": [
+        12
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "prosecco",
+              "name": "Prosecco",
+              "nameT": null,
+              "desc": null,
+              "price": 25,
+              "priceNote": "bottiglia €25",
+              "uncertain": false
+            },
+            {
+              "id": "prosecco-rose",
+              "name": "Prosecco Rosè",
+              "nameT": null,
+              "desc": null,
+              "price": 30,
+              "priceNote": "bottiglia €30",
+              "uncertain": false
+            },
+            {
+              "id": "berlucchi",
+              "name": "Berlucchi",
+              "nameT": null,
+              "desc": null,
+              "price": 30,
+              "priceNote": "bottiglia €30",
+              "uncertain": false
+            },
+            {
+              "id": "ferrari",
+              "name": "Ferrari",
+              "nameT": null,
+              "desc": null,
+              "price": 30,
+              "priceNote": "bottiglia €30",
+              "uncertain": false
+            },
+            {
+              "id": "ca-del-bosco",
+              "name": "Cà del Bosco",
+              "nameT": null,
+              "desc": null,
+              "price": 50,
+              "priceNote": "bottiglia €50",
+              "uncertain": false
+            },
+            {
+              "id": "ca-del-bosco-rose",
+              "name": "Cà del Bosco Rosè",
+              "nameT": null,
+              "desc": null,
+              "price": 80,
+              "priceNote": "bottiglia €80",
+              "uncertain": false
+            },
+            {
+              "id": "bellavista",
+              "name": "Bellavista",
+              "nameT": null,
+              "desc": null,
+              "price": 50,
+              "priceNote": "bottiglia €50",
+              "uncertain": false
+            },
+            {
+              "id": "bellavista-rose",
+              "name": "Bellavista Rosè",
+              "nameT": null,
+              "desc": null,
+              "price": 80,
+              "priceNote": "bottiglia €80",
+              "uncertain": false
+            },
+            {
+              "id": "cristal",
+              "name": "Cristal",
+              "nameT": null,
+              "desc": null,
+              "price": 240,
+              "priceNote": "bottiglia €240",
+              "uncertain": false
+            },
+            {
+              "id": "krug",
+              "name": "Krug",
+              "nameT": null,
+              "desc": null,
+              "price": 240,
+              "priceNote": "bottiglia €240",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    }
+  ]
+}

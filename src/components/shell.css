@@ -1,0 +1,152 @@
+/*
+ * Shell-only CSS that Tailwind utilities cannot express cleanly: the
+ * fine-pointer hover gate, the majolica mosaic cells and the hero pattern.
+ * Tokens come from the @theme block in src/index.css.
+ */
+
+/* Press feedback for every button-like control. */
+.press {
+  transition: transform 140ms var(--ease-out), background-color 200ms var(--ease-out), color 200ms var(--ease-out),
+    border-color 200ms var(--ease-out);
+}
+.press:active {
+  transform: scale(0.97);
+}
+
+/* Header bar: glass only when it floats over content, never over the hero frame. */
+.nav-bar {
+  transition: background-color 260ms var(--ease-out), border-color 260ms var(--ease-out), color 260ms var(--ease-out);
+}
+
+/* Majolica glaze cells for the tile-mosaic reveal. The quarter circles meet across cells into one pattern. */
+.mosaic-cell {
+  background-color: var(--color-paper);
+  background-image:
+    radial-gradient(circle at 50% 50%, var(--color-ink) 0 9%, transparent 10%),
+    radial-gradient(circle at 50% 50%, transparent 0 24%, var(--color-ink-2) 25% 28%, transparent 29%),
+    radial-gradient(circle at 0 0, var(--color-ink) 0 30%, transparent 31%),
+    radial-gradient(circle at 100% 0, var(--color-ink) 0 30%, transparent 31%),
+    radial-gradient(circle at 0 100%, var(--color-ink) 0 30%, transparent 31%),
+    radial-gradient(circle at 100% 100%, var(--color-ink) 0 30%, transparent 31%);
+  box-shadow: inset 0 0 0 0.5px rgb(22 33 90 / 0.25);
+  will-change: transform, opacity;
+}
+
+/* Review drift: two identical lists, the track moves by exactly one list width. */
+.marquee-track {
+  animation: ldi-drift 90s linear infinite;
+}
+.marquee[data-paused] .marquee-track,
+.marquee:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+@media (hover: hover) and (pointer: fine) {
+  .marquee:hover .marquee-track {
+    animation-play-state: paused;
+  }
+}
+@keyframes ldi-drift {
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+/* Reduced motion: no drift; the original list becomes a swipeable row instead. */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+  .marquee {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-inline: 1.25rem;
+  }
+  .marquee li {
+    scroll-snap-align: start;
+  }
+  .marquee-clone,
+  .marquee-toggle {
+    display: none;
+  }
+}
+
+/* Cobalt hero ground: a faint repeat of the same glaze motif in porcelain line. */
+.hero-ground {
+  background-color: var(--color-ink);
+  background-image:
+    radial-gradient(120% 90% at 70% 20%, rgb(60 85 153 / 0.55), transparent 60%),
+    radial-gradient(90% 70% at 10% 100%, rgb(15 20 48 / 0.7), transparent 70%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' fill='none' stroke='%23fbf8f2' stroke-opacity='.09' stroke-width='1'%3E%3Ccircle cx='0' cy='0' r='30'/%3E%3Ccircle cx='96' cy='0' r='30'/%3E%3Ccircle cx='0' cy='96' r='30'/%3E%3Ccircle cx='96' cy='96' r='30'/%3E%3Ccircle cx='48' cy='48' r='14'/%3E%3Cpath d='M48 20c6 8 6 20 0 28-6-8-6-20 0-28ZM48 76c6-8 6-20 0-28-6 8-6 20 0 28ZM20 48c8-6 20-6 28 0-8 6-20 6-28 0ZM76 48c-8-6-20-6-28 0 8 6 20 6 28 0Z'/%3E%3C/svg%3E");
+  background-size: auto, auto, 96px 96px;
+}
+
+/* Poster tile hides as soon as the WebGL canvas exists; HeroScene fades itself in over it. */
+.hero-poster {
+  transition: opacity 700ms var(--ease-out);
+}
+.hero-frame:has(canvas) .hero-poster {
+  opacity: 0;
+}
+
+/* Menu teaser tile: image settles, glaze sheen sweeps, arrow nudges. Fine pointers only. */
+.tile-img {
+  transition: transform 700ms var(--ease-out);
+}
+.tile-sheen {
+  transform: translateX(-120%) skewX(-18deg);
+  transition: transform 900ms var(--ease-out);
+}
+.tile-arrow {
+  transition: transform 260ms var(--ease-out);
+}
+
+/* Contact rows: icon disc fills with cobalt. */
+.contact-icon {
+  transition: background-color 220ms var(--ease-out), color 220ms var(--ease-out), transform 220ms var(--ease-out);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .tile:hover .tile-img {
+    transform: scale(1.06);
+  }
+  .tile:hover .tile-sheen {
+    transform: translateX(120%) skewX(-18deg);
+  }
+  .tile:hover .tile-arrow,
+  .link-arrow:hover .tile-arrow {
+    transform: translateX(4px);
+  }
+  .contact-row:hover .contact-icon {
+    background-color: var(--color-ink);
+    color: var(--color-paper);
+    transform: rotate(-8deg);
+  }
+  .contact-row:hover .tile-arrow {
+    transform: translate(3px, -3px);
+  }
+  .btn-ink:hover {
+    background-color: var(--color-ink-2);
+  }
+  .btn-paper:hover {
+    background-color: var(--color-sun);
+  }
+  .lang-btn:hover {
+    opacity: 1;
+  }
+}
+
+.tile:focus-visible .tile-sheen {
+  transform: translateX(120%) skewX(-18deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tile-img,
+  .tile-sheen,
+  .tile-arrow,
+  .contact-icon,
+  .press {
+    transition-property: opacity, background-color, color, border-color;
+  }
+  .tile-sheen {
+    display: none;
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "pages": [
+    {
+      "page": 8,
+      "categoryIds": [
+        "rum"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "Right page of spread (left page edge shows end of whisky list from p7). Single column, list in right two-thirds; gold/ochre rounded pill heading 'Rum' with subtitle 'Distillati di canna da zucchero' top-right. Each entry: bold brand name with country in parentheses, variant lines below in light grey, prices right-aligned (one per variant). Left side: photo of a tilted tumbler with amber rum on white background, small gold swirl decor. Cream/white paper.",
+      "crops": [
+        {
+          "file": "dish-crops/p08-rum-glass.png",
+          "depicts": "Tilted rocks glass with amber rum on white background",
+          "relatedItemIds": [
+            "havana-club",
+            "brugal",
+            "matusalem",
+            "santa-teresa",
+            "pampero",
+            "diplomatico",
+            "don-papa",
+            "kraken",
+            "labourdonnais",
+            "barcelo",
+            "zacapa"
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "rum",
+      "title": {
+        "it": "Rum",
+        "en": "Rum",
+        "ru": "Ром",
+        "uk": "Ром",
+        "pl": "Rum",
+        "de": "Rum"
+      },
+      "pages": [
+        8
+      ],
+      "groups": [
+        {
+          "title": {
+            "it": "Distillati di canna da zucchero",
+            "en": "Sugar cane spirits",
+            "ru": "Дистилляты из сахарного тростника",
+            "uk": "Дистиляти з цукрової тростини",
+            "pl": "Destylaty z trzciny cukrowej",
+            "de": "Zuckerrohrdestillate"
+          },
+          "items": [
+            {
+              "id": "havana-club",
+              "name": "Havana Club",
+              "nameT": null,
+              "desc": {
+                "it": "Cuba – Añejo Especial / Añejo 7",
+                "en": "Cuba – Añejo Especial / Añejo 7",
+                "ru": "Куба – Añejo Especial / Añejo 7",
+                "uk": "Куба – Añejo Especial / Añejo 7",
+                "pl": "Kuba – Añejo Especial / Añejo 7",
+                "de": "Kuba – Añejo Especial / Añejo 7"
+              },
+              "price": 5.0,
+              "priceNote": "Añejo Especial €5,00 / Añejo 7 €6,00",
+              "uncertain": false
+            },
+            {
+              "id": "brugal",
+              "name": "Brugal",
+              "nameT": null,
+              "desc": {
+                "it": "Rep. Dominicana – Blanco Especial",
+                "en": "Dominican Republic – Blanco Especial",
+                "ru": "Доминиканская Республика – Blanco Especial",
+                "uk": "Домініканська Республіка – Blanco Especial",
+                "pl": "Dominikana – Blanco Especial",
+                "de": "Dominikanische Republik – Blanco Especial"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "matusalem",
+              "name": "Matusalem",
+              "nameT": null,
+              "desc": {
+                "it": "Cuba – 15 anni Gran Reserva",
+                "en": "Cuba – 15 years Gran Reserva",
+                "ru": "Куба – 15 лет Gran Reserva",
+                "uk": "Куба – 15 років Gran Reserva",
+                "pl": "Kuba – 15 lat Gran Reserva",
+                "de": "Kuba – 15 Jahre Gran Reserva"
+              },
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "santa-teresa",
+              "name": "Santa Teresa",
+              "nameT": null,
+              "desc": {
+                "it": "Venezuela – Gran Reserva",
+                "en": "Venezuela – Gran Reserva",
+                "ru": "Венесуэла – Gran Reserva",
+                "uk": "Венесуела – Gran Reserva",
+                "pl": "Wenezuela – Gran Reserva",
+                "de": "Venezuela – Gran Reserva"
+              },
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "pampero",
+              "name": "Pampero",
+              "nameT": null,
+              "desc": {
+                "it": "Venezuela – Especial / Selecciòn 1938 / Anniversario",
+                "en": "Venezuela – Especial / Selecciòn 1938 / Anniversario",
+                "ru": "Венесуэла – Especial / Selecciòn 1938 / Anniversario",
+                "uk": "Венесуела – Especial / Selecciòn 1938 / Anniversario",
+                "pl": "Wenezuela – Especial / Selecciòn 1938 / Anniversario",
+                "de": "Venezuela – Especial / Selecciòn 1938 / Anniversario"
+              },
+              "price": 5.0,
+              "priceNote": "Especial €5,00 / Selecciòn 1938 €6,00 / Anniversario €7,00",
+              "uncertain": false
+            },
+            {
+              "id": "diplomatico",
+              "name": "Diplomatico",
+              "nameT": null,
+              "desc": {
+                "it": "Venezuela – Reserva Exclusiva",
+                "en": "Venezuela – Reserva Exclusiva",
+                "ru": "Венесуэла – Reserva Exclusiva",
+                "uk": "Венесуела – Reserva Exclusiva",
+                "pl": "Wenezuela – Reserva Exclusiva",
+                "de": "Venezuela – Reserva Exclusiva"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "don-papa",
+              "name": "Don Papa",
+              "nameT": null,
+              "desc": {
+                "it": "Filippine",
+                "en": "Philippines",
+                "ru": "Филиппины",
+                "uk": "Філіппіни",
+                "pl": "Filipiny",
+                "de": "Philippinen"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "kraken",
+              "name": "Kraken",
+              "nameT": null,
+              "desc": {
+                "it": "Caraibi",
+                "en": "Caribbean",
+                "ru": "Карибы",
+                "uk": "Кариби",
+                "pl": "Karaiby",
+                "de": "Karibik"
+              },
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "labourdonnais",
+              "name": "Labourdonnais",
+              "nameT": null,
+              "desc": {
+                "it": "Mauritius – Spiced Gold Agricolo",
+                "en": "Mauritius – Spiced Gold Agricolo",
+                "ru": "Маврикий – Spiced Gold Agricolo",
+                "uk": "Маврикій – Spiced Gold Agricolo",
+                "pl": "Mauritius – Spiced Gold Agricolo",
+                "de": "Mauritius – Spiced Gold Agricolo"
+              },
+              "price": 8.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "barcelo",
+              "name": "Barcelo",
+              "nameT": null,
+              "desc": {
+                "it": "Rep. Dominicana – Imperial",
+                "en": "Dominican Republic – Imperial",
+                "ru": "Доминиканская Республика – Imperial",
+                "uk": "Домініканська Республіка – Imperial",
+                "pl": "Dominikana – Imperial",
+                "de": "Dominikanische Republik – Imperial"
+              },
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "zacapa",
+              "name": "Zacapa",
+              "nameT": null,
+              "desc": {
+                "it": "Guatemala – 23 anni / Zacapa XO",
+                "en": "Guatemala – 23 years / Zacapa XO",
+                "ru": "Гватемала – 23 лет / Zacapa XO",
+                "uk": "Гватемала – 23 років / Zacapa XO",
+                "pl": "Gwatemala – 23 lat / Zacapa XO",
+                "de": "Guatemala – 23 Jahre / Zacapa XO"
+              },
+              "price": 9.0,
+              "priceNote": "23 anni €9,00 / Zacapa XO €13,00",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    }
+  ]
+}

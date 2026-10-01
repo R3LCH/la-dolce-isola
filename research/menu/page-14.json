@@ -1,0 +1,70 @@
+{
+  "pages": [
+    {
+      "page": 14,
+      "categoryIds": ["food"],
+      "continuesFrom": true,
+      "layoutNotes": "Right page of spread (page 13 food list visible at left edge). No heading pill: continues the Food category from p13. White paper. Four items in a zig-zag layout, each with a circular white-bordered photo alternating sides: Cornetto Salato (text left, photo right), Toast (photo left, text right), Tagliere Calabrese (text left, photo right), Tartare di pesce (photo left, text right). Item names bold dark grey, price '€ x,xx' at end of orange dotted rule; small orange numbered circles (9, 10, 11, 12) before each description line, continuing p13 numbering.",
+      "crops": [
+        {"file": "dish-crops/p14-cornetto-salato.png", "depicts": "Savoury croissant filled with cured ham, lettuce and tomato (circular photo)", "relatedItemIds": ["cornetto-salato"]},
+        {"file": "dish-crops/p14-cornetto-salato-round.png", "depicts": "Savoury croissant, circular transparent cut-out", "relatedItemIds": ["cornetto-salato"]},
+        {"file": "dish-crops/p14-toast.png", "depicts": "Grilled toast sandwich with ham and melted cheese (circular photo)", "relatedItemIds": ["toast"]},
+        {"file": "dish-crops/p14-toast-round.png", "depicts": "Grilled ham & cheese toast, circular transparent cut-out", "relatedItemIds": ["toast"]},
+        {"file": "dish-crops/p14-tagliere-calabrese.png", "depicts": "Round board of salami, cured meats, cheese cubes and wedges, olives and bruschette (circular photo)", "relatedItemIds": ["tagliere-calabrese"]},
+        {"file": "dish-crops/p14-tagliere-calabrese-round.png", "depicts": "Calabrian salumi & cheese board, circular transparent cut-out", "relatedItemIds": ["tagliere-calabrese"]},
+        {"file": "dish-crops/p14-tartare-di-pesce.png", "depicts": "Tuna tartare timbale topped with mint leaves on a white plate (cut-out photo, not circular)", "relatedItemIds": ["tartare-di-pesce"]}
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "food",
+      "title": {"it": "Food", "en": "Food", "ru": "Еда", "uk": "Їжа", "pl": "Jedzenie", "de": "Speisen"},
+      "pages": [14],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "cornetto-salato",
+              "name": "Cornetto Salato",
+              "nameT": {"it": "Cornetto salato", "en": "Savoury croissant", "ru": "Несладкий круассан", "uk": "Солоний круасан", "pl": "Wytrawny rogalik", "de": "Herzhaftes Croissant"},
+              "desc": {"it": "Crudo, formaggio", "en": "Prosciutto crudo (cured ham), cheese", "ru": "Сыровяленая ветчина (крудо), сыр", "uk": "В'ялена шинка (крудо), сир", "pl": "Szynka dojrzewająca (crudo), ser", "de": "Rohschinken (Crudo), Käse"},
+              "price": 3.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "toast",
+              "name": "Toast",
+              "nameT": {"it": "Toast", "en": "Toasted sandwich", "ru": "Тост", "uk": "Тост", "pl": "Tost", "de": "Toast"},
+              "desc": {"it": "Prosciutto cotto, formaggio", "en": "Cooked ham, cheese", "ru": "Варёная ветчина, сыр", "uk": "Варена шинка, сир", "pl": "Szynka gotowana, ser", "de": "Kochschinken, Käse"},
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "tagliere-calabrese",
+              "name": "Tagliere Calabrese",
+              "nameT": {"it": "Tagliere calabrese", "en": "Calabrian platter", "ru": "Калабрийская тарелка-ассорти", "uk": "Калабрійська дошка-асорті", "pl": "Deska kalabryjska", "de": "Kalabrische Platte"},
+              "desc": {"it": "Salami e formaggi", "en": "Salami and cheese", "ru": "Салями и сыры", "uk": "Салямі та сири", "pl": "Salami i sery", "de": "Salami und Käse"},
+              "price": 10.0,
+              "priceNote": "Printed bilingual description: 'Salami e formaggi / Salami and cheese'",
+              "uncertain": false
+            },
+            {
+              "id": "tartare-di-pesce",
+              "name": "Tartare di pesce",
+              "nameT": {"it": "Tartare di pesce", "en": "Fish tartare", "ru": "Тартар из рыбы", "uk": "Тартар з риби", "pl": "Tatar z ryby", "de": "Fischtatar"},
+              "desc": {"it": "In base alla disponibilità giornaliera", "en": "Depending on daily availability", "ru": "В зависимости от наличия в этот день", "uk": "Залежно від щоденної наявності", "pl": "W zależności od dziennej dostępności", "de": "Je nach Tagesverfügbarkeit"},
+              "price": 7.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    }
+  ]
+}

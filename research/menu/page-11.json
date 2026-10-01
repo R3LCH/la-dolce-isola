@@ -1,0 +1,303 @@
+{
+  "pages": [
+    {
+      "page": 11,
+      "categoryIds": [
+        "selezione-vini"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "Left page of spread, white paper, single column. Gold/brown rounded pill heading top-left 'Selezione Vini / Wine selection'. Two price columns with glass (calice) and bottle icons above. Bold sub-headings 'Bianchi - White', 'Rossi - Red', 'Rosati', 'Passito'. Right edge of page has a dark charcoal vertical band with white text 'in abbinamento tagliere salumi tartare di pesce' and a rectangular (cut-out) photo of a tuna/fish tartare with mint at bottom right overlapping the band. Facing dark page (p12) partly visible at right.",
+      "crops": [
+        {
+          "file": "dish-crops/p11-tartare-di-pesce.png",
+          "depicts": "Raw fish (tuna/salmon) tartare mound topped with mint leaves, shown as wine pairing suggestion",
+          "relatedItemIds": []
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "selezione-vini",
+      "title": {
+        "it": "Selezione Vini",
+        "en": "Wine selection",
+        "ru": "Винная карта",
+        "uk": "Вибір вин",
+        "pl": "Wybór win",
+        "de": "Weinauswahl"
+      },
+      "pages": [
+        11
+      ],
+      "groups": [
+        {
+          "title": {
+            "it": "Bianchi",
+            "en": "White",
+            "ru": "Белые",
+            "uk": "Білі",
+            "pl": "Białe",
+            "de": "Weißweine"
+          },
+          "items": [
+            {
+              "id": "greco-calabria",
+              "name": "Greco (Calabria)",
+              "nameT": null,
+              "desc": {
+                "it": "Origine: Calabria",
+                "en": "Origin: Calabria",
+                "ru": "Регион: Калабрия",
+                "uk": "Регіон: Калабрія",
+                "pl": "Region: Kalabria",
+                "de": "Herkunft: Kalabrien"
+              },
+              "price": 6.0,
+              "priceNote": "calice €6,00 / bottiglia €25,00",
+              "uncertain": false
+            },
+            {
+              "id": "chardonnay-abruzzo",
+              "name": "Chardonnay (Abruzzo)",
+              "nameT": null,
+              "desc": {
+                "it": "Origine: Abruzzo",
+                "en": "Origin: Abruzzo",
+                "ru": "Регион: Абруццо",
+                "uk": "Регіон: Абруццо",
+                "pl": "Region: Abruzja",
+                "de": "Herkunft: Abruzzen"
+              },
+              "price": 6.0,
+              "priceNote": "calice €6,00 / bottiglia €25,00",
+              "uncertain": false
+            },
+            {
+              "id": "pecorello-calabria",
+              "name": "Pecorello (Calabria)",
+              "nameT": null,
+              "desc": {
+                "it": "Origine: Calabria",
+                "en": "Origin: Calabria",
+                "ru": "Регион: Калабрия",
+                "uk": "Регіон: Калабрія",
+                "pl": "Region: Kalabria",
+                "de": "Herkunft: Kalabrien"
+              },
+              "price": 6.0,
+              "priceNote": "calice €6,00 / bottiglia €25,00",
+              "uncertain": false
+            },
+            {
+              "id": "ribolla-gialla-jerman",
+              "name": "Ribolla Gialla (Jerman)",
+              "nameT": null,
+              "desc": {
+                "it": "Produttore: Jermann",
+                "en": "Producer: Jermann",
+                "ru": "Производитель: Jermann",
+                "uk": "Виробник: Jermann",
+                "pl": "Producent: Jermann",
+                "de": "Weingut: Jermann"
+              },
+              "price": 35.0,
+              "priceNote": "solo bottiglia €35,00",
+              "uncertain": false
+            },
+            {
+              "id": "chardonnay-jerman",
+              "name": "Chardonnay (Jerman)",
+              "nameT": null,
+              "desc": {
+                "it": "Produttore: Jermann",
+                "en": "Producer: Jermann",
+                "ru": "Производитель: Jermann",
+                "uk": "Виробник: Jermann",
+                "pl": "Producent: Jermann",
+                "de": "Weingut: Jermann"
+              },
+              "price": 35.0,
+              "priceNote": "solo bottiglia €35,00",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "title": {
+            "it": "Rossi",
+            "en": "Red",
+            "ru": "Красные",
+            "uk": "Червоні",
+            "pl": "Czerwone",
+            "de": "Rotweine"
+          },
+          "items": [
+            {
+              "id": "gaglioppo-calabria",
+              "name": "Gaglioppo (Calabria)",
+              "nameT": null,
+              "desc": {
+                "it": "Origine: Calabria",
+                "en": "Origin: Calabria",
+                "ru": "Регион: Калабрия",
+                "uk": "Регіон: Калабрія",
+                "pl": "Region: Kalabria",
+                "de": "Herkunft: Kalabrien"
+              },
+              "price": 6.0,
+              "priceNote": "calice €6,00 / bottiglia €25,00",
+              "uncertain": false
+            },
+            {
+              "id": "magliocco-calabria",
+              "name": "Magliocco (Calabria)",
+              "nameT": null,
+              "desc": {
+                "it": "Origine: Calabria",
+                "en": "Origin: Calabria",
+                "ru": "Регион: Калабрия",
+                "uk": "Регіон: Калабрія",
+                "pl": "Region: Kalabria",
+                "de": "Herkunft: Kalabrien"
+              },
+              "price": 6.0,
+              "priceNote": "calice €6,00 / bottiglia €25,00",
+              "uncertain": false
+            },
+            {
+              "id": "montepulciano-abruzzo",
+              "name": "Montepulciano (Abruzzo)",
+              "nameT": null,
+              "desc": {
+                "it": "Origine: Abruzzo",
+                "en": "Origin: Abruzzo",
+                "ru": "Регион: Абруццо",
+                "uk": "Регіон: Абруццо",
+                "pl": "Region: Abruzja",
+                "de": "Herkunft: Abruzzen"
+              },
+              "price": 6.0,
+              "priceNote": "calice €6,00 / bottiglia €25,00",
+              "uncertain": false
+            },
+            {
+              "id": "brunello-di-montalcino",
+              "name": "Brunello di Montalcinio",
+              "nameT": null,
+              "desc": null,
+              "price": 70.0,
+              "priceNote": "solo bottiglia €70,00 (printed 'Montalcinio', sic: Brunello di Montalcino)",
+              "uncertain": false
+            },
+            {
+              "id": "amarone",
+              "name": "Amarone",
+              "nameT": null,
+              "desc": null,
+              "price": 70.0,
+              "priceNote": "solo bottiglia €70,00",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "title": {
+            "it": "Rosati",
+            "en": "Rosé",
+            "ru": "Розовые",
+            "uk": "Рожеві",
+            "pl": "Różowe",
+            "de": "Roséweine"
+          },
+          "items": [
+            {
+              "id": "santa-venere-calabria",
+              "name": "Santa Venere (Calabria)",
+              "nameT": null,
+              "desc": {
+                "it": "Origine: Calabria",
+                "en": "Origin: Calabria",
+                "ru": "Регион: Калабрия",
+                "uk": "Регіон: Калабрія",
+                "pl": "Region: Kalabria",
+                "de": "Herkunft: Kalabrien"
+              },
+              "price": 6.0,
+              "priceNote": "calice €6,00 / bottiglia €25,00",
+              "uncertain": false
+            },
+            {
+              "id": "tenuta-iuzzolini-calabria",
+              "name": "Tenuta Iuzzolini (Calabria)",
+              "nameT": null,
+              "desc": {
+                "it": "Origine: Calabria",
+                "en": "Origin: Calabria",
+                "ru": "Регион: Калабрия",
+                "uk": "Регіон: Калабрія",
+                "pl": "Region: Kalabria",
+                "de": "Herkunft: Kalabrien"
+              },
+              "price": 6.0,
+              "priceNote": "calice €6,00 / bottiglia €25,00",
+              "uncertain": false
+            },
+            {
+              "id": "cantina-tollo-calabria",
+              "name": "Cantina Tollo (Calabria)",
+              "nameT": null,
+              "desc": {
+                "it": "Origine: Calabria",
+                "en": "Origin: Calabria",
+                "ru": "Регион: Калабрия",
+                "uk": "Регіон: Калабрія",
+                "pl": "Region: Kalabria",
+                "de": "Herkunft: Kalabrien"
+              },
+              "price": 6.0,
+              "priceNote": "calice €6,00 / bottiglia €25,00",
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "title": {
+            "it": "Passito",
+            "en": "Passito (sweet wine)",
+            "ru": "Пассито (десертное вино)",
+            "uk": "Пасіто (десертне вино)",
+            "pl": "Passito (wino deserowe)",
+            "de": "Passito (Süßwein)"
+          },
+          "items": [
+            {
+              "id": "passito",
+              "name": "Passito",
+              "nameT": {
+                "it": "Passito",
+                "en": "Passito sweet wine",
+                "ru": "Пассито, десертное вино",
+                "uk": "Пасіто, десертне вино",
+                "pl": "Passito, wino deserowe",
+                "de": "Passito, Süßwein"
+              },
+              "desc": null,
+              "price": 7.0,
+              "priceNote": "calice €7,00 (price printed in glass column)",
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "Prezzi: calice / bottiglia. In abbinamento: tagliere salumi, tartare di pesce.",
+        "en": "Prices: glass / bottle. Pairs with: cured meat board, fish tartare.",
+        "ru": "Цены: бокал / бутылка. Сочетается с: ассорти мясных деликатесов, тартар из рыбы.",
+        "uk": "Ціни: келих / пляшка. Пасує до: дошки м'ясних делікатесів, тартару з риби.",
+        "pl": "Ceny: kieliszek / butelka. Pasuje do: deski wędlin, tatara z ryby.",
+        "de": "Preise: Glas / Flasche. Passt zu: Wurstplatte, Fischtatar."
+      }
+    }
+  ]
+}

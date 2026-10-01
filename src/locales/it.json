@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "La Dolce Isola · Caffè, Enoteca, Gelateria a Scalea",
+    "description": "Bar, caffè, enoteca, gelateria e creperia sul corso pedonale di Scalea. Aperti tutti i giorni dalle 07:00 alle 03:00. Sfoglia il menu in sei lingue."
+  },
+  "nav": {
+    "home": "La Dolce Isola, torna all'inizio",
+    "menu": "Menu",
+    "openMenu": "Apri il menu",
+    "language": "Lingua del sito",
+    "skip": "Vai al contenuto"
+  },
+  "hero": {
+    "kicker": "Caffè · Enoteca · Gelateria · Creperia",
+    "line1": "Dal primo caffè",
+    "line2a": "all'ultimo ",
+    "line2b": "calice.",
+    "sub": "Sul corso pedonale di Scalea, tutti i giorni dalle 7 del mattino alle 3 di notte.",
+    "cta": "Apri il menu",
+    "where": "Come arrivare",
+    "posterAlt": "La piastrella in maiolica bianca e blu con la scritta La Dolce Isola"
+  },
+  "teaser": {
+    "kicker": "Il menu",
+    "title": "Ventuno pagine da sfogliare, come al tavolo.",
+    "lead": "Il menu completo in sei lingue, con prezzi e foto dei piatti.",
+    "all": "Sfoglia tutto il menu",
+    "count_one": "{{count}} voce",
+    "count_other": "{{count}} voci",
+    "open": "Apri {{name}} nel menu",
+    "blurb": {
+      "caffetteria": "Espresso, cappuccino e cornetti ancora tiepidi.",
+      "cocktail-long-drinks": "Spritz, mojito e i grandi classici.",
+      "gelato": "Coppe di gelato artigianale, da guardare prima.",
+      "crepes": "Crêpes dolci, preparate al momento.",
+      "selezione-vini": "Bianchi, rossi e rosati, molti calabresi.",
+      "food": "Focacce, taglieri e tartare di pesce."
+    }
+  },
+  "about": {
+    "kicker": "La casa",
+    "title1": "Un salotto giallo",
+    "title2": "nel cuore del corso.",
+    "body": "Pareti color sole, banco in noce e marmo, lampadari di cristallo. Al mattino caffè e cornetti, nel pomeriggio gelato artigianale e crêpes, la sera vini calabresi al calice e cocktail sotto gli ombrelloni.",
+    "facts": [
+      { "value": "07 · 03", "label": "aperti tutti i giorni" },
+      { "value": "Gelato", "label": "artigianale, ogni giorno" },
+      { "value": "Enoteca", "label": "vini calabresi al calice" }
+    ],
+    "barAlt": "Il banco bar in noce con pannelli capitonné e piano in marmo, pareti gialle",
+    "barCaption": "Il banco",
+    "wineAlt": "L'angolo enoteca con scaffali di vini, tavolo capitonné e l'insegna ovale La Dolce Isola",
+    "wineCaption": "L'enoteca"
+  },
+  "reviews": {
+    "kicker": "Dicono di noi",
+    "title": "Le parole dei nostri ospiti.",
+    "googleLabel": "su Google",
+    "googleCount": "{{count}} recensioni",
+    "googleLink": "Leggi su Google",
+    "taLabel": "su Tripadvisor",
+    "taScore": "{{score}} su 5",
+    "taCount": "{{count}} recensioni",
+    "taRank": "#{{rank}} di {{of}} ristoranti a Scalea",
+    "taLink": "Leggi su Tripadvisor",
+    "stars": "{{score}} stelle su 5",
+    "bubbles": "{{score}} pallini su 5",
+    "region": "Recensioni da Google, in lingua originale",
+    "pause": "Pausa",
+    "play": "Riprendi",
+    "source": "Recensioni Google in lingua originale"
+  },
+  "location": {
+    "kicker": "Dove siamo",
+    "hoursLabel": "Orari",
+    "hours": "Tutti i giorni {{hours}}",
+    "directions": "Indicazioni",
+    "openMaps": "Apri in Google Maps",
+    "mapTitle": "Mappa di La Dolce Isola, Via Michele Bianchi 30, Scalea",
+    "note": "Sul corso pedonale, a pochi passi dal centro storico."
+  },
+  "contacts": {
+    "kicker": "Contatti",
+    "title": "Scrivici, chiamaci, oppure passa a trovarci.",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "email": "Email",
+    "phone": "Telefono",
+    "whatsapp": "WhatsApp",
+    "whatsappValue": "Scrivici in chat",
+    "emailSubject": "Informazioni"
+  },
+  "footer": {
+    "tagline": "Bar, caffè, enoteca, gelateria e creperia a Scalea.",
+    "rights": "© {{year}} La Dolce Isola",
+    "top": "Torna su",
+    "menu": "Menu"
+  },
+  "transition": {
+    "loading": "Apro il menu"
+  },
+  "langs": {
+    "it": "italiano",
+    "en": "inglese",
+    "ru": "russo",
+    "uk": "ucraino",
+    "pl": "polacco",
+    "de": "tedesco"
+  }
+}

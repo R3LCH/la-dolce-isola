@@ -1,0 +1,77 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/bodoni-moda/opsz.css';
+@import '@fontsource-variable/bodoni-moda/opsz-italic.css';
+@import '@fontsource-variable/manrope/wght.css';
+@import '@fontsource/pinyon-script/latin-400.css';
+
+/* Design tokens: see docs/PLAN.md §2. Semantic names only. */
+@theme {
+  --color-paper: #fbf8f2;
+  --color-paper-2: #f3eee4;
+  --color-ink: #16215a;
+  --color-ink-2: #3c5599;
+  --color-sun: #f2c872;
+  --color-walnut: #5e3523;
+  --color-night: #0f1430;
+
+  /* Printed menu pill colours */
+  --color-pill-gold: #c39a3a;
+  --color-pill-orange: #e0782b;
+  --color-pill-green: #6fae4f;
+  --color-pill-lilac: #a487c2;
+
+  --font-display: 'Bodoni Moda Variable', 'Bodoni 72', Didot, serif;
+  --font-sans: 'Manrope Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-script: 'Pinyon Script', cursive;
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-move: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+:root {
+  color-scheme: light;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+}
+
+::selection {
+  background: var(--color-sun);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ink-2);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Film grain on a fixed, non-interactive layer only. */
+.grain::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 60;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}

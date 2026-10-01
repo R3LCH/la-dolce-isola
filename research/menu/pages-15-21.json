@@ -1,0 +1,837 @@
+{
+ "pages": [
+  {
+   "page": 15,
+   "categoryIds": [
+    "piadine",
+    "fattilla-tu"
+   ],
+   "continuesFrom": false,
+   "layoutNotes": "2 columns; orange rounded pill headings 'Piadine' (left) and 'Fattilla Tu!' (right); prices right-aligned '€ 5,00'; three orange dots decor; one circular piadina photo bottom-right; white paper",
+   "crops": [
+    {
+     "file": "dish-crops/p15-piadina-stack.png",
+     "depicts": "Round photo: stacked piadine with prosciutto, tomato, salame",
+     "relatedItemIds": [
+      "piadine"
+     ]
+    },
+    {
+     "file": "dish-crops/p15-piadina-stack-round.png",
+     "depicts": "Round photo: stacked piadine with prosciutto, tomato, salame (circular mask)",
+     "relatedItemIds": [
+      "piadine"
+     ]
+    }
+   ]
+  },
+  {
+   "page": 16,
+   "categoryIds": [
+    "yogurt-granite",
+    "gelato"
+   ],
+   "continuesFrom": false,
+   "layoutNotes": "2 columns; green rounded pill headings 'Yogurt & Granite' (left) and 'Gelato' (right) with italic tagline 'Ops! Il gelato nel piatto.' and Gelato Revolution chef-hat logo; left: cut-out yogurt-soft photo, cluster of 5 circular dessert photos, granita glass; right: 3 piatti items, wide scoop-row cut-out, then 3 coppe each with cut-out sundae on a white round plate at right",
+   "crops": [
+    {
+     "file": "dish-crops/p16-coppa-yogurt-soft.png",
+     "depicts": "Soft-serve yogurt with strawberries and chocolate in waffle basket",
+     "relatedItemIds": [
+      "coppa-yogurt-soft"
+     ]
+    },
+    {
+     "file": "dish-crops/p16-gelato-scoops-row.png",
+     "depicts": "Row of gelato scoops with fruit",
+     "relatedItemIds": [
+      "piatto-fruit",
+      "piatto-bounthy",
+      "piatto-delizia"
+     ]
+    },
+    {
+     "file": "dish-crops/p16-creazioni-semifreddi.png",
+     "depicts": "5 overlapping round photos: 3 tartufo-style gelato balls, 2 semifreddi",
+     "relatedItemIds": [
+      "creazioni-di-gelato-e-semifreddo"
+     ]
+    },
+    {
+     "file": "dish-crops/p16-granita.png",
+     "depicts": "Red granita in glass cup",
+     "relatedItemIds": [
+      "granita"
+     ]
+    },
+    {
+     "file": "dish-crops/p16-coppa-kinder.png",
+     "depicts": "Coppa Kinder sundae on round plate",
+     "relatedItemIds": [
+      "coppa-kinder"
+     ]
+    },
+    {
+     "file": "dish-crops/p16-coppa-coockies.png",
+     "depicts": "Coppa Coockies sundae",
+     "relatedItemIds": [
+      "coppa-coockies"
+     ]
+    },
+    {
+     "file": "dish-crops/p16-coppa-amarena.png",
+     "depicts": "Coppa Amarena sundae",
+     "relatedItemIds": [
+      "coppa-amarena"
+     ]
+    }
+   ]
+  },
+  {
+   "page": 17,
+   "categoryIds": [
+    "gelato"
+   ],
+   "continuesFrom": false,
+   "layoutNotes": "green pill 'Gelato' top-left (repeats category); 2 columns x5 coppe; each item: bold name, small grey desc, price below, cut-out sundae photo on white round plate to the right",
+   "crops": [
+    {
+     "file": "dish-crops/p17-coppa-meraviglia.png",
+     "depicts": "Coppa Meraviglia",
+     "relatedItemIds": [
+      "coppa-meraviglia"
+     ]
+    },
+    {
+     "file": "dish-crops/p17-coppa-strange-day.png",
+     "depicts": "Coppa Strange Day",
+     "relatedItemIds": [
+      "coppa-strange-day"
+     ]
+    },
+    {
+     "file": "dish-crops/p17-coppa-sayonara.png",
+     "depicts": "Coppa Sayonara",
+     "relatedItemIds": [
+      "coppa-sayonara"
+     ]
+    },
+    {
+     "file": "dish-crops/p17-coppa-coba-cabana.png",
+     "depicts": "Coppa Coba Cabana",
+     "relatedItemIds": [
+      "coppa-coba-cabana"
+     ]
+    },
+    {
+     "file": "dish-crops/p17-coppa-dolce-isola.png",
+     "depicts": "Coppa Dolce Isola",
+     "relatedItemIds": [
+      "coppa-dolce-isola"
+     ]
+    },
+    {
+     "file": "dish-crops/p17-coppa-spagnolita.png",
+     "depicts": "Coppa Spagnolita",
+     "relatedItemIds": [
+      "coppa-spagnolita"
+     ]
+    },
+    {
+     "file": "dish-crops/p17-cialda-alla-frutta.png",
+     "depicts": "Cialda alla Frutta",
+     "relatedItemIds": [
+      "cialda-alla-frutta"
+     ]
+    },
+    {
+     "file": "dish-crops/p17-cialda-alla-crema.png",
+     "depicts": "Cialda alla Crema",
+     "relatedItemIds": [
+      "cialda-alla-crema"
+     ]
+    },
+    {
+     "file": "dish-crops/p17-affogato.png",
+     "depicts": "Affogato in glass with straw",
+     "relatedItemIds": [
+      "affogato"
+     ]
+    },
+    {
+     "file": "dish-crops/p17-coppa-capriccio.png",
+     "depicts": "Coppa Capriccio",
+     "relatedItemIds": [
+      "coppa-capriccio"
+     ]
+    }
+   ]
+  }
+ ],
+ "categories": [
+  {
+   "id": "piadine",
+   "title": {
+    "it": "Piadine",
+    "en": "Piadinas (flatbread wraps)",
+    "ru": "Пьядины",
+    "uk": "П'ядіни",
+    "pl": "Piadiny",
+    "de": "Piadinas"
+   },
+   "pages": [
+    15
+   ],
+   "groups": [
+    {
+     "title": null,
+     "items": [
+      {
+       "id": "mozzari",
+       "name": "Mozzarì",
+       "nameT": null,
+       "desc": {
+        "it": "Prosciutto cotto, mozzarella, pomodoro",
+        "en": "Cooked ham, mozzarella, tomato",
+        "ru": "Варёная ветчина, моцарелла, помидор",
+        "uk": "Варена шинка, моцарела, помідор",
+        "pl": "Szynka gotowana, mozzarella, pomidor",
+        "de": "Kochschinken, Mozzarella, Tomate"
+       },
+       "price": 5.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "mozzacrudo",
+       "name": "Mozzacrudo",
+       "nameT": null,
+       "desc": {
+        "it": "Prosciutto crudo, mozzarella, pomodoro, lattuga",
+        "en": "Cured ham, mozzarella, tomato, lettuce",
+        "ru": "Сыровяленая ветчина, моцарелла, помидор, салат",
+        "uk": "В'ялена шинка, моцарела, помідор, салат",
+        "pl": "Szynka dojrzewająca, mozzarella, pomidor, sałata",
+        "de": "Rohschinken, Mozzarella, Tomate, Kopfsalat"
+       },
+       "price": 6.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "scamosa",
+       "name": "Scamosa",
+       "nameT": null,
+       "desc": {
+        "it": "Pancetta, scamorza, pomodoro",
+        "en": "Pancetta, scamorza cheese, tomato",
+        "ru": "Панчетта, скаморца, помидор",
+        "uk": "Панчета, скаморца, помідор",
+        "pl": "Pancetta, ser scamorza, pomidor",
+        "de": "Pancetta, Scamorza, Tomate"
+       },
+       "price": 5.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "calabrese",
+       "name": "Calabrese",
+       "nameT": null,
+       "desc": {
+        "it": "Salame piccante, crema di formaggio, 'nduja, funghi",
+        "en": "Spicy salami, cream cheese, 'nduja, mushrooms",
+        "ru": "Острая салями, сливочный сыр, ндуя, грибы",
+        "uk": "Гостра салямі, вершковий сир, ндуя, гриби",
+        "pl": "Pikantne salami, serek kremowy, 'nduja, grzyby",
+        "de": "Scharfe Salami, Frischkäsecreme, 'Nduja, Pilze"
+       },
+       "price": 6.0,
+       "priceNote": null,
+       "uncertain": true
+      },
+      {
+       "id": "tonnazza",
+       "name": "Tonnazza",
+       "nameT": null,
+       "desc": {
+        "it": "Tonno, formaggio spalmabile, lattuga",
+        "en": "Tuna, cream cheese, lettuce",
+        "ru": "Тунец, сливочный сыр, салат",
+        "uk": "Тунець, вершковий сир, салат",
+        "pl": "Tuńczyk, serek do smarowania, sałata",
+        "de": "Thunfisch, Streichkäse, Kopfsalat"
+       },
+       "price": 5.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "purgatorio",
+       "name": "Purgatorio",
+       "nameT": null,
+       "desc": {
+        "it": "Salame piccante, provola, peperoncino",
+        "en": "Spicy salami, provola cheese, chili",
+        "ru": "Острая салями, провола, перец чили",
+        "uk": "Гостра салямі, провола, перець чилі",
+        "pl": "Pikantne salami, ser provola, papryczka chili",
+        "de": "Scharfe Salami, Provola, Chili"
+       },
+       "price": 5.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "mortazza",
+       "name": "Mortazza",
+       "nameT": null,
+       "desc": {
+        "it": "Mortadella, formaggio fresco",
+        "en": "Mortadella, fresh cheese",
+        "ru": "Мортаделла, свежий сыр",
+        "uk": "Мортадела, свіжий сир",
+        "pl": "Mortadela, świeży ser",
+        "de": "Mortadella, Frischkäse"
+       },
+       "price": 5.0,
+       "priceNote": null,
+       "uncertain": false
+      }
+     ]
+    }
+   ],
+   "notes": null
+  },
+  {
+   "id": "fattilla-tu",
+   "title": {
+    "it": "Fattilla Tu!",
+    "en": "Build your own!",
+    "ru": "Собери сам!",
+    "uk": "Збери сам!",
+    "pl": "Zrób ją sam!",
+    "de": "Stell sie dir selbst zusammen!"
+   },
+   "pages": [
+    15
+   ],
+   "groups": [
+    {
+     "title": null,
+     "items": [
+      {
+       "id": "piadina-base",
+       "name": "Piadina base",
+       "nameT": {
+        "it": "Piadina base",
+        "en": "Plain piadina",
+        "ru": "Базовая пьядина",
+        "uk": "Базова п'ядіна",
+        "pl": "Piadina podstawowa",
+        "de": "Basis-Piadina"
+       },
+       "desc": null,
+       "price": 3.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "verdure",
+       "name": "Verdure",
+       "nameT": {
+        "it": "Verdure",
+        "en": "Vegetables",
+        "ru": "Овощи",
+        "uk": "Овочі",
+        "pl": "Warzywa",
+        "de": "Gemüse"
+       },
+       "desc": {
+        "it": "Lattuga, pomodoro, melanzane, funghi",
+        "en": "Lettuce, tomato, aubergine, mushrooms",
+        "ru": "Салат, помидор, баклажаны, грибы",
+        "uk": "Салат, помідор, баклажани, гриби",
+        "pl": "Sałata, pomidor, bakłażan, grzyby",
+        "de": "Kopfsalat, Tomate, Auberginen, Pilze"
+       },
+       "price": 1.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "formaggi",
+       "name": "Formaggi",
+       "nameT": {
+        "it": "Formaggi",
+        "en": "Cheeses",
+        "ru": "Сыры",
+        "uk": "Сири",
+        "pl": "Sery",
+        "de": "Käse"
+       },
+       "desc": {
+        "it": "Mozzarella, scamorza, provola, crema di formaggio, sottiletta",
+        "en": "Mozzarella, scamorza, provola, cream cheese, cheese slice",
+        "ru": "Моцарелла, скаморца, провола, сливочный сыр, плавленый ломтик",
+        "uk": "Моцарела, скаморца, провола, вершковий сир, плавлений скибковий сир",
+        "pl": "Mozzarella, scamorza, provola, serek kremowy, ser w plastrach",
+        "de": "Mozzarella, Scamorza, Provola, Frischkäsecreme, Schmelzkäsescheibe"
+       },
+       "price": 1.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "salumi",
+       "name": "Salumi",
+       "nameT": {
+        "it": "Salumi",
+        "en": "Cured meats",
+        "ru": "Мясные деликатесы",
+        "uk": "М'ясні делікатеси",
+        "pl": "Wędliny",
+        "de": "Wurstwaren"
+       },
+       "desc": {
+        "it": "Prosciutto crudo, prosciutto cotto, salame piccante, mortadella, pancetta, capocollo, soppressata, 'nduja",
+        "en": "Cured ham, cooked ham, spicy salami, mortadella, pancetta, capocollo, soppressata, 'nduja",
+        "ru": "Сыровяленая и варёная ветчина, острая салями, мортаделла, панчетта, капоколло, соппрессата, ндуя",
+        "uk": "В'ялена та варена шинка, гостра салямі, мортадела, панчета, капоколо, сопресата, ндуя",
+        "pl": "Szynka dojrzewająca, szynka gotowana, pikantne salami, mortadela, pancetta, capocollo, soppressata, 'nduja",
+        "de": "Rohschinken, Kochschinken, scharfe Salami, Mortadella, Pancetta, Capocollo, Soppressata, 'Nduja"
+       },
+       "price": 1.0,
+       "priceNote": null,
+       "uncertain": false
+      }
+     ]
+    }
+   ],
+   "notes": {
+    "it": "Prezzo per aggiunta (per categoria)",
+    "en": "Price per add-on (per category)",
+    "ru": "Цена за добавку (за категорию)",
+    "uk": "Ціна за додаток (за категорію)",
+    "pl": "Cena za dodatek (za kategorię)",
+    "de": "Preis pro Zutat (je Kategorie)"
+   }
+  },
+  {
+   "id": "yogurt-granite",
+   "title": {
+    "it": "Yogurt & Granite",
+    "en": "Frozen yogurt & granitas",
+    "ru": "Йогурт и граниты",
+    "uk": "Йогурт і граніти",
+    "pl": "Jogurt i granity",
+    "de": "Joghurt & Granita"
+   },
+   "pages": [
+    16
+   ],
+   "groups": [
+    {
+     "title": null,
+     "items": [
+      {
+       "id": "coppa-yogurt-soft",
+       "name": "Coppa Yogurt Soft",
+       "nameT": {
+        "it": "Coppa Yogurt Soft",
+        "en": "Soft frozen yogurt cup",
+        "ru": "Мягкий йогурт в креманке",
+        "uk": "М'який йогурт у креманці",
+        "pl": "Puchar jogurtu soft",
+        "de": "Softjoghurt-Becher"
+       },
+       "desc": {
+        "it": "Naturale / Crema e granella / Frutta del giorno",
+        "en": "Plain / Cream and crumble / Fruit of the day",
+        "ru": "Натуральный / Крем и крошка / Фрукты дня",
+        "uk": "Натуральний / Крем і крихта / Фрукти дня",
+        "pl": "Naturalny / Krem i posypka / Owoce dnia",
+        "de": "Natur / Creme und Krokant / Obst des Tages"
+       },
+       "price": 5.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "creazioni-di-gelato-e-semifreddo",
+       "name": "Creazioni di gelato e semifreddro",
+       "nameT": {
+        "it": "Creazioni di gelato e semifreddo",
+        "en": "Gelato and semifreddo creations",
+        "ru": "Десерты из джелато и семифреддо",
+        "uk": "Десерти з джелато та семіфредо",
+        "pl": "Kreacje z lodów i semifreddo",
+        "de": "Eis- und Semifreddo-Kreationen"
+       },
+       "desc": null,
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "granita",
+       "name": "Granita",
+       "nameT": {
+        "it": "Granita",
+        "en": "Granita (Sicilian ice)",
+        "ru": "Гранита",
+        "uk": "Граніта",
+        "pl": "Granita",
+        "de": "Granita"
+       },
+       "desc": {
+        "it": "Limone, Fragola, Cedro, Menta, Mandorla",
+        "en": "Lemon, Strawberry, Citron, Mint, Almond",
+        "ru": "Лимон, клубника, цедрат, мята, миндаль",
+        "uk": "Лимон, полуниця, цитрон, м'ята, мигдаль",
+        "pl": "Cytryna, truskawka, cedrat, mięta, migdał",
+        "de": "Zitrone, Erdbeere, Zedrat, Minze, Mandel"
+       },
+       "price": 4.0,
+       "priceNote": null,
+       "uncertain": false
+      }
+     ]
+    }
+   ],
+   "notes": null
+  },
+  {
+   "id": "gelato",
+   "title": {
+    "it": "Gelato",
+    "en": "Gelato",
+    "ru": "Джелато",
+    "uk": "Джелато",
+    "pl": "Lody",
+    "de": "Gelato"
+   },
+   "pages": [
+    16,
+    17
+   ],
+   "groups": [
+    {
+     "title": {
+      "it": "Ops! Il gelato nel piatto.",
+      "en": "Oops! Gelato on a plate.",
+      "ru": "Упс! Джелато на тарелке.",
+      "uk": "Упс! Джелато на тарілці.",
+      "pl": "Ups! Lody na talerzu.",
+      "de": "Hoppla! Eis auf dem Teller."
+     },
+     "items": [
+      {
+       "id": "piatto-fruit",
+       "name": "Piatto Fruit",
+       "nameT": null,
+       "desc": {
+        "it": "Fragola, limone, amarena, pistacchio, panna montata",
+        "en": "Strawberry, lemon, sour cherry, pistachio, whipped cream",
+        "ru": "Клубника, лимон, вишня амарена, фисташка, взбитые сливки",
+        "uk": "Полуниця, лимон, вишня амарена, фісташка, збиті вершки",
+        "pl": "Truskawka, cytryna, wiśnia amarena, pistacja, bita śmietana",
+        "de": "Erdbeere, Zitrone, Amarenakirsche, Pistazie, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "piatto-bounthy",
+       "name": "Piatto Bounthy",
+       "nameT": null,
+       "desc": {
+        "it": "Cioccolato, granella di cocco, cocco, panna montata",
+        "en": "Chocolate, coconut flakes, coconut, whipped cream",
+        "ru": "Шоколад, кокосовая стружка, кокос, взбитые сливки",
+        "uk": "Шоколад, кокосова стружка, кокос, збиті вершки",
+        "pl": "Czekolada, wiórki kokosowe, kokos, bita śmietana",
+        "de": "Schokolade, Kokosraspeln, Kokos, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "piatto-delizia",
+       "name": "Piatto Delizia",
+       "nameT": null,
+       "desc": {
+        "it": "Cioccolato, nocciola, fior di latte, panna montata",
+        "en": "Chocolate, hazelnut, fior di latte (sweet cream), whipped cream",
+        "ru": "Шоколад, фундук, фиор ди латте, взбитые сливки",
+        "uk": "Шоколад, фундук, фіор ді латте, збиті вершки",
+        "pl": "Czekolada, orzech laskowy, fior di latte, bita śmietana",
+        "de": "Schokolade, Haselnuss, Fior di Latte, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      }
+     ]
+    },
+    {
+     "title": null,
+     "items": [
+      {
+       "id": "coppa-kinder",
+       "name": "Coppa Kinder",
+       "nameT": null,
+       "desc": {
+        "it": "vari gusti Kinder, panna montata",
+        "en": "Assorted Kinder flavours, whipped cream",
+        "ru": "Разные вкусы Kinder, взбитые сливки",
+        "uk": "Різні смаки Kinder, збиті вершки",
+        "pl": "Różne smaki Kinder, bita śmietana",
+        "de": "Verschiedene Kinder-Sorten, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "coppa-coockies",
+       "name": "Coppa Coockies",
+       "nameT": null,
+       "desc": {
+        "it": "Coockies, nocciola, biscotto, panna montata",
+        "en": "Cookies, hazelnut, biscuit, whipped cream",
+        "ru": "Печенье cookies, фундук, бисквит, взбитые сливки",
+        "uk": "Печиво cookies, фундук, бісквіт, збиті вершки",
+        "pl": "Cookies, orzech laskowy, herbatnik, bita śmietana",
+        "de": "Cookies, Haselnuss, Keks, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "coppa-amarena",
+       "name": "Coppa Amarena",
+       "nameT": null,
+       "desc": {
+        "it": "Amarena, fior di latte, panna montata",
+        "en": "Sour cherry, fior di latte, whipped cream",
+        "ru": "Амарена, фиор ди латте, взбитые сливки",
+        "uk": "Амарена, фіор ді латте, збиті вершки",
+        "pl": "Amarena, fior di latte, bita śmietana",
+        "de": "Amarenakirsche, Fior di Latte, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "coppa-meraviglia",
+       "name": "Coppa Meraviglia",
+       "nameT": null,
+       "desc": {
+        "it": "Melone, fragola, limone, panna montata",
+        "en": "Melon, strawberry, lemon, whipped cream",
+        "ru": "Дыня, клубника, лимон, взбитые сливки",
+        "uk": "Диня, полуниця, лимон, збиті вершки",
+        "pl": "Melon, truskawka, cytryna, bita śmietana",
+        "de": "Melone, Erdbeere, Zitrone, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "coppa-strange-day",
+       "name": "Coppa Strange Day",
+       "nameT": null,
+       "desc": {
+        "it": "Caffè, liquore, panna montata, zuppa inglese, amarena",
+        "en": "Coffee, liqueur, whipped cream, zuppa inglese, sour cherry",
+        "ru": "Кофе, ликёр, взбитые сливки, дзуппа инглезе, амарена",
+        "uk": "Кава, лікер, збиті вершки, дзупа інглезе, амарена",
+        "pl": "Kawa, likier, bita śmietana, zuppa inglese, amarena",
+        "de": "Kaffee, Likör, Schlagsahne, Zuppa Inglese, Amarenakirsche"
+       },
+       "price": 8.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "coppa-sayonara",
+       "name": "Coppa Sayonara",
+       "nameT": null,
+       "desc": {
+        "it": "Yogurt, amarena, panna montata",
+        "en": "Yogurt, sour cherry, whipped cream",
+        "ru": "Йогурт, амарена, взбитые сливки",
+        "uk": "Йогурт, амарена, збиті вершки",
+        "pl": "Jogurt, amarena, bita śmietana",
+        "de": "Joghurt, Amarenakirsche, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "coppa-coba-cabana",
+       "name": "Coppa Coba Cabana",
+       "nameT": null,
+       "desc": {
+        "it": "Cioccolato, fiordilatte, panna montata",
+        "en": "Chocolate, fior di latte, whipped cream",
+        "ru": "Шоколад, фиор ди латте, взбитые сливки",
+        "uk": "Шоколад, фіор ді латте, збиті вершки",
+        "pl": "Czekolada, fior di latte, bita śmietana",
+        "de": "Schokolade, Fior di Latte, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "coppa-dolce-isola",
+       "name": "Coppa Dolce Isola",
+       "nameT": null,
+       "desc": {
+        "it": "Nocciola, pistacchio, cioccolato, panna montata",
+        "en": "Hazelnut, pistachio, chocolate, whipped cream",
+        "ru": "Фундук, фисташка, шоколад, взбитые сливки",
+        "uk": "Фундук, фісташка, шоколад, збиті вершки",
+        "pl": "Orzech laskowy, pistacja, czekolada, bita śmietana",
+        "de": "Haselnuss, Pistazie, Schokolade, Schlagsahne"
+       },
+       "price": 9.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "coppa-spagnolita",
+       "name": "Coppa Spagnolita",
+       "nameT": null,
+       "desc": {
+        "it": "Caffè, amarena, fior di latte, panna montata",
+        "en": "Coffee, sour cherry, fior di latte, whipped cream",
+        "ru": "Кофе, амарена, фиор ди латте, взбитые сливки",
+        "uk": "Кава, амарена, фіор ді латте, збиті вершки",
+        "pl": "Kawa, amarena, fior di latte, bita śmietana",
+        "de": "Kaffee, Amarenakirsche, Fior di Latte, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "cialda-alla-frutta",
+       "name": "Cialda alla Frutta",
+       "nameT": {
+        "it": "Cialda alla frutta",
+        "en": "Fruit gelato in a waffle basket",
+        "ru": "Фруктовое джелато в вафельной корзинке",
+        "uk": "Фруктове джелато у вафельному кошику",
+        "pl": "Lody owocowe w waflowym koszyczku",
+        "de": "Frucht-Eis in der Waffelschale"
+       },
+       "desc": {
+        "it": "Fragola, cocco, melone",
+        "en": "Strawberry, coconut, melon",
+        "ru": "Клубника, кокос, дыня",
+        "uk": "Полуниця, кокос, диня",
+        "pl": "Truskawka, kokos, melon",
+        "de": "Erdbeere, Kokos, Melone"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "cialda-alla-crema",
+       "name": "Cialda alla Crema",
+       "nameT": {
+        "it": "Cialda alla crema",
+        "en": "Cream-flavour gelato in a waffle basket",
+        "ru": "Сливочное джелато в вафельной корзинке",
+        "uk": "Вершкове джелато у вафельному кошику",
+        "pl": "Lody śmietankowe w waflowym koszyczku",
+        "de": "Cremeeis in der Waffelschale"
+       },
+       "desc": {
+        "it": "Cioccolato, caffè, pistacchio, panna montata",
+        "en": "Chocolate, coffee, pistachio, whipped cream",
+        "ru": "Шоколад, кофе, фисташка, взбитые сливки",
+        "uk": "Шоколад, кава, фісташка, збиті вершки",
+        "pl": "Czekolada, kawa, pistacja, bita śmietana",
+        "de": "Schokolade, Kaffee, Pistazie, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "affogato",
+       "name": "Affogato",
+       "nameT": {
+        "it": "Affogato",
+        "en": "Affogato (gelato drowned in coffee)",
+        "ru": "Аффогато",
+        "uk": "Афогато",
+        "pl": "Affogato",
+        "de": "Affogato"
+       },
+       "desc": {
+        "it": "Nocciola, cioccolato, caffè caldo, panna montata",
+        "en": "Hazelnut, chocolate, hot coffee, whipped cream",
+        "ru": "Фундук, шоколад, горячий кофе, взбитые сливки",
+        "uk": "Фундук, шоколад, гаряча кава, збиті вершки",
+        "pl": "Orzech laskowy, czekolada, gorąca kawa, bita śmietana",
+        "de": "Haselnuss, Schokolade, heißer Kaffee, Schlagsahne"
+       },
+       "price": 6.0,
+       "priceNote": null,
+       "uncertain": false
+      },
+      {
+       "id": "coppa-capriccio",
+       "name": "Coppa Capriccio",
+       "nameT": null,
+       "desc": {
+        "it": "Stracciatella, granelle di nocciola, caramello, panna montata",
+        "en": "Stracciatella, hazelnut crumble, caramel, whipped cream",
+        "ru": "Страчателла, ореховая крошка, карамель, взбитые сливки",
+        "uk": "Страчателла, горіхова крихта, карамель, збиті вершки",
+        "pl": "Stracciatella, posypka z orzechów laskowych, karmel, bita śmietana",
+        "de": "Stracciatella, Haselnusskrokant, Karamell, Schlagsahne"
+       },
+       "price": 7.0,
+       "priceNote": null,
+       "uncertain": false
+      }
+     ]
+    }
+   ],
+   "notes": {
+    "it": "Gelato Revolution – il futuro del gelato",
+    "en": "Gelato Revolution brand logo",
+    "ru": "Логотип Gelato Revolution",
+    "uk": "Логотип Gelato Revolution",
+    "pl": "Logo Gelato Revolution",
+    "de": "Logo von Gelato Revolution"
+   }
+  }
+ ],
+ "status": {
+  "transcribed": [
+   15,
+   16,
+   17
+  ],
+  "notTranscribed": [
+   18,
+   19,
+   20,
+   21
+  ]
+ }
+}

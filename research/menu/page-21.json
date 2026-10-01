@@ -1,0 +1,611 @@
+{
+  "pages": [
+    {
+      "page": 21,
+      "categoryIds": [
+        "batido",
+        "succhi-di-frutta",
+        "bibite"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "Right page of spread (left page edge shows end of caffè list, belongs to page 20). Brown/caramel rounded pill headings with italic English subtitle in pill: 'Batido / Cioccolato freddo shakerato' (top-left, single price € 3,50 printed beside pill), 'Succhi di frutta / Fruit juices' (top-right, single price € 3,00 beside pill, flavours in two sub-columns), 'Bibite / Soft drinks' (lower-left, prices per row right-aligned). Large photo of orange juice glass with orange slice and halved orange occupies lower-right. White paper.",
+      "crops": [
+        {
+          "file": "research/dish-crops/p21-orange-juice.png",
+          "depicts": "Glass of orange juice with orange wedge garnish and a halved orange",
+          "relatedItemIds": [
+            "succo-arancia",
+            "spremute"
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "batido",
+      "title": {
+        "it": "Batido — Cioccolato freddo shakerato",
+        "en": "Batido — Shaken cold chocolate",
+        "ru": "Батидо — охлаждённый шоколад-шейк",
+        "uk": "Батідо — охолоджений шоколад-шейк",
+        "pl": "Batido — Shakowana zimna czekolada",
+        "de": "Batido — Geshakte kalte Schokolade"
+      },
+      "pages": [
+        21
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "batido-bianco",
+              "name": "Bianco",
+              "nameT": {
+                "it": "Bianco",
+                "en": "White chocolate",
+                "ru": "Белый шоколад",
+                "uk": "Білий шоколад",
+                "pl": "Biała czekolada",
+                "de": "Weiße Schokolade"
+              },
+              "desc": null,
+              "price": 3.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "batido-latte",
+              "name": "Latte",
+              "nameT": {
+                "it": "Latte",
+                "en": "Milk chocolate",
+                "ru": "Молочный шоколад",
+                "uk": "Молочний шоколад",
+                "pl": "Mleczna czekolada",
+                "de": "Vollmilchschokolade"
+              },
+              "desc": null,
+              "price": 3.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "batido-fondente",
+              "name": "Fondente",
+              "nameT": {
+                "it": "Fondente",
+                "en": "Dark chocolate",
+                "ru": "Тёмный шоколад",
+                "uk": "Темний шоколад",
+                "pl": "Gorzka czekolada",
+                "de": "Zartbitterschokolade"
+              },
+              "desc": null,
+              "price": 3.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "batido-cocco",
+              "name": "Cocco",
+              "nameT": {
+                "it": "Cocco",
+                "en": "Coconut",
+                "ru": "Кокос",
+                "uk": "Кокос",
+                "pl": "Kokos",
+                "de": "Kokosnuss"
+              },
+              "desc": null,
+              "price": 3.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "batido-caramello",
+              "name": "Caramello",
+              "nameT": {
+                "it": "Caramello",
+                "en": "Caramel",
+                "ru": "Карамель",
+                "uk": "Карамель",
+                "pl": "Karmel",
+                "de": "Karamell"
+              },
+              "desc": null,
+              "price": 3.5,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "Prezzo unico € 3,50 per tutti i gusti",
+        "en": "Single price € 3.50 for all flavours",
+        "ru": "Единая цена 3,50 € за любой вкус",
+        "uk": "Єдина ціна 3,50 € за будь-який смак",
+        "pl": "Jedna cena 3,50 € za każdy smak",
+        "de": "Einheitspreis 3,50 € für alle Sorten"
+      }
+    },
+    {
+      "id": "succhi-di-frutta",
+      "title": {
+        "it": "Succhi di frutta",
+        "en": "Fruit juices",
+        "ru": "Фруктовые соки",
+        "uk": "Фруктові соки",
+        "pl": "Soki owocowe",
+        "de": "Fruchtsäfte"
+      },
+      "pages": [
+        21
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "succo-ananas",
+              "name": "Ananas",
+              "nameT": {
+                "it": "Ananas",
+                "en": "Pineapple",
+                "ru": "Ананас",
+                "uk": "Ананас",
+                "pl": "Ananas",
+                "de": "Ananas"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "succo-pera",
+              "name": "Pera",
+              "nameT": {
+                "it": "Pera",
+                "en": "Pear",
+                "ru": "Груша",
+                "uk": "Груша",
+                "pl": "Gruszka",
+                "de": "Birne"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "succo-mela",
+              "name": "Mela",
+              "nameT": {
+                "it": "Mela",
+                "en": "Apple",
+                "ru": "Яблоко",
+                "uk": "Яблуко",
+                "pl": "Jabłko",
+                "de": "Apfel"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "succo-arancia",
+              "name": "Arancia",
+              "nameT": {
+                "it": "Arancia",
+                "en": "Orange",
+                "ru": "Апельсин",
+                "uk": "Апельсин",
+                "pl": "Pomarańcza",
+                "de": "Orange"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "succo-banana",
+              "name": "Banana",
+              "nameT": {
+                "it": "Banana",
+                "en": "Banana",
+                "ru": "Банан",
+                "uk": "Банан",
+                "pl": "Banan",
+                "de": "Banane"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "succo-albicocca",
+              "name": "Albicocca",
+              "nameT": {
+                "it": "Albicocca",
+                "en": "Apricot",
+                "ru": "Абрикос",
+                "uk": "Абрикоса",
+                "pl": "Morela",
+                "de": "Aprikose"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "succo-melakiwi",
+              "name": "Melakiwi",
+              "nameT": {
+                "it": "Melakiwi",
+                "en": "Apple and kiwi",
+                "ru": "Яблоко и киви",
+                "uk": "Яблуко та ківі",
+                "pl": "Jabłko i kiwi",
+                "de": "Apfel-Kiwi"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "succo-pesca-e-mango",
+              "name": "Pesca e Mango",
+              "nameT": {
+                "it": "Pesca e Mango",
+                "en": "Peach and mango",
+                "ru": "Персик и манго",
+                "uk": "Персик і манго",
+                "pl": "Brzoskwinia i mango",
+                "de": "Pfirsich-Mango"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "succo-pompelmo",
+              "name": "Pompelmo",
+              "nameT": {
+                "it": "Pompelmo",
+                "en": "Grapefruit",
+                "ru": "Грейпфрут",
+                "uk": "Грейпфрут",
+                "pl": "Grejpfrut",
+                "de": "Grapefruit"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "succo-ace",
+              "name": "Ace",
+              "nameT": {
+                "it": "Ace",
+                "en": "ACE (orange, carrot, lemon)",
+                "ru": "ACE (апельсин, морковь, лимон)",
+                "uk": "ACE (апельсин, морква, лимон)",
+                "pl": "ACE (pomarańcza, marchew, cytryna)",
+                "de": "ACE (Orange, Karotte, Zitrone)"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "succo-mirtillo",
+              "name": "Mirtillo",
+              "nameT": {
+                "it": "Mirtillo",
+                "en": "Blueberry",
+                "ru": "Черника",
+                "uk": "Чорниця",
+                "pl": "Borówka",
+                "de": "Heidelbeere"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "succo-pesca",
+              "name": "Pesca",
+              "nameT": {
+                "it": "Pesca",
+                "en": "Peach",
+                "ru": "Персик",
+                "uk": "Персик",
+                "pl": "Brzoskwinia",
+                "de": "Pfirsich"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "spremute",
+              "name": "Spremute",
+              "nameT": {
+                "it": "Spremute",
+                "en": "Freshly squeezed juice",
+                "ru": "Свежевыжатый сок",
+                "uk": "Свіжовичавлений сік",
+                "pl": "Świeżo wyciskany sok",
+                "de": "Frisch gepresster Saft"
+              },
+              "desc": {
+                "it": "Fresh Juice",
+                "en": "Fresh juice",
+                "ru": "Свежий сок",
+                "uk": "Свіжий сік",
+                "pl": "Świeży sok",
+                "de": "Frischer Saft"
+              },
+              "price": 3.0,
+              "priceNote": "no own price printed; listed in the Succhi di frutta block (section price € 3,00)",
+              "uncertain": true
+            }
+          ]
+        }
+      ],
+      "notes": {
+        "it": "Prezzo unico € 3,00 per tutti i gusti",
+        "en": "Single price € 3.00 for all flavours",
+        "ru": "Единая цена 3,00 € за любой вкус",
+        "uk": "Єдина ціна 3,00 € за будь-який смак",
+        "pl": "Jedna cena 3,00 € za każdy smak",
+        "de": "Einheitspreis 3,00 € für alle Sorten"
+      }
+    },
+    {
+      "id": "bibite",
+      "title": {
+        "it": "Bibite",
+        "en": "Soft drinks",
+        "ru": "Безалкогольные напитки",
+        "uk": "Безалкогольні напої",
+        "pl": "Napoje",
+        "de": "Erfrischungsgetränke"
+      },
+      "pages": [
+        21
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "acqua-minerale-50cl",
+              "name": "Acqua Minerale",
+              "nameT": {
+                "it": "Acqua minerale",
+                "en": "Mineral water",
+                "ru": "Минеральная вода",
+                "uk": "Мінеральна вода",
+                "pl": "Woda mineralna",
+                "de": "Mineralwasser"
+              },
+              "desc": null,
+              "price": 1.0,
+              "priceNote": "50 cl",
+              "uncertain": false
+            },
+            {
+              "id": "acqua-minerale-150cl",
+              "name": "Acqua Minerale",
+              "nameT": {
+                "it": "Acqua minerale",
+                "en": "Mineral water",
+                "ru": "Минеральная вода",
+                "uk": "Мінеральна вода",
+                "pl": "Woda mineralna",
+                "de": "Mineralwasser"
+              },
+              "desc": null,
+              "price": 2.5,
+              "priceNote": "150 cl",
+              "uncertain": false
+            },
+            {
+              "id": "coca-cola",
+              "name": "Coca Cola",
+              "nameT": null,
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "coca-cola-zero",
+              "name": "Coca Cola Zero",
+              "nameT": null,
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "fanta",
+              "name": "Fanta",
+              "nameT": null,
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "bergamotto",
+              "name": "Bergamotto",
+              "nameT": {
+                "it": "Bergamotto",
+                "en": "Bergamot soda",
+                "ru": "Газировка с бергамотом",
+                "uk": "Газований напій з бергамотом",
+                "pl": "Napój z bergamotką",
+                "de": "Bergamotte-Limonade"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "gassosa-al-caffe",
+              "name": "Gassosa al caffè",
+              "nameT": {
+                "it": "Gassosa al caffè",
+                "en": "Coffee soda",
+                "ru": "Кофейная газировка",
+                "uk": "Кавова газованка",
+                "pl": "Napój gazowany kawowy",
+                "de": "Kaffee-Limonade"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "chinotto",
+              "name": "Chinotto",
+              "nameT": {
+                "it": "Chinotto",
+                "en": "Chinotto (bitter citrus soda)",
+                "ru": "Кинотто (горько-цитрусовая газировка)",
+                "uk": "Кінотто (гірко-цитрусова газованка)",
+                "pl": "Chinotto (gorzki napój cytrusowy)",
+                "de": "Chinotto (herbe Zitrus-Limonade)"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "lemon-soda",
+              "name": "Lemon soda",
+              "nameT": {
+                "it": "Lemon soda",
+                "en": "Lemon soda",
+                "ru": "Лимонная газировка",
+                "uk": "Лимонна газованка",
+                "pl": "Napój cytrynowy",
+                "de": "Zitronenlimonade"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "acqua-tonica",
+              "name": "Acqua tonica",
+              "nameT": {
+                "it": "Acqua tonica",
+                "en": "Tonic water",
+                "ru": "Тоник",
+                "uk": "Тонік",
+                "pl": "Tonik",
+                "de": "Tonic Water"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "cedrata",
+              "name": "Cedrata",
+              "nameT": {
+                "it": "Cedrata",
+                "en": "Citron soda",
+                "ru": "Цедрата (газировка из цитрона)",
+                "uk": "Цедрата (газованка з цитрону)",
+                "pl": "Cedrata (napój z cedratu)",
+                "de": "Cedrata (Zitronatzitronen-Limonade)"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "sciroppi",
+              "name": "Sciroppi",
+              "nameT": {
+                "it": "Sciroppi",
+                "en": "Syrups",
+                "ru": "Сиропы",
+                "uk": "Сиропи",
+                "pl": "Syropy",
+                "de": "Sirupe"
+              },
+              "desc": {
+                "it": "Menta, orzata, amarena, latte di mandorla",
+                "en": "Mint, orgeat, sour cherry, almond milk",
+                "ru": "Мята, оршад, вишня амарена, миндальное молоко",
+                "uk": "М'ята, оршад, вишня амарена, мигдальне молоко",
+                "pl": "Mięta, orszada, wiśnia amarena, mleko migdałowe",
+                "de": "Minze, Orgeat, Amarenakirsche, Mandelmilch"
+              },
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "the-pesca",
+              "name": "The Pesca",
+              "nameT": {
+                "it": "Tè alla pesca",
+                "en": "Peach iced tea",
+                "ru": "Холодный чай с персиком",
+                "uk": "Холодний чай з персиком",
+                "pl": "Mrożona herbata brzoskwiniowa",
+                "de": "Pfirsich-Eistee"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "the-limone",
+              "name": "The Limone",
+              "nameT": {
+                "it": "Tè al limone",
+                "en": "Lemon iced tea",
+                "ru": "Холодный чай с лимоном",
+                "uk": "Холодний чай з лимоном",
+                "pl": "Mrożona herbata cytrynowa",
+                "de": "Zitronen-Eistee"
+              },
+              "desc": null,
+              "price": 3.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    }
+  ]
+}

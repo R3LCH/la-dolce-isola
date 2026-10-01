@@ -1,0 +1,310 @@
+{
+ "name": "La Dolce Isola",
+ "category": [
+  "Bar",
+  "Cafe"
+ ],
+ "categoryAsShown": "Bar",
+ "address": "Via Michele Bianchi, 30, 87029 Scalea CS, Italy",
+ "addressLocality": "Scalea",
+ "province": "Province of Cosenza",
+ "region": "Calabria",
+ "postalCode": "87029",
+ "country": "IT",
+ "coordinates": {
+  "lat": 39.8147921,
+  "lng": 15.7907844
+ },
+ "plusCode": "8FFQRQ7R+W8",
+ "plusCodeCompound": "RQ7R+W8 Scalea, Province of Cosenza",
+ "phone": "0985 920136",
+ "phoneInternational": "+39 0985 920136",
+ "website": "http://www.facebook.com/ladolceisola.scalea",
+ "websiteNote": "Google lists the Facebook page as the business website; no separate website was shown.",
+ "priceLevel": "€1–10",
+ "priceLevelNote": "Shown as '€1–10' and 'Price per person: €1–10, reported by 20 people'.",
+ "rating": 4.3,
+ "reviewCount": 575,
+ "ratingSource": "Google",
+ "hours": {
+  "monday": "07:00–03:00",
+  "tuesday": "07:00–03:00",
+  "wednesday": "07:00–03:00",
+  "thursday": "07:00–03:00",
+  "friday": "07:00–03:00",
+  "saturday": "07:00–03:00",
+  "sunday": "07:00–03:00",
+  "note": "Every day 7 am–3 am (07–03), next day. Confirmed for all seven weekdays in the Italian-locale listing data (week of 1 Oct 2026)."
+ },
+ "timezone": "Europe/Rome",
+ "serviceOptions": [
+  "Outdoor seating",
+  "Great cocktails",
+  "Food at bar",
+  "Dine-in"
+ ],
+ "accessibility": [
+  "Wheelchair-accessible entrance",
+  "Wheelchair-accessible toilet"
+ ],
+ "amenities": [
+  "Dogs allowed"
+ ],
+ "osm": {
+  "outdoorSeating": "pedestrian_zone",
+  "indoorSeating": "yes",
+  "smoking": "outside",
+  "wheelchair": "limited",
+  "coverCharge": "1.5 EUR/person",
+  "source": "OpenStreetMap node 12703688250, edited 2026-08-17"
+ },
+ "social": {
+  "instagram": {
+   "url": "https://www.instagram.com/ladolceisola/",
+   "handle": "@ladolceisola",
+   "source": "Google Search knowledge panel links an Instagram profile named 'La Dolce Isola (@ladolceisola)', 1K+ followers, bio quoted as 'Wine Bar Caffetteria, Gelateria Yogurteria Piadineria Creperia, Via Michele Bianchi 20, Scalea (CS)' — same venue. The Maps listing itself exposes Instagram only through a google.com/goto redirect, not a plain URL."
+  },
+  "facebook": {
+   "url": "http://www.facebook.com/ladolceisola.scalea",
+   "source": "Given directly by Google as the business website on the Maps listing. A second Facebook page, 'Bar La Dolce Isola' (facebook.com/pages/Bar-La-Dolce-Isola), also appears in Google results for this venue."
+  },
+  "email": null
+ },
+ "placeIds": {
+  "hex": "0x133f1e239ad75e5b:0x4f9bd3f9bb310c25",
+  "cid": "ChIJW17XmiMePxMRJQwxu_nTm08",
+  "kg": "/g/11c3k56hrn"
+ },
+ "tripadvisor": {
+  "url": "https://www.tripadvisor.com/Restaurant_Review-g194909-d6965643-Reviews-La_Dolce_Isola-Scalea_Province_of_Cosenza_Calabria.html",
+  "rating": 4.3,
+  "reviewCount": 125,
+  "rank": "#22 of 96 restaurants in Scalea",
+  "source": "Linked from the Google knowledge panel, Oct 2026"
+ },
+ "reviews": [
+  {
+   "author": "Nikita Novikov",
+   "rating": 5,
+   "relativeDate": "a month ago",
+   "text": "Questa mattina abbiamo fatto colazione presso La Dolce Isola e l’esperienza è stata semplicemente eccellente.Abbiamo ordinato due croissant al cioccolato, un croissant al pistacchio, un cappuccino, un espresso, un caffè macchiato e una bottiglietta d’acqua da mezzo litro. Tutto era freschissimo, fragrante e preparato con grande cura. I croissant erano soffici e ricchi di farcitura, mentre il caffè era aromatico e perfettamente equilibrato, proprio come ci si aspetta da un autentico bar italiano.Il locale è elegante, curato in ogni dettaglio e situato nel cuore del centro di Scalea, in una posizione davvero ideale per concedersi una piacevole pausa durante una passeggiata. L’atmosfera è rilassante, il servizio è cordiale, professionale e attento alle esigenze dei clienti.Oltre all’eccellente colazione, colpisce la straordinaria varietà dell’offerta: una vasta selezione di gelati artigianali, coppe, dessert, crepes, bevande, cocktail, vini e caffetteria di alta qualità. Merita una menzione speciale anche l’enoteca, ricca di etichette per tutti i gusti, che rende questo locale un punto di riferimento non solo per la colazione, ma anche per un aperitivo o una serata in compagnia.La Dolce Isola è uno di quei posti che lasciano un ricordo davvero piacevole e dove si ha il desiderio di tornare. Consigliamo vivamente questo locale a chiunque si trovi a Scalea: qualità, cortesia, ampia scelta e una posizione centrale si uniscono per offrire un’esperienza di altissimo livello. Complimenti a tutto lo staff!Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5Noise levelQuiet, easy to talkGroup size1 person, 2 people, 3-4 peopleWait timeNo wait",
+   "language": "it"
+  },
+  {
+   "author": "Tom Feeney",
+   "rating": 5,
+   "relativeDate": "Edited a year ago",
+   "text": "Disappointed and Won’t Be Returning\n\nI used to really enjoy this wine bar a few years ago — it had charm, great value, and a fantastic atmosphere. Sadly, it’s gone downhill badly.\n\nThe quality just isn’t there anymore, and the prices have crept up to the point where it no longer feels remotely worth it. The staff were, frankly, quite strange — not welcoming or attentive, which only added to the awkwardness of the visit.\n\nIt’s a real shame, as this place once had so much potential. Thankfully, there are far better options in Scalea now for both wine and atmosphere. I won’t be going back.\nService: 2/5  |  Atmosphere: 2/5",
+   "language": "en"
+  },
+  {
+   "author": "Daniele Dei",
+   "rating": 5,
+   "relativeDate": "9 months ago",
+   "text": "Ottimo bar, enoteca nel passeggio di Scalea. Tavolini sotto gli ombrelloni con sedie comode e servizio super gentile.Ottimi vini bianchi albicchiere 😋Stuzzichini ottimi con l'aperitivo od il vino.Otima la salsa da accoppiare ai tacos, sembra così fresca xa pensarla fatta in casa.Sabato crespelle con acciughe.Tavi interni per gruppi e celebrazioni.Gelati per una colazione zutare e fresca.Fermati e non ti pentiraiFood: 5/5  |  Service: 5/5  |  Atmosphere: 5/5ReservationNot sureWait timeNo waitSeating typeIndoor dining area, Bar area, Outdoor patio / terrace, Booth seating, Private dining room",
+   "language": "it"
+  },
+  {
+   "author": "Carla Mangia",
+   "rating": 5,
+   "relativeDate": "5 months ago",
+   "text": "On the main street, a stylish place with outdoor seating. Excellent coffee at the counter, a friendly welcome. Next time I'm in Scalea, I'll try the gelato; they say it's excellent.Service: 5/5  |  Atmosphere: 5/5ReservationVaries by time/dayWait timeNo waitSeating typeIndoor dining area, Bar area, Outdoor patio / terrace, Private dining roomVegetarian optionsYesDietary restrictionsYesParking optionsFree of charge street parking, Paid street parkingKid-friendlinessYesWheelchair accessibilityYes",
+   "language": "en"
+  },
+  {
+   "author": "Angelica Sonetti",
+   "rating": 4,
+   "relativeDate": "2 years ago",
+   "text": "Bel locale sul corso di scalea. Buoni gli spritz piccanti, anche quello al cedro e al limoncello. Abbiamo accompagnato con un tagliere di salumi e formaggi calabresi molto buoni.  4 spritz, 2 taglieri, una fanta e un bitter rosso, 2 toast e 4 caffè, una crepes alla nutella. Eravamo 4 adulti e due bambini.  78€.... buon rapporto qualità prezzo. Ci torneremo.Food: 3/5  |  Service: 4/5  |  Atmosphere: 4/5Recommended dishesStuzzichini, Crepes Nutella",
+   "language": "it"
+  },
+  {
+   "author": "Arianna Dal Cero",
+   "rating": 5,
+   "relativeDate": "3 months ago",
+   "text": "In soggiorno a Scalea ci siamo fermati per un aperitivo.Consigliatissimo aperitivi buoni e molto curati nell aspetto con aggiunta compreso nel prezzo invitanti e buon stuzzichini! Spritz al cedro particolare ed elegante, spritz aperol classico e spritz al limoncello molto fresco, Complimenti per il servizio e la gentilezza!Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5Noise levelQuiet, easy to talkWait timeUp to 10 min",
+   "language": "it"
+  },
+  {
+   "author": "Valentina",
+   "rating": 5,
+   "relativeDate": "5 years ago",
+   "text": "Delizioso caffè in centro a Scalea. Qualità al top. Personale gentile ed efficiente.  Ci si siede ai tavoli e si attende il servizio che arriva immediatamente.  I cornetti sono buonissimi, ancora tiepidi, appena sfornati.  Vale la pena provare quelli con marmellata di cedro, specialità della zona. Io se fossi in voi ci farei un salto per un'immersione nella cultura locale. Quella gastronomica... ;-)",
+   "language": "it"
+  },
+  {
+   "author": "Gino Morgera",
+   "rating": 5,
+   "relativeDate": "2 years ago",
+   "text": "Bar situato nel corso pedonale di Scalea. Ideale per gustare un buon caffè, o un aperitivo. Anche i gelati sono davvero buoni. Personale gentile e cordiale , attento alle esigenze e richieste dei clienti clienti. Offre la possibilità di tavolini e divanetti anche all’aria aperta ideale soprattutto per quando ci sono le belle giornate.Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5",
+   "language": "it"
+  },
+  {
+   "author": "Filo",
+   "rating": 4,
+   "relativeDate": "a year ago",
+   "text": "Bar situato in un'area pedonale, camerieri gentili e disponibili. Colazione italiana molto buona, Spesa di 17€ per 4 persone, molto consigliato.Food: 4/5  |  Service: 4/5  |  Atmosphere: 3/5Noise levelModerate noiseGroup size1 person, 2 people, 3-4 peopleWait timeNo waitVegetarian optionsCornetti integrali alla fruttaKid-friendlinessSìWheelchair accessibilitySì",
+   "language": "it"
+  },
+  {
+   "author": "Nicola Allegretti",
+   "rating": 5,
+   "relativeDate": "2 years ago",
+   "text": "Sono anni che ho casa a Scalea e ho frequentato quasi tutti i locali tra cui la dolce isola che dire un locale storico di scalea arredamento bellissimo ben curato offre un'ottima colazione, buon caffè, gelati artigianali, cocktail etc .. personale gentile e competente da consigliare.Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5",
+   "language": "it"
+  },
+  {
+   "author": "Massimo Modenese",
+   "rating": 5,
+   "relativeDate": "a year ago",
+   "text": "Vastissima scelta di vini , amari , liquori , vino gelati . Lo consiglio . Servizio veloce personale davvero corteseFood: 5/5  |  Service: 4/5  |  Atmosphere: 4/5Noise levelQuiet, easy to talkWait timeUp to 10 minSeating typeIndoor dining area, Bar area, Outdoor patio / terrace, Counter seatingParkingZona pedonale",
+   "language": "it"
+  },
+  {
+   "author": "gianluca farace",
+   "rating": 4,
+   "relativeDate": "8 years ago",
+   "text": "Ottimo posto situato nel centro di Scalea quindi centralissimo ho avuto modo di andarci con la mia famiglia e devo dire che il personale è molto professionale e cordiale Soprattutto molto veloce nell'ordinazione il posto all'interno è molto gradevole locale consigliatissimo ideale per un buon caffè in famiglia",
+   "language": "it"
+  },
+  {
+   "author": "AMMI",
+   "rating": 5,
+   "relativeDate": "4 years ago",
+   "text": "Se siete in vacanza a Scalea,consiglio vivamente questo bar nel centro della città, precisamente nella zona pedonale.La ragazza che ci ha servito era molto gentile,essendo sola è cmq riuscita a garantire un buon servizio.Aperitivo con stucchichini, granita e crepes buoni con prezzi nella normaCONSIGLIATO",
+   "language": "it"
+  },
+  {
+   "author": "Izabela S",
+   "rating": 5,
+   "relativeDate": "2 months ago",
+   "text": "I visited the town of Scalea a few days ago, on July 9th. After exploring the historic center, I decided to grab a bite to eat. I chose La Dolce Isola. Delicious strawberry ice cream with a waffle cone. I arrived before 1 p.m. and was served immediately.Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5",
+   "language": "en"
+  },
+  {
+   "author": "Gab Marr",
+   "rating": 5,
+   "relativeDate": "4 years ago",
+   "text": "Cocco, ananas e rum sono gli ingredienti giusti per sentirsi catapultati in un'isola caraibica.. Ma perché spostarsi tanto, quando si possono trovare questi sentori in un Piña Colada fatto a regola d'arte a La Dolce Isola!\nAccompagnati da una selezione di stuzzichini per completare l'aperitivo",
+   "language": "it"
+  },
+  {
+   "author": "Oleksandr Komarov",
+   "rating": 5,
+   "relativeDate": "2 years ago",
+   "text": "Excellent cafe. They have delicious ice cream. There are three locations: outside, warm inside, and in a semi-open alley. Pleasant service and quality cocktails. In the historic center of Scalea. I recommend it.Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5Kid-friendlinessDelicious ice cream",
+   "language": "en"
+  },
+  {
+   "author": "Paola Casalino",
+   "rating": 5,
+   "relativeDate": "a month ago",
+   "text": "Per una colazione di qualità questo è il posto giusto. Ogni mattina era un piacere godere della colazione in tranquillità in questo locale. Consigliatissimo.Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5Noise levelQuiet, easy to talkWait time10-30 minSeating typeBar area, Booth seating",
+   "language": "it"
+  },
+  {
+   "author": "Nicola",
+   "rating": 5,
+   "relativeDate": "5 years ago",
+   "text": "Ottimo bar, con proprietario e dipendenti estremamente gentili e professionali, sito all'interno dell'isola pedonale al centro di Scalea offre una grande varietà di vini e ottimi cornetti per fare colazione.Il locale è molto curato e c'è una grande attenzione alla pulizia. Ottimo bar.",
+   "language": "it"
+  },
+  {
+   "author": "Valeria Limongi",
+   "rating": 5,
+   "relativeDate": "8 years ago",
+   "text": "This bar is always a hit, beautiful and the food is good. The aperitifs are generous and excellent, and the gelato, milkshakes, and sundaes are equally good. Great attention is paid to presentation. The staff is kind and friendly. Prices are reasonable.",
+   "language": "en"
+  },
+  {
+   "author": "Yuval Orr",
+   "rating": 5,
+   "relativeDate": "a year ago",
+   "text": "Dolce Isola is our favorite cafe and bar in Scalea. Owned by a lovely family and staffed by the friendliest servers, it is the perfect place for a coffee or aperitivo, at any time of the day or night!\nFood: 5/5  |  Service: 5/5  |  Atmosphere: 5/5",
+   "language": "en"
+  },
+  {
+   "author": "Laurent Currit",
+   "rating": 4,
+   "relativeDate": "7 years ago",
+   "text": "Bars are an institution in Calabria, and this one is no exception. A pleasant place to meet people. A wide selection of wines from all over Italy. Two rooms, one of which is for smokers. Ideal for an aperitif. Attentive service. Inexpensive.",
+   "language": "en"
+  },
+  {
+   "author": "Stanislava DITTRICHOVÁ",
+   "rating": 5,
+   "relativeDate": "a year ago",
+   "text": "Romantické prostředí pod ,, starým městem \". Příjemná obsluha a vítečné mlsání.Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5Noise levelQuiet, easy to talkGroup size1 person, 2 people, 3-4 people, 5-8 people, 9+ peopleWait timeNo wait",
+   "language": "cs"
+  },
+  {
+   "author": "Magdalena Pietrzak",
+   "rating": 5,
+   "relativeDate": "2 months ago",
+   "text": "I recommend it; it was our favorite place for an aperitif during our stay in Scalea. Friendly and efficient service. Plenty of options to choose from.Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5Wait timeUp to 10 min",
+   "language": "en"
+  },
+  {
+   "author": "Alessia Ilardi",
+   "rating": 5,
+   "relativeDate": "2 years ago",
+   "text": "Everything was excellent. The brioche with ice cream was divine!! And the guys abroad are good and kind.Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5Recommended dishesCoppe Gelato, Crepes Nutella",
+   "language": "en"
+  },
+  {
+   "author": "Alexandra Andrei",
+   "rating": 5,
+   "relativeDate": "2 years ago",
+   "text": "Very nice authentic place. Coppa is sensational, good drinks and they give you free snacks with your drink, which i find super nice\nFood: 5/5  |  Service: 5/5  |  Atmosphere: 5/5",
+   "language": "en"
+  },
+  {
+   "author": "xdobj14",
+   "rating": 5,
+   "relativeDate": "9 months ago",
+   "text": "Perfect bar with wonderful staff amazing gelato and nice cocktails. Good location near to historic center. Highly recommended :)\nFood: 5/5  |  Service: 5/5  |  Atmosphere: 5/5",
+   "language": "en"
+  },
+  {
+   "author": "Nathalie Petitjean",
+   "rating": 5,
+   "relativeDate": "9 years ago",
+   "text": "Great spot with a terrace overlooking the pedestrian zone and a smoking area, super friendly service and excellent food quality. Amazing taste... la dolce vita!! A must-try",
+   "language": "en"
+  },
+  {
+   "author": "Mariusz Plesiński",
+   "rating": 5,
+   "relativeDate": "2 months ago",
+   "text": "Delicious ice cream!!!!!We recommend it!!!!Food: 5/5  |  Service: 5/5  |  Atmosphere: 5/5Noise levelModerate noiseGroup sizeSuitable for all group sizesWait timeNo wait",
+   "language": "en"
+  },
+  {
+   "author": "Margo",
+   "rating": 5,
+   "relativeDate": "3 years ago",
+   "text": "great ice cream and amazing mousse coffee! i had a really nice time! stop by if you are around, you won’t regret :)\nFood: 5/5  |  Service: 5/5  |  Atmosphere: 5/5",
+   "language": "en"
+  },
+  {
+   "author": "Ar Bai",
+   "rating": 5,
+   "relativeDate": "7 years ago",
+   "text": "Одно из лучших кафе Скалеи. Всегда приветливые официанты и качественное обслуживание",
+   "language": "ru"
+  },
+  {
+   "author": "Olena Goro",
+   "rating": 4,
+   "relativeDate": "6 years ago",
+   "text": "Дуже гарний персонал. Чудове обслуговування",
+   "language": "ru"
+  }
+ ],
+ "dataNotes": [
+  "Google Maps' interactive app did not render in the automated browser (blank app shell, then a bot-check on google.com search). All venue facts come from Google's own listing payloads (google.com/search?tbm=map, hl=it and hl=en) and the rendered Google Search knowledge panel, which shows the same place.",
+  "Address numbering: Google's canonical address is Via Michele Bianchi, 30. Older/printed references and the Instagram bio say Via Michele Bianchi 20; PagineGialle prints both ('Via Michele Bianchi 20 / Via Michele Bianchi, 30'). Same premises.",
+  "Review texts are verbatim as displayed by Google, including Google's sub-ratings (Food/Service/Atmosphere) where the panel appended them. Where Google showed a translation, the extracted text is the version expanded in the panel.",
+  "Photos were taken from the Google 'See photos' viewer (All). Google did not expose per-photo category labels (Inside / Food & drink / By owner) for this listing, so every file is tagged 'all'."
+ ]
+}

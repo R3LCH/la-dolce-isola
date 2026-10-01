@@ -1,0 +1,290 @@
+{
+  "pages": [
+    {
+      "page": 10,
+      "categoryIds": [
+        "birre"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "Right page of spread; white/cream paper, single column list with prices right-aligned (printed slightly above each name line due to photo perspective). Gold/brown rounded pill heading 'Birre / Beers' top-centre-left. Tall pint glass of golden beer with foam photo along left edge (gutter side), partly cut by the gutter; left page edge (blue map, other worker) visible. Small orange bubble dots decor near heading. 'Birra Cala (Italia, Scalea)' is an unpriced sub-heading for the three Cala craft beers.",
+      "crops": [
+        {
+          "file": "dish-crops/p10-beer-glass.png",
+          "depicts": "Tall weizen/pint glass of golden beer with white foam head",
+          "relatedItemIds": [
+            "franziskaner-50",
+            "cala-citrusina",
+            "peroni-33"
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "birre",
+      "title": {
+        "it": "Birre",
+        "en": "Beers",
+        "ru": "Пиво",
+        "uk": "Пиво",
+        "pl": "Piwa",
+        "de": "Biere"
+      },
+      "pages": [
+        10
+      ],
+      "groups": [
+        {
+          "title": {
+            "it": "Birra Cala (Italia, Scalea)",
+            "en": "Birra Cala (Italy, Scalea)",
+            "ru": "Birra Cala (Италия, Скалея)",
+            "uk": "Birra Cala (Італія, Скалея)",
+            "pl": "Birra Cala (Włochy, Scalea)",
+            "de": "Birra Cala (Italien, Scalea)"
+          },
+          "items": [
+            {
+              "id": "cala-passione",
+              "name": "Cala Passione 33 cl",
+              "nameT": null,
+              "desc": {
+                "it": "4,8%, Bionda",
+                "en": "4,8%, Blonde",
+                "ru": "4,8%, светлое",
+                "uk": "4,8%, світле",
+                "pl": "4,8%, jasne",
+                "de": "4,8%, Hell"
+              },
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "cala-delirio",
+              "name": "Cala Delirio 33 cl",
+              "nameT": null,
+              "desc": {
+                "it": "7,2%, Rossa",
+                "en": "7,2%, Red",
+                "ru": "7,2%, красное",
+                "uk": "7,2%, червоне",
+                "pl": "7,2%, czerwone",
+                "de": "7,2%, Rot"
+              },
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "cala-citrusina",
+              "name": "Cala Citrusina 33 cl",
+              "nameT": null,
+              "desc": {
+                "it": "4,6%, Bianca",
+                "en": "4,6%, White (wheat)",
+                "ru": "4,6%, белое (пшеничное)",
+                "uk": "4,6%, біле (пшеничне)",
+                "pl": "4,6%, białe (pszeniczne)",
+                "de": "4,6%, Weiß (Weizen)"
+              },
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        },
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "peroni-33",
+              "name": "Peroni 33 cl",
+              "nameT": null,
+              "desc": {
+                "it": "4,7%, Italia",
+                "en": "4,7%, Italy",
+                "ru": "4,7%, Италия",
+                "uk": "4,7%, Італія",
+                "pl": "4,7%, Włochy",
+                "de": "4,7%, Italien"
+              },
+              "price": 3.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "nastro-azzurro-33",
+              "name": "Nastro Azzurro 33 cl",
+              "nameT": null,
+              "desc": {
+                "it": "5,1%, Italia",
+                "en": "5,1%, Italy",
+                "ru": "5,1%, Италия",
+                "uk": "5,1%, Італія",
+                "pl": "5,1%, Włochy",
+                "de": "5,1%, Italien"
+              },
+              "price": 3.5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "heineken-33",
+              "name": "Heineken 33 cl",
+              "nameT": null,
+              "desc": {
+                "it": "5%, Olanda",
+                "en": "5%, Netherlands",
+                "ru": "5%, Нидерланды",
+                "uk": "5%, Нідерланди",
+                "pl": "5%, Holandia",
+                "de": "5%, Niederlande"
+              },
+              "price": 4.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "peroni-gran-riserva-puro-malto-50",
+              "name": "Peroni Gran Riserva Puro Malto 50 cl",
+              "nameT": null,
+              "desc": {
+                "it": "5,2%, Italia",
+                "en": "5,2%, Italy",
+                "ru": "5,2%, Италия",
+                "uk": "5,2%, Італія",
+                "pl": "5,2%, Włochy",
+                "de": "5,2%, Italien"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "peroni-gran-riserva-rossa-50",
+              "name": "Peroni Gran Riserva Rossa 50 cl",
+              "nameT": null,
+              "desc": {
+                "it": "5,2%, Italia",
+                "en": "5,2%, Italy",
+                "ru": "5,2%, Италия",
+                "uk": "5,2%, Італія",
+                "pl": "5,2%, Włochy",
+                "de": "5,2%, Italien"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "corona-33",
+              "name": "Corona 33 cl",
+              "nameT": null,
+              "desc": {
+                "it": "4,6%, Messico",
+                "en": "4,6%, Mexico",
+                "ru": "4,6%, Мексика",
+                "uk": "4,6%, Мексика",
+                "pl": "4,6%, Meksyk",
+                "de": "4,6%, Mexiko"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "bjorne-33",
+              "name": "Bjorne 33 cl",
+              "nameT": null,
+              "desc": {
+                "it": "8,3%, Danimarca",
+                "en": "8,3%, Denmark",
+                "ru": "8,3%, Дания",
+                "uk": "8,3%, Данія",
+                "pl": "8,3%, Dania",
+                "de": "8,3%, Dänemark"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "ceres-33",
+              "name": "Ceres 33 cl",
+              "nameT": null,
+              "desc": {
+                "it": "7,7%, Danimarca",
+                "en": "7,7%, Denmark",
+                "ru": "7,7%, Дания",
+                "uk": "7,7%, Данія",
+                "pl": "7,7%, Dania",
+                "de": "7,7%, Dänemark"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "super-tennets-33",
+              "name": "Super Tennet's 33 cl",
+              "nameT": null,
+              "desc": {
+                "it": "9%, Scozia",
+                "en": "9%, Scotland",
+                "ru": "9%, Шотландия",
+                "uk": "9%, Шотландія",
+                "pl": "9%, Szkocja",
+                "de": "9%, Schottland"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "franziskaner-50",
+              "name": "Franziskaner 50 cl",
+              "nameT": null,
+              "desc": {
+                "it": "5%, Germania",
+                "en": "5%, Germany",
+                "ru": "5%, Германия",
+                "uk": "5%, Німеччина",
+                "pl": "5%, Niemcy",
+                "de": "5%, Deutschland"
+              },
+              "price": 6.0,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "ichnusa-non-filtrata-33",
+              "name": "Ichnusa non filtrata 33 cl",
+              "nameT": {
+                "it": "Ichnusa non filtrata 33 cl",
+                "en": "Ichnusa unfiltered 33 cl",
+                "ru": "Ichnusa нефильтрованное 33 cl",
+                "uk": "Ichnusa нефільтроване 33 cl",
+                "pl": "Ichnusa niefiltrowane 33 cl",
+                "de": "Ichnusa ungefiltert 33 cl"
+              },
+              "desc": {
+                "it": "5%, Italia",
+                "en": "5%, Italy",
+                "ru": "5%, Италия",
+                "uk": "5%, Італія",
+                "pl": "5%, Włochy",
+                "de": "5%, Italien"
+              },
+              "price": 5.0,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "pages": [
+    {
+      "page": 3,
+      "categoryIds": [
+        "aperitivi-pre-dinner"
+      ],
+      "continuesFrom": false,
+      "layoutNotes": "Left page of spread, single column on white paper. Gold/brown rounded pill heading top-left 'Aperitivi & Pre Dinner' with subtitle 'Aperitifs'. 19 items with right-aligned prices (€5,00–€8,00); small grey variant/ingredient lines under some names. Right edge: circular photo of passion-fruit/citrus cocktails continuing onto page 4 (same photo as p04-cocktails-passion-fruit.png, not re-cropped).",
+      "crops": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "aperitivi-pre-dinner",
+      "title": {
+        "it": "Aperitivi & Pre Dinner",
+        "en": "Aperitifs & Pre-Dinner",
+        "ru": "Аперитивы и напитки перед ужином",
+        "uk": "Аперитиви та напої перед вечерею",
+        "pl": "Aperitify i napoje przed kolacją",
+        "de": "Aperitifs & Pre-Dinner"
+      },
+      "pages": [
+        3
+      ],
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "id": "prosecco",
+              "name": "Prosecco",
+              "nameT": null,
+              "desc": null,
+              "price": 5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "campari-soda",
+              "name": "Campari Soda",
+              "nameT": null,
+              "desc": null,
+              "price": 5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "aperol-soda",
+              "name": "Aperol Soda",
+              "nameT": null,
+              "desc": null,
+              "price": 5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "crodino",
+              "name": "Crodino",
+              "nameT": null,
+              "desc": null,
+              "price": 5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "san-bitter",
+              "name": "San Bitter",
+              "nameT": null,
+              "desc": {
+                "it": "Rosso / Bianco",
+                "en": "Red / White",
+                "ru": "Красный / Белый",
+                "uk": "Червоний / Білий",
+                "pl": "Czerwony / Biały",
+                "de": "Rot / Weiß"
+              },
+              "price": 5,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "martini",
+              "name": "Martini",
+              "nameT": null,
+              "desc": {
+                "it": "Rosso / Bianco / Rosato",
+                "en": "Red / White / Rosé",
+                "ru": "Красный / Белый / Розовый",
+                "uk": "Червоний / Білий / Рожевий",
+                "pl": "Czerwony / Biały / Różowy",
+                "de": "Rot / Weiß / Rosé"
+              },
+              "price": 7,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "bellini-rossini-mimosa",
+              "name": "Bellini, Rossini, Mimosa",
+              "nameT": null,
+              "desc": null,
+              "price": 7,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "bitter-campari",
+              "name": "Bitter Campari",
+              "nameT": null,
+              "desc": null,
+              "price": 7,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "aperol",
+              "name": "Aperol",
+              "nameT": null,
+              "desc": null,
+              "price": 7,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "martini-royal",
+              "name": "Martini Royal",
+              "nameT": null,
+              "desc": {
+                "it": "Bianco / Rosato / Rosso",
+                "en": "White / Rosé / Red",
+                "ru": "Белый / Розовый / Красный",
+                "uk": "Білий / Рожевий / Червоний",
+                "pl": "Biały / Różowy / Czerwony",
+                "de": "Weiß / Rosé / Rot"
+              },
+              "price": 8,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "martini-tonic",
+              "name": "Martini & Tonic",
+              "nameT": null,
+              "desc": {
+                "it": "Bianco / Rosato / Rosso",
+                "en": "White / Rosé / Red",
+                "ru": "Белый / Розовый / Красный",
+                "uk": "Білий / Рожевий / Червоний",
+                "pl": "Biały / Różowy / Czerwony",
+                "de": "Weiß / Rosé / Rot"
+              },
+              "price": 8,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "martini-cocktail",
+              "name": "Martini Cocktail",
+              "nameT": null,
+              "desc": {
+                "it": "Gin, Vermout dry",
+                "en": "Gin, dry vermouth",
+                "ru": "Джин, сухой вермут",
+                "uk": "Джин, сухий вермут",
+                "pl": "Gin, wytrawny wermut",
+                "de": "Gin, trockener Wermut"
+              },
+              "price": 8,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "apertass",
+              "name": "Apertass",
+              "nameT": null,
+              "desc": null,
+              "price": 8,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "spritz-aperol",
+              "name": "Spritz Aperol",
+              "nameT": null,
+              "desc": null,
+              "price": 8,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "spritz-campari",
+              "name": "Spritz Campari",
+              "nameT": null,
+              "desc": null,
+              "price": 8,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "spritz-al-cedro",
+              "name": "Spritz al Cedro",
+              "nameT": {
+                "it": "Spritz al Cedro",
+                "en": "Citron Spritz",
+                "ru": "Шприц с цедратом",
+                "uk": "Шприц із цедратом",
+                "pl": "Spritz z cedratem",
+                "de": "Zitronat-Spritz"
+              },
+              "desc": null,
+              "price": 8,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "spritz-al-limoncello",
+              "name": "Spritz al limoncello",
+              "nameT": {
+                "it": "Spritz al limoncello",
+                "en": "Limoncello Spritz",
+                "ru": "Шприц с лимончелло",
+                "uk": "Шприц з лимончело",
+                "pl": "Spritz z limoncello",
+                "de": "Limoncello-Spritz"
+              },
+              "desc": null,
+              "price": 8,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "spritz-piccante",
+              "name": "Spritz piccante",
+              "nameT": {
+                "it": "Spritz piccante",
+                "en": "Spicy Spritz",
+                "ru": "Острый шприц",
+                "uk": "Гострий шприц",
+                "pl": "Pikantny Spritz",
+                "de": "Scharfer Spritz"
+              },
+              "desc": null,
+              "price": 8,
+              "priceNote": null,
+              "uncertain": false
+            },
+            {
+              "id": "spritz-hugo",
+              "name": "Spritz Hugo",
+              "nameT": null,
+              "desc": {
+                "it": "Prosecco, tonica, fiori di sambuco",
+                "en": "Prosecco, tonic water, elderflower",
+                "ru": "Просекко, тоник, цветки бузины",
+                "uk": "Просекко, тонік, квіти бузини",
+                "pl": "Prosecco, tonik, kwiat czarnego bzu",
+                "de": "Prosecco, Tonic, Holunderblüten"
+              },
+              "price": 8,
+              "priceNote": null,
+              "uncertain": false
+            }
+          ]
+        }
+      ],
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "La Dolce Isola · Café, Wine Bar, Gelato in Scalea",
+    "description": "Bar, café, wine bar, gelateria and crêperie on the pedestrian street of Scalea. Open every day from 07:00 to 03:00. Browse the menu in six languages."
+  },
+  "nav": {
+    "home": "La Dolce Isola, back to top",
+    "menu": "Menu",
+    "openMenu": "Open the menu",
+    "language": "Site language",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "kicker": "Café · Wine bar · Gelateria · Crêperie",
+    "line1": "From the first coffee",
+    "line2a": "to the last ",
+    "line2b": "glass.",
+    "sub": "On the pedestrian street of Scalea, every day from 7 in the morning to 3 at night.",
+    "cta": "Open the menu",
+    "where": "Find us",
+    "posterAlt": "The blue and white majolica tile with the La Dolce Isola script"
+  },
+  "teaser": {
+    "kicker": "The menu",
+    "title": "Twenty-one pages to leaf through, as if at the table.",
+    "lead": "The full menu in six languages, with prices and photos of the dishes.",
+    "all": "Browse the whole menu",
+    "count_one": "{{count}} item",
+    "count_other": "{{count}} items",
+    "open": "Open {{name}} in the menu",
+    "blurb": {
+      "caffetteria": "Espresso, cappuccino and still-warm cornetti.",
+      "cocktail-long-drinks": "Spritz, mojito and the great classics.",
+      "gelato": "Artisan gelato coppe, made to be looked at first.",
+      "crepes": "Sweet crêpes, made to order.",
+      "selezione-vini": "Whites, reds and rosés, many from Calabria.",
+      "food": "Focaccia, boards and fish tartare."
+    }
+  },
+  "about": {
+    "kicker": "The house",
+    "title1": "A yellow parlour",
+    "title2": "in the heart of the corso.",
+    "body": "Sun-coloured walls, a walnut and marble counter, crystal chandeliers. Coffee and cornetti in the morning, artisan gelato and crêpes in the afternoon, Calabrian wines by the glass and cocktails under the umbrellas at night.",
+    "facts": [
+      { "value": "07 · 03", "label": "open every day" },
+      { "value": "Gelato", "label": "made in house daily" },
+      { "value": "Enoteca", "label": "Calabrian wines by the glass" }
+    ],
+    "barAlt": "The walnut bar counter with cream tufted panels and a marble top, yellow walls",
+    "barCaption": "The counter",
+    "wineAlt": "The wine corner with shelves of bottles, a tufted table and the oval La Dolce Isola plaque",
+    "wineCaption": "The enoteca"
+  },
+  "reviews": {
+    "kicker": "What guests say",
+    "title": "In our guests' own words.",
+    "googleLabel": "on Google",
+    "googleCount": "{{count}} reviews",
+    "googleLink": "Read on Google",
+    "taLabel": "on Tripadvisor",
+    "taScore": "{{score}} of 5",
+    "taCount": "{{count}} reviews",
+    "taRank": "#{{rank}} of {{of}} restaurants in Scalea",
+    "taLink": "Read on Tripadvisor",
+    "stars": "{{score}} out of 5 stars",
+    "bubbles": "{{score}} out of 5 bubbles",
+    "region": "Google reviews, in their original language",
+    "pause": "Pause",
+    "play": "Play",
+    "source": "Google reviews in their original language"
+  },
+  "location": {
+    "kicker": "Find us",
+    "hoursLabel": "Hours",
+    "hours": "Every day {{hours}}",
+    "directions": "Directions",
+    "openMaps": "Open in Google Maps",
+    "mapTitle": "Map of La Dolce Isola, Via Michele Bianchi 30, Scalea",
+    "note": "On the pedestrian corso, a short walk from the old town."
+  },
+  "contacts": {
+    "kicker": "Contact",
+    "title": "Write, call, or simply drop by.",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "whatsappValue": "Chat with us",
+    "emailSubject": "Information"
+  },
+  "footer": {
+    "tagline": "Bar, café, wine bar, gelateria and crêperie in Scalea.",
+    "rights": "© {{year}} La Dolce Isola",
+    "top": "Back to top",
+    "menu": "Menu"
+  },
+  "transition": {
+    "loading": "Opening the menu"
+  },
+  "langs": {
+    "it": "Italian",
+    "en": "English",
+    "ru": "Russian",
+    "uk": "Ukrainian",
+    "pl": "Polish",
+    "de": "German"
+  }
+}
