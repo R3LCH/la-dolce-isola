@@ -199,10 +199,11 @@ function NodeRenderer({ node, lang }: NodeProps) {
       .map((cell, ci) => ({ cell, ci, w: node.widths[ci] }))
       .filter(({ cell }) => cell.t !== 'photo')
     if (visibleCells.length === 0) return null
+    const totalW = visibleCells.reduce((sum, { w }) => sum + w, 0)
     return (
       <div className="flex min-w-0 overflow-hidden">
         {visibleCells.map(({ cell, ci, w }) => (
-          <div key={ci} style={{ width: `${w}%`, minWidth: 0, overflow: 'hidden', flexShrink: 0 }}>
+          <div key={ci} style={{ width: `${(w / totalW) * 100}%`, minWidth: 0, overflow: 'hidden', flexShrink: 0 }}>
             <NodeRenderer node={cell} lang={lang} />
           </div>
         ))}
@@ -460,9 +461,9 @@ function NavBtn({
       onClick={onClick}
       className={[
         'flex items-center justify-center w-10 h-10 md:w-12 md:h-12 shrink-0 rounded-full',
-        'bg-[var(--color-paper-2)]/80 backdrop-blur-sm border border-[var(--color-ink)]/10',
+        'md:bg-[var(--color-paper-2)]/80 md:backdrop-blur-sm md:border md:border-[var(--color-ink)]/10',
         'transition-opacity duration-150',
-        disabled ? 'opacity-20 pointer-events-none' : 'hover:bg-[var(--color-paper)] active:scale-95',
+        disabled ? 'opacity-20 pointer-events-none' : 'md:hover:bg-[var(--color-paper)] active:scale-95',
       ].join(' ')}
     >
       <svg
@@ -639,7 +640,14 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
           <span className="hidden sm:inline">{strings.back}</span>
         </a>
 
-        <p className="truncate min-w-0 font-display text-[var(--color-sun)] text-sm font-normal tracking-widest sm:text-base">
+        <a
+          href="#/"
+          className="md:hidden flex items-center justify-center shrink-0"
+          aria-label={strings.back}
+        >
+          <img src="/logo-header.svg" alt="La Dolce Isola" className="h-7 w-auto" />
+        </a>
+        <p className="hidden md:block truncate min-w-0 font-display text-[var(--color-sun)] text-sm font-normal tracking-widest sm:text-base">
           La Dolce Isola — {strings.menu}
         </p>
 
