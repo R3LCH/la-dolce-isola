@@ -82,14 +82,14 @@ export function Contacts() {
         </div>
 
         <div className="md:col-span-7">
-          <ul className="grid grid-cols-2 gap-3 md:gap-4">
+          <ul className="grid auto-rows-fr grid-cols-2 gap-3 md:gap-4">
             {channels.map(({ key, href, value, Icon, external, note, wide, bordeaux }) => (
               <li key={key} data-reveal="" className={wide ? 'col-span-2' : undefined}>
                 <a
                   href={href}
                   {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                   className={[
-                    `press contact-row relative flex min-h-[84px] gap-4 rounded-[20px] border bg-paper p-4 md:p-5 ${wide ? 'items-center' : 'flex-col items-start sm:flex-row sm:items-center'}`,
+                    `press contact-row relative flex h-full min-h-[84px] gap-4 rounded-[20px] border bg-paper p-4 md:p-5 ${wide ? 'items-center' : 'flex-col items-start sm:flex-row sm:items-center'}`,
                     bordeaux ? 'border-[var(--color-bordeaux)]/25' : 'border-ink/10',
                   ].join(' ')}
                 >
