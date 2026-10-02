@@ -42,6 +42,11 @@
   -webkit-font-smoothing: antialiased;
 }
 
+/* Bodoni display cuts: larger optical size so hairlines stay readable at headline scale. */
+[class*="font-display"] {
+  font-optical-sizing: auto;
+}
+
 body {
   margin: 0;
   min-height: 100dvh;

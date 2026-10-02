@@ -11,9 +11,9 @@ export function Footer() {
       <Swirl variant="vine" still weight={1.1} className="pointer-events-none absolute -top-4 left-0 w-[260%] text-paper/10 md:w-[130%]" />
       <div className="relative mx-auto max-w-[1360px]">
         <p className="font-script text-[clamp(3.5rem,16vw,9rem)] leading-[0.9] text-paper">La Dolce Isola</p>
-        <p className="mt-4 max-w-[40ch] text-[15px] text-paper/70">{t('footer.tagline')}</p>
+        <p className="mt-4 max-w-[40ch] text-[15px] font-medium text-paper/80">{t('footer.tagline')}</p>
 
-        <div className="mt-14 grid gap-8 border-t border-paper/15 pt-8 text-[14px] text-paper/75 sm:grid-cols-3">
+        <div className="mt-14 grid gap-8 border-t border-paper/15 pt-8 text-[14px] font-medium text-paper/85 sm:grid-cols-3">
           <address className="not-italic">
             {VENUE.address}
             <br />
@@ -21,6 +21,8 @@ export function Footer() {
           </address>
           <p>
             {t('location.hours', { hours: VENUE.hours })}
+            <br />
+            {t('location.closed')}
             <br />
             <a href={VENUE.phoneHref} className="underline decoration-paper/30 underline-offset-4">
               {VENUE.phoneDisplay}
@@ -37,6 +39,17 @@ export function Footer() {
               className="min-h-11"
             >
               Instagram
+            </a>
+            <a
+              href={VENUE.whatsappHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="min-h-11"
+            >
+              WhatsApp
+            </a>
+            <a href={`mailto:${VENUE.email}`} className="min-h-11">
+              {t('contacts.email')}
             </a>
             <a
               href="#top"

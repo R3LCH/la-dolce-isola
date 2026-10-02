@@ -81,12 +81,12 @@ export function Hero() {
           <h1
             key={i18n.resolvedLanguage}
             data-hero-title=""
-            className="font-display text-[clamp(2.6rem,11.5vw,4rem)] leading-[0.98] font-normal tracking-[-0.02em] text-balance md:text-[clamp(4rem,6.6vw,7.25rem)]"
+            className="font-display text-[clamp(2.6rem,11.5vw,4rem)] leading-[0.98] font-medium tracking-[-0.02em] text-balance md:text-[clamp(4rem,6.6vw,7.25rem)]"
           >
             {t('hero.line1')}{' '}
             <br />
             {t('hero.line2a')}
-            <em className="font-normal text-sun italic">{t('hero.line2b')}</em>
+            <em className="font-medium text-sun italic">{t('hero.line2b')}</em>
           </h1>
           <p data-hero-fade="" className="mt-5 max-w-[34ch] text-[15px] leading-relaxed text-paper/80 md:mt-7 md:text-[17px]">
             {t('hero.sub')}

@@ -71,7 +71,7 @@ export function About() {
             <h2
               id="about-title"
               data-reveal=""
-              className="mt-4 font-display text-[clamp(2rem,8.4vw,2.75rem)] leading-[1.04] font-normal tracking-[-0.015em] text-balance md:text-[clamp(2.75rem,4.4vw,4.25rem)]"
+              className="mt-4 font-display text-[clamp(2rem,8.4vw,2.75rem)] leading-[1.04] font-medium tracking-[-0.015em] text-balance md:text-[clamp(2.75rem,4.4vw,4.25rem)]"
             >
               {t('about.title1')}
               <br />

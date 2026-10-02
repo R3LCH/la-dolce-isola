@@ -48,7 +48,7 @@ export function Header() {
         dark ? 'text-paper' : 'border-b border-ink/10 bg-paper/80 text-ink backdrop-blur-md'
       }`}
     >
-      <div className="mx-auto grid h-16 max-w-[1600px] grid-cols-[1fr_auto_1fr] items-center gap-2 overflow-hidden px-3 sm:px-4 md:h-[72px] md:gap-3 md:px-8">
+      <div className="mx-auto grid h-16 max-w-[1600px] grid-cols-[1fr_auto_1fr] items-center gap-2 px-3 sm:px-4 md:h-[72px] md:gap-3 md:px-8">
         <div role="group" aria-label={t('nav.language')} className="flex min-w-0 items-center justify-self-start text-[12px] font-semibold tracking-[0.14em] md:text-[13px]">
           {SITE_LANGS.map((l, i) => (
             <span key={l} className="flex items-center">
@@ -76,9 +76,14 @@ export function Header() {
             scrollToId('top')
           }}
           aria-label={t('nav.home')}
-          className="font-script text-[23px] leading-none whitespace-nowrap min-[420px]:text-[28px] md:text-[34px]"
+          className="flex items-center justify-self-center py-1"
         >
-          La Dolce Isola
+          <img
+            src={`${import.meta.env.BASE_URL}logo-header.png`}
+            alt="La Dolce Isola"
+            className={`h-9 w-auto md:h-11 transition-[filter] duration-300 ${dark ? 'brightness-0 invert' : ''}`}
+            draggable={false}
+          />
         </a>
 
         <a

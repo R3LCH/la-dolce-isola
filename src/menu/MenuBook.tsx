@@ -85,10 +85,10 @@ function Block({ spec, lang }: BlockProps) {
     <div className="mb-3 last:mb-0">
       {showPill && (
         <div
-          className="mb-2 inline-flex items-center gap-1.5 rounded-full px-3 py-0.5 text-[10px] font-bold uppercase tracking-[0.2em]"
+          className="mb-2 inline-flex max-w-full items-center gap-1.5 overflow-hidden rounded-full px-3 py-0.5 text-[10px] font-bold uppercase leading-tight tracking-[0.12em] break-words"
           style={{ background: pillC, color: '#fff' }}
         >
-          {cat.title[lang]}
+          <span className="min-w-0 break-words">{cat.title[lang]}</span>
           {spec.pillPrice && groups.length > 0 && (() => {
             const allItems = groups.flatMap((g) => g.items)
             const u = uniformPrice(allItems)
@@ -124,7 +124,7 @@ function Block({ spec, lang }: BlockProps) {
             {isCompact ? (
               <div className="grid grid-cols-2 gap-x-3 gap-y-0.5">
                 {grp.items.map((item, ii) => (
-                  <p key={ii} className="text-[10px] leading-tight text-[var(--color-ink)]">
+                  <p key={ii} className="text-[10px] leading-tight text-[var(--color-ink)] break-words overflow-hidden">
                     {item.nameT ? item.nameT[lang] : item.name}
                   </p>
                 ))}
@@ -138,10 +138,13 @@ function Block({ spec, lang }: BlockProps) {
                 if (spec.wine) {
                   const parts = item.priceNote?.split('/').map((s) => s.trim()) ?? []
                   return (
-                    <div key={ii} className="grid grid-cols-[1fr_auto_auto] items-baseline gap-x-2 py-[2px]">
-                      <span className="text-[10px] leading-tight">{name}</span>
-                      <span className="text-[10px] tabular-nums text-[var(--color-ink-2)]">{parts[0] ?? ''}</span>
-                      <span className="text-[10px] tabular-nums text-[var(--color-ink-2)]">{parts[1] ?? ''}</span>
+                    <div key={ii} className="py-[2px] overflow-hidden">
+                      <span className="block text-[10px] leading-tight break-words">{name}</span>
+                      {(parts[0] || parts[1]) && (
+                        <span className="block text-[9px] leading-tight tabular-nums text-[var(--color-ink-2)]">
+                          {[parts[0], parts[1]].filter(Boolean).join(' · ')}
+                        </span>
+                      )}
                     </div>
                   )
                 }
@@ -152,16 +155,16 @@ function Block({ spec, lang }: BlockProps) {
                       {spec.leader ? (
                         <span className="flex items-baseline gap-1 text-[10px] leading-snug">
                           {num != null && <span className="text-[var(--color-ink-2)] w-4 shrink-0">{num}.</span>}
-                          <span>{name}</span>
+                          <span className="break-words leading-tight min-w-0">{name}</span>
                           <span className="flex-1 border-b border-dotted border-[var(--color-ink)]/25 self-end mb-[3px]" />
                         </span>
                       ) : (
-                        <span className="block text-[10px] leading-snug">
+                        <span className="block text-[10px] leading-snug break-words overflow-hidden">
                           {num != null && <span className="mr-1 text-[var(--color-ink-2)]">{num}.</span>}
                           {name}
                         </span>
                       )}
-                      {desc && <p className="text-[9px] leading-tight text-[var(--color-ink)]/55">{desc}</p>}
+                      {desc && <p className="text-[9px] leading-tight text-[var(--color-ink)]/55 break-words overflow-hidden">{desc}</p>}
                     </div>
                     {!spec.groupPrice && !spec.pillPrice && item.price != null && (
                       <span className={`tabular-nums text-[10px] text-[var(--color-ink-2)] shrink-0 ${spec.priceBelow ? 'block mt-0.5' : ''}`}>
@@ -197,9 +200,9 @@ function NodeRenderer({ node, lang }: NodeProps) {
       .filter(({ cell }) => cell.t !== 'photo')
     if (visibleCells.length === 0) return null
     return (
-      <div className="flex gap-2">
+      <div className="flex min-w-0 overflow-hidden">
         {visibleCells.map(({ cell, ci, w }) => (
-          <div key={ci} style={{ width: `${w}%`, flexShrink: 0 }}>
+          <div key={ci} style={{ width: `${w}%`, minWidth: 0, overflow: 'hidden', flexShrink: 0 }}>
             <NodeRenderer node={cell} lang={lang} />
           </div>
         ))}
@@ -212,7 +215,7 @@ function NodeRenderer({ node, lang }: NodeProps) {
     const pillC = pillColor(cat.pages[0] ?? 1)
     return (
       <p
-        className="text-[11px] font-bold uppercase tracking-[0.22em]"
+        className="text-[11px] font-bold uppercase tracking-[0.22em] break-words overflow-hidden"
         style={{ color: pillC }}
       >
         {cat.title[lang]}
@@ -223,7 +226,7 @@ function NodeRenderer({ node, lang }: NodeProps) {
   if (node.t === 'note') {
     const cat = category(node.cat)
     return cat.notes ? (
-      <p className="text-[9px] italic opacity-55 leading-snug">{cat.notes[lang]}</p>
+      <p className="text-[9px] italic opacity-55 leading-snug break-words overflow-hidden">{cat.notes[lang]}</p>
     ) : null
   }
 
@@ -254,7 +257,7 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
     : 'bg-[var(--color-paper)] text-[var(--color-ink)]'
 
   return (
-    <div className={`relative h-full w-full overflow-hidden ${bg} p-3`}>
+    <div className={`relative h-full w-full overflow-hidden ${bg} p-2`}>
       {/* head nodes */}
       {spec.head?.map((node, ni) => (
         <NodeRenderer key={ni} node={node} lang={lang} />
@@ -265,15 +268,17 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
 
       {/* columns */}
       {/* columns — skip cols whose nodes are all photos or spacers */}
-      <div className="relative z-10 flex h-full gap-2 md:gap-4">
+      <div className="relative z-10 flex h-full min-w-0 overflow-hidden" style={{ gap: 0 }}>
         {spec.cols.map((col: Col, ci) => {
           const hasContent = col.nodes.some((n) => n.t !== 'photo' && n.t !== 'spacer')
           if (!hasContent) return null
+          const captionOnly = col.nodes.every((n) => n.t === 'photo' || n.t === 'spacer' || n.t === 'caption')
+          if (captionOnly) return null
           return (
             <div
               key={ci}
-              style={{ width: `${col.w}%`, flexShrink: 0 }}
-              className={`flex flex-col ${
+              style={{ width: `${col.w}%`, minWidth: 0, overflow: 'hidden', flexShrink: 0 }}
+              className={`flex flex-col min-w-0 overflow-hidden ${
                 col.dark ? 'bg-[var(--color-night)]/80 rounded-lg p-2' : ''
               } ${
                 col.justify === 'end' ? 'justify-end' : col.justify === 'center' ? 'justify-center' : 'justify-start'
@@ -313,6 +318,7 @@ type RailProps = {
 
 function CategoryRail({ categories, activeCatId, lang, collapsed, onCollapsed, onSelect }: RailProps) {
   const railRef = useRef<HTMLDivElement>(null)
+  const portrait = typeof window !== 'undefined' && window.innerWidth < 768
 
   // keyboard: escape collapses
   const onKey = (e: KeyboardEvent) => {
@@ -323,13 +329,15 @@ function CategoryRail({ categories, activeCatId, lang, collapsed, onCollapsed, o
     <div
       ref={railRef}
       className={[
-        'relative flex flex-col bg-[var(--color-paper-2)]/90 backdrop-blur-sm',
+        'flex flex-col bg-[var(--color-paper-2)]/90 backdrop-blur-sm',
         'transition-[width] duration-300',
-        collapsed ? 'w-6 md:w-7' : 'w-44 md:w-52',
-        'h-full shrink-0 overflow-hidden rounded-l-xl md:rounded-l-2xl',
+        collapsed
+          ? 'hidden md:relative md:flex md:w-7'
+          : 'absolute left-2 top-2 bottom-2 z-30 w-44 shadow-2xl md:static md:inset-auto md:relative md:z-auto md:w-52 md:shadow-none',
+        'h-auto md:h-full shrink-0 overflow-hidden rounded-xl md:rounded-l-2xl md:rounded-r-none',
       ].join(' ')}
-      onMouseEnter={() => onCollapsed(false)}
-      onMouseLeave={() => onCollapsed(true)}
+      onMouseEnter={() => { if (!portrait) onCollapsed(false) }}
+      onMouseLeave={() => { if (!portrait) onCollapsed(true) }}
       onFocus={() => onCollapsed(false)}
       onBlur={(e) => {
         if (!railRef.current?.contains(e.relatedTarget as HTMLElement | null)) onCollapsed(true)
@@ -344,13 +352,12 @@ function CategoryRail({ categories, activeCatId, lang, collapsed, onCollapsed, o
         className="flex items-center justify-center w-full h-8 shrink-0 text-[var(--color-ink-2)] hover:text-[var(--color-ink)] transition-colors"
         onClick={() => onCollapsed(!collapsed)}
         aria-label={collapsed ? 'Show categories' : 'Hide categories'}
+        title={collapsed ? 'Show categories' : 'Hide categories'}
         tabIndex={0}
       >
         {collapsed ? (
-          <svg viewBox="0 0 16 16" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-            <line x1="3" y1="8" x2="13" y2="8" />
-            <line x1="3" y1="4" x2="13" y2="4" />
-            <line x1="3" y1="12" x2="13" y2="12" />
+          <svg viewBox="0 0 16 16" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="5,3 11,8 5,13" />
           </svg>
         ) : (
           <svg viewBox="0 0 16 16" className="w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
@@ -399,6 +406,7 @@ function CategoryRail({ categories, activeCatId, lang, collapsed, onCollapsed, o
                   : 'text-[var(--color-ink)]/60 hover:text-[var(--color-ink)]',
               ].join(' ')}
               onClick={() => onSelect(cat.id)}
+              aria-label={cat.title[lang]}
               aria-current={isActive ? 'true' : undefined}
             >
               <span
@@ -481,7 +489,9 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
 
   const [lang, setLang] = useState<MenuLang>(initialMenuLang)
   const [currentPage, setCurrentPage] = useState(1) // 1-based printed page
-  const [railCollapsed, setRailCollapsed] = useState(true)
+  const [railCollapsed, setRailCollapsed] = useState(() =>
+    typeof window !== 'undefined' && window.innerWidth < 768,
+  )
   const [bookSize, setBookSize] = useState({ w: 400, h: 560 })
   const [loaded, setLoaded] = useState(false)
   const [isPortrait, setIsPortrait] = useState(false)
@@ -497,12 +507,19 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
     const portrait = vw < 768
 
     // Landscape: two pages side by side; portrait: one page
-    const availW = vw - (portrait ? 48 : 96) - (railCollapsed ? 28 : (portrait ? 176 : 208))
-    const availH = vh - 120 // toolbar + nav arrows
+    const availW = vw - (portrait ? 16 : 128) - (railCollapsed ? (portrait ? 0 : 28) : (portrait ? 0 : 208))
+    const availH = vh - (portrait ? 56 : 120) // toolbar (+ nav arrows landscape only)
 
     const pagesInSpread = portrait ? 1 : 2
-    const pageW = Math.min(Math.floor(availW / pagesInSpread), 480)
-    const pageH = Math.min(availH, Math.round(pageW * 1.1)) // compact ratio — no photos
+    // Portrait: fill height first, then derive width; landscape: fill width first
+    let pageW: number, pageH: number
+    if (portrait) {
+      pageH = availH
+      pageW = Math.min(Math.floor(availW), Math.floor(pageH / 1.35))
+    } else {
+      pageW = Math.min(Math.floor(availW / pagesInSpread), 480)
+      pageH = Math.min(availH, Math.round(pageW * 1.1))
+    }
 
     setIsPortrait(portrait)
     setBookSize({ w: pageW, h: pageH })
@@ -626,13 +643,26 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
           La Dolce Isola — {strings.menu}
         </p>
 
-        <div className="overflow-x-auto shrink-0" style={{ scrollbarWidth: 'none' }}>
-          <LangSwitcher lang={lang} strings={strings} onChange={handleLangChange} />
+        <div className="flex items-center gap-2 shrink-0">
+          {isPortrait && railCollapsed && (
+            <button
+              type="button"
+              className="md:hidden shrink-0 rounded-full border border-white/15 px-2.5 py-1 text-[10px] font-medium tracking-wide text-[var(--color-paper)]/80 hover:text-[var(--color-paper)]"
+              onClick={() => setRailCollapsed(false)}
+              aria-label={strings.showCategories}
+              title={strings.showCategories}
+            >
+              {strings.categories}
+            </button>
+          )}
+          <div className="overflow-x-auto shrink-0" style={{ scrollbarWidth: 'none' }}>
+            <LangSwitcher lang={lang} strings={strings} onChange={handleLangChange} />
+          </div>
         </div>
       </div>
 
       {/* ── book area ── */}
-      <div className="flex flex-1 min-h-0 items-center justify-center gap-2 md:gap-4 px-2 md:px-4 py-2">
+      <div className="relative flex flex-1 min-h-0 items-center justify-center gap-1 md:gap-4 px-2 md:px-4 py-2 overflow-hidden">
         {/* category rail */}
         <CategoryRail
           categories={MENU_CATEGORIES}
@@ -643,70 +673,95 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
           onSelect={handleCategorySelect}
         />
 
-        {/* prev button */}
-        <NavBtn
-          dir="prev"
-          label={strings.prev}
-          onClick={() => bookRef.current?.flipPrev()}
-          disabled={atFirst}
-        />
+        <div className="relative flex items-center justify-center min-w-0">
+          {!isPortrait && (
+            <NavBtn
+              dir="prev"
+              label={strings.prev}
+              onClick={() => bookRef.current?.flipPrev()}
+              disabled={atFirst}
+            />
+          )}
 
-        {/* flipbook */}
-        <div
-          className="relative flex-shrink-0 shadow-2xl rounded-xl overflow-hidden"
-          onPointerDown={handleBookInteract}
-          style={{ width: bookSize.w * (isPortrait ? 1 : 2), height: bookSize.h }}
-        >
-          {/* live region for screen readers */}
+          {/* flipbook */}
           <div
-            className="sr-only"
-            role="status"
-            aria-live="polite"
-            aria-atomic="true"
+            className="book-frame relative flex-shrink-0 shadow-2xl rounded-xl overflow-hidden"
+            onPointerDown={handleBookInteract}
+            style={{ width: bookSize.w * (isPortrait ? 1 : 2), height: bookSize.h }}
           >
-            {strings.pages(
-              isPortrait ? [currentPage] : [currentPage, Math.min(currentPage + 1, totalPages)],
-              totalPages,
-            )}
+            {/* live region for screen readers */}
+            <div
+              className="sr-only"
+              role="status"
+              aria-live="polite"
+              aria-atomic="true"
+            >
+              {strings.pages(
+                isPortrait ? [currentPage] : [currentPage, Math.min(currentPage + 1, totalPages)],
+                totalPages,
+              )}
+            </div>
+
+            <HTMLFlipBook
+              ref={bookRef}
+              width={bookSize.w}
+              height={bookSize.h}
+              sizing="fixed"
+              maxShadowOpacity={0.4}
+              hardCovers={false}
+              allowTouchScroll={true}
+              flippingTime={prefersReducedMotion() ? 0 : 700}
+              usePortrait={isPortrait}
+              initialPage={0}
+              drawShadow={true}
+              autoSize={false}
+              respectInteractiveContent={true}
+              pointerInput={['mouse', 'touch', 'pen']}
+              swipeDistance={30}
+              foldCornerOnHover={true}
+              flipOnClick="anywhere"
+              className="book-root"
+              onLoaded={onLoaded}
+              onPageChange={onPageChange}
+            >
+              {PAGE_SPECS.map((spec) => (
+                <div key={spec.page} className="page-wrapper" style={{ height: '100%' }}>
+                  <PageLeaf spec={spec} lang={lang} />
+                </div>
+              ))}
+            </HTMLFlipBook>
           </div>
 
-          <HTMLFlipBook
-            ref={bookRef}
-            width={bookSize.w}
-            height={bookSize.h}
-            sizing="fixed"
-            maxShadowOpacity={0.4}
-            hardCovers={false}
-            allowTouchScroll={true}
-            flippingTime={prefersReducedMotion() ? 0 : 700}
-            usePortrait={isPortrait}
-            initialPage={0}
-            drawShadow={true}
-            autoSize={false}
-            respectInteractiveContent={true}
-            pointerInput={['mouse', 'touch', 'pen']}
-            swipeDistance={30}
-            foldCornerOnHover={true}
-            flipOnClick="anywhere"
-            className="book-root"
-            onLoaded={onLoaded}
-            onPageChange={onPageChange}
-          >
-            {PAGE_SPECS.map((spec) => (
-              <div key={spec.page} className="page-wrapper" style={{ height: '100%' }}>
-                <PageLeaf spec={spec} lang={lang} />
-              </div>
-            ))}
-          </HTMLFlipBook>
-        </div>
+          {!isPortrait && (
+            <NavBtn
+              dir="next"
+              label={strings.next}
+              onClick={() => bookRef.current?.flipNext()}
+              disabled={atLast}
+            />
+          )}
 
-        {/* next button */}
-        <NavBtn
-          dir="next"
-          label={strings.next}
-          onClick={() => bookRef.current?.flipNext()}
-          disabled={atLast}
-        />
+          {isPortrait && (
+            <>
+              <div className="absolute left-1 top-1/2 z-20 -translate-y-1/2">
+                <NavBtn
+                  dir="prev"
+                  label={strings.prev}
+                  onClick={() => bookRef.current?.flipPrev()}
+                  disabled={atFirst}
+                />
+              </div>
+              <div className="absolute right-1 top-1/2 z-20 -translate-y-1/2">
+                <NavBtn
+                  dir="next"
+                  label={strings.next}
+                  onClick={() => bookRef.current?.flipNext()}
+                  disabled={atLast}
+                />
+              </div>
+            </>
+          )}
+        </div>
       </div>
 
       {/* ── page indicator ── */}

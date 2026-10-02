@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { IconArrowUpRight, IconClock, IconDirections, IconInstagram, IconMail, IconPhone, IconWhatsApp } from '../components/Icons'
 import { drawSwirls, revealUp, useMotion } from '../components/motion'
 import { SectionHead } from '../components/SectionHead'
+import { menuHref } from '../lib/router'
 import { VENUE } from '../lib/venue'
 
 type Channel = {
@@ -42,7 +43,7 @@ export function Contacts() {
       Icon: IconMail,
       external: false,
     },
-    { key: 'phone', href: VENUE.phoneHref, value: VENUE.phoneDisplay, Icon: IconPhone, external: false },
+    { key: 'phone', href: VENUE.phoneHref, value: VENUE.phoneDisplay, Icon: IconPhone, external: false, bordeaux: true },
     {
       key: 'whatsapp',
       href: VENUE.whatsappHref,
@@ -103,36 +104,19 @@ export function Contacts() {
 
           <div data-reveal="" className="mt-6 flex flex-wrap gap-3">
             <a
-              href={VENUE.phoneHref}
-              className="press inline-flex min-h-12 items-center gap-2 rounded-full bg-[var(--color-bordeaux)] px-6 text-[15px] font-semibold text-paper"
-            >
-              {t('contacts.chiama')}
-            </a>
-            <a
-              href={VENUE.whatsappHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="press inline-flex min-h-12 items-center gap-2 rounded-full bg-[var(--color-bordeaux)] px-6 text-[15px] font-semibold text-paper"
-            >
-              WhatsApp
-            </a>
-            <a
-              href={VENUE.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="press contact-row inline-flex min-h-12 items-center gap-2 rounded-full border border-ink/25 px-5 text-[15px] font-medium text-ink"
-            >
-              Instagram
-              <IconArrowUpRight aria-hidden="true" className="tile-arrow text-[16px]" />
-            </a>
-            <a
               href={VENUE.directionsHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="press contact-row inline-flex min-h-12 items-center gap-2 rounded-full bg-ink px-6 text-[15px] font-semibold text-paper"
+              className="press btn-ink inline-flex min-h-12 items-center gap-2 rounded-full bg-ink px-6 text-[15px] font-semibold text-paper"
             >
               <IconDirections className="text-[19px]" />
               {t('location.directions')}
+            </a>
+            <a
+              href={menuHref()}
+              className="press btn-bordeaux inline-flex min-h-12 items-center gap-2 rounded-full bg-bordeaux px-6 text-[15px] font-semibold text-paper"
+            >
+              {t('hero.cta')}
             </a>
           </div>
         </div>
