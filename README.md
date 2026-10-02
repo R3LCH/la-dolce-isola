@@ -14,6 +14,8 @@ npm run build      # type-check + production build into dist/
 
 Menu content lives in `src/data/menu.json` (6 languages). Source transcriptions and photo research are in `research/`.
 
+Contact destinations live in `src/lib/venue.ts` and are shared by Contacts and the footer. Contacts pairs Instagram/Facebook, then phone/email, with WhatsApp across the next row. Historical contact URLs in `research/` are source records, not website links.
+
 ## Deploy
 
 GitHub Pages: pushing to `main` runs `.github/workflows/pages.yml` (base path `/<repo-name>/`).

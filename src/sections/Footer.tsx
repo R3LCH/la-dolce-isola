@@ -28,7 +28,7 @@ export function Footer() {
               {VENUE.phoneDisplay}
             </a>
           </p>
-          <nav className="flex gap-5 sm:justify-end" aria-label={t('footer.menu')}>
+          <nav className="flex flex-wrap gap-x-5 gap-y-2 sm:justify-end" aria-label={t('footer.menu')}>
             <a href={menuHref()} className="min-h-11 font-semibold text-sun">
               {t('footer.menu')}
             </a>
@@ -39,6 +39,14 @@ export function Footer() {
               className="min-h-11"
             >
               Instagram
+            </a>
+            <a
+              href={VENUE.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="min-h-11"
+            >
+              Facebook
             </a>
             <a
               href={VENUE.whatsappHref}

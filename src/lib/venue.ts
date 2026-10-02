@@ -8,6 +8,7 @@ export const VENUE = {
   whatsappHref: 'https://wa.me/393473577381',
   email: 'ladolceisola30@gmail.com',
   instagram: 'https://www.instagram.com/ladolceisola/',
+  facebook: 'https://www.facebook.com/profile.php?id=100064050037616',
   mapsHref: 'https://maps.app.goo.gl/hkU6QyTHtpMeHStd8',
   directionsHref:
     'https://www.google.com/maps/dir/?api=1&destination=La+Dolce+Isola+Scalea&destination_place_id=ChIJW17XmiMePxMRJQwxu_nTm08',

@@ -1,6 +1,6 @@
 import { useRef, type ComponentType, type SVGProps } from 'react'
 import { useTranslation } from 'react-i18next'
-import { IconArrowUpRight, IconClock, IconDirections, IconInstagram, IconMail, IconPhone, IconWhatsApp } from '../components/Icons'
+import { IconArrowUpRight, IconClock, IconDirections, IconFacebook, IconInstagram, IconMail, IconPhone, IconWhatsApp } from '../components/Icons'
 import { drawSwirls, revealUp, useMotion } from '../components/motion'
 import { SectionHead } from '../components/SectionHead'
 import { menuHref } from '../lib/router'
@@ -37,13 +37,20 @@ export function Contacts() {
       note: t('contacts.instagramNote'),
     },
     {
+      key: 'facebook',
+      href: VENUE.facebook,
+      value: VENUE.name,
+      Icon: IconFacebook,
+      external: true,
+    },
+    { key: 'phone', href: VENUE.phoneHref, value: VENUE.phoneDisplay, Icon: IconPhone, external: false, bordeaux: true },
+    {
       key: 'email',
       href: `mailto:${VENUE.email}?subject=${encodeURIComponent(t('contacts.emailSubject'))}`,
       value: VENUE.email,
       Icon: IconMail,
       external: false,
     },
-    { key: 'phone', href: VENUE.phoneHref, value: VENUE.phoneDisplay, Icon: IconPhone, external: false, wide: true, bordeaux: true },
     {
       key: 'whatsapp',
       href: VENUE.whatsappHref,
@@ -75,28 +82,28 @@ export function Contacts() {
         </div>
 
         <div className="md:col-span-7">
-          <ul className="grid gap-3 sm:grid-cols-2 md:gap-4">
+          <ul className="grid grid-cols-2 gap-3 md:gap-4">
             {channels.map(({ key, href, value, Icon, external, note, wide, bordeaux }) => (
-              <li key={key} data-reveal="" className={wide ? 'sm:col-span-2' : undefined}>
+              <li key={key} data-reveal="" className={wide ? 'col-span-2' : undefined}>
                 <a
                   href={href}
                   {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                   className={[
-                    'press contact-row flex min-h-[84px] items-center gap-4 rounded-[20px] border bg-paper p-4 md:p-5',
+                    `press contact-row relative flex min-h-[84px] gap-4 rounded-[20px] border bg-paper p-4 md:p-5 ${wide ? 'items-center' : 'flex-col items-start sm:flex-row sm:items-center'}`,
                     bordeaux ? 'border-[var(--color-bordeaux)]/25' : 'border-ink/10',
                   ].join(' ')}
                 >
                   <span className="contact-icon grid size-12 shrink-0 place-items-center rounded-full border border-ink/20 text-[22px] text-ink">
                     <Icon />
                   </span>
-                  <span className="min-w-0">
+                  <span className="min-w-0 max-w-full">
                     <span className="block text-[11px] font-semibold tracking-[0.2em] text-ink-2 uppercase">
                       {t(`contacts.${key}`)}
                     </span>
-                    <span className="mt-1 block truncate text-[16px] font-semibold text-ink">{value}</span>
+                    <span className={`mt-1 block text-[14px] font-semibold text-ink sm:text-[16px] ${key === 'email' ? 'break-all' : 'break-words'}`}>{value}</span>
                     {note && <span className="mt-0.5 block text-[12px] text-ink/55">{note}</span>}
                   </span>
-                  <IconArrowUpRight aria-hidden="true" className="tile-arrow ml-auto shrink-0 text-[18px] text-ink/60" />
+                  <IconArrowUpRight aria-hidden="true" className={`tile-arrow shrink-0 text-[18px] text-ink/60 ${wide ? 'ml-auto' : 'absolute right-4 top-5 sm:static sm:ml-auto'}`} />
                 </a>
               </li>
             ))}
