@@ -645,7 +645,7 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
           className="md:hidden flex items-center justify-center shrink-0"
           aria-label={strings.back}
         >
-          <img src={`${import.meta.env.BASE_URL}logo-header.svg`} alt="La Dolce Isola" className="h-7 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}logo-header.png`} alt="La Dolce Isola" className="h-7 w-auto brightness-0 invert" draggable={false} />
         </a>
         <p className="hidden md:block truncate min-w-0 font-display text-[var(--color-sun)] text-sm font-normal tracking-widest sm:text-base">
           La Dolce Isola — {strings.menu}
