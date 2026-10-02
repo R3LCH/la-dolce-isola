@@ -11,20 +11,20 @@
     "skip": "Skip to content"
   },
   "hero": {
-    "kicker": "Café · Wine bar · Gelateria · Crêperie",
+    "kicker": "Café · Aperitivo · Wine · Gelato",
     "line1": "From the first coffee",
     "line2a": "to the last ",
     "line2b": "glass.",
-    "sub": "On the pedestrian street of Scalea, every day from 7 in the morning to 3 at night.",
-    "cta": "Open the menu",
+    "sub": "On the pedestrian street of Scalea. From morning to midnight.",
+    "cta": "Explore the menu",
     "where": "Find us",
     "posterAlt": "The blue and white majolica tile with the La Dolce Isola script"
   },
   "teaser": {
-    "kicker": "The menu",
-    "title": "Twenty-one pages to leaf through, as if at the table.",
-    "lead": "The full menu in six languages, with prices and photos of the dishes.",
-    "all": "Browse the whole menu",
+    "kicker": "Full menu",
+    "title": "Browse the menu.",
+    "lead": "Twenty-one pages, six languages, all prices.",
+    "all": "Open the menu",
     "count_one": "{{count}} item",
     "count_other": "{{count}} items",
     "open": "Open {{name}} in the menu",
@@ -39,18 +39,36 @@
   },
   "about": {
     "kicker": "The house",
-    "title1": "A yellow parlour",
-    "title2": "in the heart of the corso.",
-    "body": "Sun-coloured walls, a walnut and marble counter, crystal chandeliers. Coffee and cornetti in the morning, artisan gelato and crêpes in the afternoon, Calabrian wines by the glass and cocktails under the umbrellas at night.",
+    "title1": "A place",
+    "title2": "to come back to.",
+    "body": "Morning brings fresh coffee and warm cornetti. Afternoons are for artisan gelato and dolci. Evenings fill with aperitivo, Calabrian wine by the glass, and cocktails under the umbrellas.",
     "facts": [
-      { "value": "07 · 03", "label": "open every day" },
-      { "value": "Gelato", "label": "made in house daily" },
+      { "value": "07 · 03", "label": "every day" },
+      { "value": "Gelato", "label": "artisan" },
       { "value": "Enoteca", "label": "Calabrian wines by the glass" }
     ],
     "barAlt": "The walnut bar counter with cream tufted panels and a marble top, yellow walls",
     "barCaption": "The counter",
     "wineAlt": "The wine corner with shelves of bottles, a tufted table and the oval La Dolce Isola plaque",
     "wineCaption": "The enoteca"
+  },
+  "gallery": {
+    "kicker": "La Dolce Isola",
+    "title": "Atmosphere, flavour, rhythm.",
+    "cta": "Browse the full menu"
+  },
+  "aperitivo": {
+    "kicker": "Aperitivo",
+    "title": "The golden hour.",
+    "body": "Spritz, cocktails and sharing boards. The right place to pause, relax and enjoy the corso of Scalea.",
+    "cta": "See cocktails",
+    "photoAlt": "Aperitivo antipasti and nibbles on a wooden board"
+  },
+  "vino": {
+    "kicker": "Wine bar",
+    "title": "Calabrian wines by the glass.",
+    "body": "A curated selection of whites, reds and rosés from Calabria. To be enjoyed slowly, at the table or at the bar.",
+    "photoAlt": "A tall Calabrian wine bottle"
   },
   "reviews": {
     "kicker": "What guests say",
@@ -74,6 +92,7 @@
     "kicker": "Find us",
     "hoursLabel": "Hours",
     "hours": "Every day {{hours}}",
+    "closed": "Closed on Wednesdays",
     "directions": "Directions",
     "openMaps": "Open in Google Maps",
     "mapTitle": "Map of La Dolce Isola, Via Michele Bianchi 30, Scalea",
@@ -83,15 +102,18 @@
     "kicker": "Contact",
     "title": "Write, call, or simply drop by.",
     "instagram": "Instagram",
-    "facebook": "Facebook",
     "email": "Email",
     "phone": "Phone",
     "whatsapp": "WhatsApp",
     "whatsappValue": "Chat with us",
-    "emailSubject": "Information"
+    "emailSubject": "Information",
+    "chiama": "Chiama",
+    "whatsappCta": "WhatsApp",
+    "instagramCta": "Instagram",
+    "instagramNote": "Follow us for daily specials"
   },
   "footer": {
-    "tagline": "Bar, café, wine bar, gelateria and crêperie in Scalea.",
+    "tagline": "Coffee, aperitivo, wine and gelato in Scalea.",
     "rights": "© {{year}} La Dolce Isola",
     "top": "Back to top",
     "menu": "Menu"

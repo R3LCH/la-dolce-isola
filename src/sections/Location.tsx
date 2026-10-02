@@ -44,7 +44,10 @@ export function Location() {
                 <IconClock className="text-[20px]" />
                 {t('location.hoursLabel')}
               </dt>
-              <dd className="ml-auto text-right text-[16px] font-semibold tabular-nums">{t('location.hours', { hours: VENUE.hours })}</dd>
+              <dd className="ml-auto text-right">
+                <span className="block text-[16px] font-semibold tabular-nums">{t('location.hours', { hours: VENUE.hours })}</span>
+                <span className="block text-[13px] text-ink/60">{t('location.closed')}</span>
+              </dd>
             </div>
             <div data-reveal="" className="flex items-center gap-4 py-5">
               <dt className="sr-only">{t('location.kicker')}</dt>

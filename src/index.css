@@ -6,13 +6,16 @@
 
 /* Design tokens: see docs/PLAN.md §2. Semantic names only. */
 @theme {
-  --color-paper: #fbf8f2;
-  --color-paper-2: #f3eee4;
-  --color-ink: #16215a;
-  --color-ink-2: #3c5599;
-  --color-sun: #f2c872;
+  --color-bordeaux: #7c1c2e;
+  --color-bordeaux-2: #a63348;
+  --color-paper: #faf7f2;
+  --color-paper-2: #f2ebe0;
+  --color-ink: #1a1208;
+  --color-ink-2: #4a3728;
+  --color-cream: #f5ead8;
+  --color-sun: #d4a84b;
   --color-walnut: #5e3523;
-  --color-night: #0f1430;
+  --color-night: #140d0a;
 
   /* Printed menu pill colours */
   --color-pill-gold: #c39a3a;

@@ -6,6 +6,8 @@ import { gsap, prefersReducedMotion, ScrollTrigger } from './components/motion'
 import { Swirl } from './components/Swirl'
 import { useRoute } from './lib/router'
 import { About } from './sections/About'
+import { Aperitivo } from './sections/Aperitivo'
+import { Vino } from './sections/Vino'
 import { Contacts } from './sections/Contacts'
 import { Footer } from './sections/Footer'
 import { Hero } from './sections/Hero'
@@ -120,8 +122,10 @@ export default function App() {
         {view === 'home' && <Header />}
         <main id="main">
           <Hero />
-          <MenuTeaser />
           <About />
+          <Aperitivo />
+          <Vino />
+          <MenuTeaser />
           <Reviews />
           <Location />
           <Contacts />

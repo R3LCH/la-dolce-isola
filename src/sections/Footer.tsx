@@ -31,6 +31,14 @@ export function Footer() {
               {t('footer.menu')}
             </a>
             <a
+              href={VENUE.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="min-h-11"
+            >
+              Instagram
+            </a>
+            <a
               href="#top"
               onClick={(e) => {
                 e.preventDefault()

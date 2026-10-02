@@ -126,8 +126,11 @@
   .btn-ink:hover {
     background-color: var(--color-ink-2);
   }
+  .btn-bordeaux:hover {
+    background-color: var(--color-bordeaux-2);
+  }
   .btn-paper:hover {
-    background-color: var(--color-sun);
+    background-color: var(--color-cream);
   }
   .lang-btn:hover {
     opacity: 1;

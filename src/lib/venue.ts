@@ -10,13 +10,14 @@ export const VENUE = {
   // No public email exists in any source; the button opens a pre-filled mail to be replaced by the owner.
   email: 'info@ladolceisola.it',
   instagram: 'https://www.instagram.com/ladolceisola/',
-  facebook: 'https://www.facebook.com/ladolceisola.scalea',
   mapsHref: 'https://maps.app.goo.gl/hkU6QyTHtpMeHStd8',
   directionsHref:
     'https://www.google.com/maps/dir/?api=1&destination=La+Dolce+Isola+Scalea&destination_place_id=ChIJW17XmiMePxMRJQwxu_nTm08',
   mapsEmbed:
     'https://www.google.com/maps?q=La+Dolce+Isola,+Via+Michele+Bianchi+30,+Scalea&ll=39.8147921,15.7907844&z=17&output=embed',
   hours: '07:00 – 03:00',
+  closedDay: 'mercoledì',
+  closedDayEn: 'Wednesday',
   google: { rating: 4.3, count: 575 },
   tripadvisor: {
     rating: 4.3,

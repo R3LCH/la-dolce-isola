@@ -9,7 +9,7 @@ import {
 } from 'react'
 import HTMLFlipBook, { type BookSnapshot, type FlipBookHandle } from '@gullabs/react-flipbook'
 import { MENU_CATEGORIES, categoryById, formatPrice, pillColor } from '../data/menu'
-import type { MenuCategory, MenuCrop, MenuLang } from '../data/menu'
+import type { MenuCategory, MenuLang } from '../data/menu'
 import { gsap, prefersReducedMotion } from '../components/motion'
 import { replaceMenuCategory } from '../lib/router'
 import {
@@ -22,17 +22,11 @@ import {
   type Col,
   type Node as LayoutNode,
   type PageSpec,
-  type PhotoNode,
 } from './layout'
 import { MENU_STRINGS, initialMenuLang, saveMenuLang } from './strings'
 import type { MenuStrings } from './strings'
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
-
-function cropSrc(crop: MenuCrop): string {
-  // src is like "menu/p02-corona-mojito-moscow-mule.webp"
-  return `${import.meta.env.BASE_URL}${crop.src}`
-}
 
 /** First printed page (1-based) for a category, or null. */
 function firstPageOfCategory(catId: string): number | null {
@@ -65,7 +59,7 @@ function LangSwitcher({ lang, strings: _strings, onChange }: LangProps) {
           onClick={() => onChange(l)}
           aria-pressed={l === lang}
           className={[
-            'rounded-sm px-2 py-0.5 text-[10px] font-semibold tracking-widest uppercase transition-colors',
+            'rounded-sm px-1.5 py-0.5 text-[10px] font-semibold tracking-widest uppercase transition-colors',
             l === lang
               ? 'bg-[var(--color-ink)] text-[var(--color-paper)]'
               : 'text-[var(--color-ink-2)] hover:bg-[var(--color-paper-2)]',
@@ -74,77 +68,6 @@ function LangSwitcher({ lang, strings: _strings, onChange }: LangProps) {
           {l.toUpperCase()}
         </button>
       ))}
-    </div>
-  )
-}
-
-// ─── photo node ──────────────────────────────────────────────────────────────
-
-type PhotoProps = { node: PhotoNode; containW?: number }
-function Photo({ node }: PhotoProps) {
-  const { crop, kind, w, align } = node
-  const src = cropSrc(crop)
-  const alignClass = align === 'start' ? 'mr-auto' : align === 'end' ? 'ml-auto' : 'mx-auto'
-  const style = { width: `${w}%` }
-
-  if (kind === 'round') {
-    return (
-      <div className={`${alignClass} aspect-square overflow-hidden rounded-full`} style={style}>
-        <img
-          src={src}
-          alt={crop.depicts}
-          loading="lazy"
-          decoding="async"
-          className="h-full w-full object-cover"
-        />
-      </div>
-    )
-  }
-  if (kind === 'ring') {
-    return (
-      <div
-        className={`${alignClass} relative aspect-square overflow-hidden rounded-full ring-[3px] ring-[var(--color-pill-gold)]/60`}
-        style={style}
-      >
-        <img
-          src={src}
-          alt={crop.depicts}
-          loading="lazy"
-          decoding="async"
-          className="h-full w-full object-cover"
-        />
-      </div>
-    )
-  }
-  if (kind === 'panel') {
-    return (
-      <div
-        className={`${alignClass} overflow-hidden rounded-xl`}
-        style={{ ...style, aspectRatio: `${crop.w}/${crop.h}` }}
-      >
-        <img
-          src={src}
-          alt={crop.depicts}
-          loading="lazy"
-          decoding="async"
-          className="h-full w-full object-cover"
-        />
-      </div>
-    )
-  }
-  // 'cut'
-  return (
-    <div
-      className={`${alignClass} overflow-hidden`}
-      style={{ ...style, aspectRatio: `${crop.w}/${crop.h}` }}
-    >
-      <img
-        src={src}
-        alt={crop.depicts}
-        loading="lazy"
-        decoding="async"
-        className="h-full w-full object-cover"
-      />
     </div>
   )
 }
@@ -266,13 +189,17 @@ type NodeProps = { node: LayoutNode; lang: MenuLang }
 function NodeRenderer({ node, lang }: NodeProps) {
   if (node.t === 'block') return <Block spec={node.b} lang={lang} />
 
-  if (node.t === 'photo') return <Photo node={node} />
+  if (node.t === 'photo') return null
 
   if (node.t === 'row') {
+    const visibleCells = node.cells
+      .map((cell, ci) => ({ cell, ci, w: node.widths[ci] }))
+      .filter(({ cell }) => cell.t !== 'photo')
+    if (visibleCells.length === 0) return null
     return (
       <div className="flex gap-2">
-        {node.cells.map((cell, ci) => (
-          <div key={ci} style={{ width: `${node.widths[ci]}%`, flexShrink: 0 }}>
+        {visibleCells.map(({ cell, ci, w }) => (
+          <div key={ci} style={{ width: `${w}%`, flexShrink: 0 }}>
             <NodeRenderer node={cell} lang={lang} />
           </div>
         ))}
@@ -327,62 +254,40 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
     : 'bg-[var(--color-paper)] text-[var(--color-ink)]'
 
   return (
-    <div className={`relative h-full w-full overflow-hidden ${bg} p-4 md:p-6`}>
+    <div className={`relative h-full w-full overflow-hidden ${bg} p-3`}>
       {/* head nodes */}
       {spec.head?.map((node, ni) => (
         <NodeRenderer key={ni} node={node} lang={lang} />
       ))}
 
       {/* bleed photo (desktop-only; mobileExtra used on phone) */}
-      {spec.bleed && (
-        <div
-          className="absolute hidden md:block pointer-events-none"
-          style={{
-            [spec.bleed.side]: '-2%',
-            top: `${spec.bleed.top}%`,
-            width: `${spec.bleed.w}%`,
-            zIndex: 0,
-          }}
-        >
-          <Photo
-            node={{
-              t: 'photo',
-              crop: spec.bleed.crop,
-              kind: spec.bleed.kind === 'backdrop' ? 'panel' : spec.bleed.kind,
-              w: 100,
-              align: spec.bleed.side === 'left' ? 'start' : 'end',
-            }}
-          />
-        </div>
-      )}
+      {/* bleed photo: skipped — text-only layout */}
 
       {/* columns */}
+      {/* columns — skip cols whose nodes are all photos or spacers */}
       <div className="relative z-10 flex h-full gap-2 md:gap-4">
-        {spec.cols.map((col: Col, ci) => (
-          <div
-            key={ci}
-            style={{ width: `${col.w}%`, flexShrink: 0 }}
-            className={`flex flex-col ${
-              col.dark ? 'bg-[var(--color-night)]/80 rounded-lg p-2' : ''
-            } ${
-              col.justify === 'end' ? 'justify-end' : col.justify === 'center' ? 'justify-center' : 'justify-start'
-            }`}
-          >
-            {col.nodes.map((node, ni) => (
-              <NodeRenderer key={ni} node={node} lang={lang} />
-            ))}
-          </div>
-        ))}
+        {spec.cols.map((col: Col, ci) => {
+          const hasContent = col.nodes.some((n) => n.t !== 'photo' && n.t !== 'spacer')
+          if (!hasContent) return null
+          return (
+            <div
+              key={ci}
+              style={{ width: `${col.w}%`, flexShrink: 0 }}
+              className={`flex flex-col ${
+                col.dark ? 'bg-[var(--color-night)]/80 rounded-lg p-2' : ''
+              } ${
+                col.justify === 'end' ? 'justify-end' : col.justify === 'center' ? 'justify-center' : 'justify-start'
+              }`}
+            >
+              {col.nodes.map((node, ni) => (
+                <NodeRenderer key={ni} node={node} lang={lang} />
+              ))}
+            </div>
+          )
+        })}
       </div>
 
-      {/* mobile extra (replaces gutter bleed) */}
-      {spec.mobileExtra && (
-        <div className="md:hidden mt-3">
-          {spec.mobileExtra.map((node, ni) => (
-            <NodeRenderer key={ni} node={node} lang={lang} />
-          ))}
-        </div>
-      )}
+      {/* mobileExtra: skipped — photos only */}
 
       {/* page number */}
       <span
@@ -597,7 +502,7 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
 
     const pagesInSpread = portrait ? 1 : 2
     const pageW = Math.min(Math.floor(availW / pagesInSpread), 480)
-    const pageH = Math.min(availH, Math.round(pageW * 1.41)) // A4 ratio
+    const pageH = Math.min(availH, Math.round(pageW * 1.1)) // compact ratio — no photos
 
     setIsPortrait(portrait)
     setBookSize({ w: pageW, h: pageH })
@@ -705,7 +610,7 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
       aria-label={strings.menu}
     >
       {/* ── toolbar ── */}
-      <div className="flex items-center justify-between gap-3 px-4 py-2 bg-[var(--color-night)]/90 backdrop-blur-sm border-b border-white/10 shrink-0">
+      <div className="flex items-center justify-between gap-2 overflow-hidden px-3 py-2 bg-[var(--color-night)]/90 backdrop-blur-sm border-b border-white/10 shrink-0 sm:gap-3 sm:px-4">
         <a
           href="#/"
           className="flex items-center gap-1.5 text-[var(--color-paper)]/70 hover:text-[var(--color-paper)] transition-colors text-[11px] font-medium tracking-wide"
@@ -717,11 +622,13 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
           <span className="hidden sm:inline">{strings.back}</span>
         </a>
 
-        <p className="font-display text-[var(--color-sun)] text-base font-normal tracking-widest">
+        <p className="truncate min-w-0 font-display text-[var(--color-sun)] text-sm font-normal tracking-widest sm:text-base">
           La Dolce Isola — {strings.menu}
         </p>
 
-        <LangSwitcher lang={lang} strings={strings} onChange={handleLangChange} />
+        <div className="overflow-x-auto shrink-0" style={{ scrollbarWidth: 'none' }}>
+          <LangSwitcher lang={lang} strings={strings} onChange={handleLangChange} />
+        </div>
       </div>
 
       {/* ── book area ── */}

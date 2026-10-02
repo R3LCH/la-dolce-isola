@@ -11,20 +11,20 @@
     "skip": "Vai al contenuto"
   },
   "hero": {
-    "kicker": "Caffè · Enoteca · Gelateria · Creperia",
+    "kicker": "Caffè · Aperitivo · Vino · Gelato",
     "line1": "Dal primo caffè",
     "line2a": "all'ultimo ",
     "line2b": "calice.",
-    "sub": "Sul corso pedonale di Scalea, tutti i giorni dalle 7 del mattino alle 3 di notte.",
-    "cta": "Apri il menu",
+    "sub": "Sul corso pedonale di Scalea. Dal mattino alla notte.",
+    "cta": "Scopri il menu",
     "where": "Come arrivare",
     "posterAlt": "La piastrella in maiolica bianca e blu con la scritta La Dolce Isola"
   },
   "teaser": {
-    "kicker": "Il menu",
-    "title": "Ventuno pagine da sfogliare, come al tavolo.",
-    "lead": "Il menu completo in sei lingue, con prezzi e foto dei piatti.",
-    "all": "Sfoglia tutto il menu",
+    "kicker": "Il menu completo",
+    "title": "Sfoglia il menu.",
+    "lead": "Ventuno pagine, sei lingue, tutti i prezzi.",
+    "all": "Apri il menu",
     "count_one": "{{count}} voce",
     "count_other": "{{count}} voci",
     "open": "Apri {{name}} nel menu",
@@ -39,18 +39,36 @@
   },
   "about": {
     "kicker": "La casa",
-    "title1": "Un salotto giallo",
-    "title2": "nel cuore del corso.",
-    "body": "Pareti color sole, banco in noce e marmo, lampadari di cristallo. Al mattino caffè e cornetti, nel pomeriggio gelato artigianale e crêpes, la sera vini calabresi al calice e cocktail sotto gli ombrelloni.",
+    "title1": "Un posto dove",
+    "title2": "tornare.",
+    "body": "Al mattino il profumo del caffè e dei cornetti appena sfornati. Nel pomeriggio gelato artigianale e dolci. La sera aperitivo, vino calabrese al calice e cocktail sotto gli ombrelloni.",
     "facts": [
-      { "value": "07 · 03", "label": "aperti tutti i giorni" },
-      { "value": "Gelato", "label": "artigianale, ogni giorno" },
+      { "value": "07 · 03", "label": "ogni giorno" },
+      { "value": "Gelato", "label": "artigianale" },
       { "value": "Enoteca", "label": "vini calabresi al calice" }
     ],
     "barAlt": "Il banco bar in noce con pannelli capitonné e piano in marmo, pareti gialle",
     "barCaption": "Il banco",
     "wineAlt": "L'angolo enoteca con scaffali di vini, tavolo capitonné e l'insegna ovale La Dolce Isola",
     "wineCaption": "L'enoteca"
+  },
+  "gallery": {
+    "kicker": "La Dolce Isola",
+    "title": "Atmosphere, gusto, ritmo.",
+    "cta": "Sfoglia il menu completo"
+  },
+  "aperitivo": {
+    "kicker": "Aperitivo",
+    "title": "Il momento migliore.",
+    "body": "Spritz, cocktail e taglieri. Il posto giusto per fermarsi, stare bene e godersi il corso di Scalea.",
+    "cta": "Vedi i cocktail",
+    "photoAlt": "Antipasti e stuzzichini per l'aperitivo su un tagliere"
+  },
+  "vino": {
+    "kicker": "Enoteca",
+    "title": "Vini calabresi al calice.",
+    "body": "Una selezione di bianchi, rossi e rosati della Calabria. Da bere lentamente, al tavolo o al banco.",
+    "photoAlt": "Bottiglia di vino calabrese"
   },
   "reviews": {
     "kicker": "Dicono di noi",
@@ -74,6 +92,7 @@
     "kicker": "Dove siamo",
     "hoursLabel": "Orari",
     "hours": "Tutti i giorni {{hours}}",
+    "closed": "Chiuso il mercoledì",
     "directions": "Indicazioni",
     "openMaps": "Apri in Google Maps",
     "mapTitle": "Mappa di La Dolce Isola, Via Michele Bianchi 30, Scalea",
@@ -83,15 +102,18 @@
     "kicker": "Contatti",
     "title": "Scrivici, chiamaci, oppure passa a trovarci.",
     "instagram": "Instagram",
-    "facebook": "Facebook",
     "email": "Email",
     "phone": "Telefono",
     "whatsapp": "WhatsApp",
     "whatsappValue": "Scrivici in chat",
-    "emailSubject": "Informazioni"
+    "emailSubject": "Informazioni",
+    "chiama": "Chiama",
+    "whatsappCta": "WhatsApp",
+    "instagramCta": "Instagram",
+    "instagramNote": "Seguici per le offerte del giorno"
   },
   "footer": {
-    "tagline": "Bar, caffè, enoteca, gelateria e creperia a Scalea.",
+    "tagline": "Caffè, aperitivo, vino e gelato a Scalea.",
     "rights": "© {{year}} La Dolce Isola",
     "top": "Torna su",
     "menu": "Menu"

@@ -48,8 +48,8 @@ export function Header() {
         dark ? 'text-paper' : 'border-b border-ink/10 bg-paper/80 text-ink backdrop-blur-md'
       }`}
     >
-      <div className="mx-auto grid h-16 max-w-[1600px] grid-cols-[1fr_auto_1fr] items-center gap-2 px-3 sm:px-4 md:h-[72px] md:gap-3 md:px-8">
-        <div role="group" aria-label={t('nav.language')} className="flex items-center justify-self-start text-[12px] font-semibold tracking-[0.14em] md:text-[13px]">
+      <div className="mx-auto grid h-16 max-w-[1600px] grid-cols-[1fr_auto_1fr] items-center gap-2 overflow-hidden px-3 sm:px-4 md:h-[72px] md:gap-3 md:px-8">
+        <div role="group" aria-label={t('nav.language')} className="flex min-w-0 items-center justify-self-start text-[12px] font-semibold tracking-[0.14em] md:text-[13px]">
           {SITE_LANGS.map((l, i) => (
             <span key={l} className="flex items-center">
               {i > 0 && <span aria-hidden="true" className="px-1 opacity-40">/</span>}
@@ -83,12 +83,12 @@ export function Header() {
 
         <a
           href={menuHref()}
-          className={`press inline-flex min-h-11 items-center gap-1.5 justify-self-end rounded-full px-3.5 text-[12px] font-bold tracking-[0.14em] uppercase shadow-[0_6px_20px_-8px_rgb(15_20_48/0.45)] md:gap-2 md:px-5 md:text-[13px] md:tracking-[0.16em] ${
+          className={`press inline-flex min-h-11 min-w-0 items-center gap-1 justify-self-end rounded-full px-2.5 text-[12px] font-bold tracking-[0.14em] uppercase shadow-[0_6px_20px_-8px_rgb(15_20_48/0.45)] sm:gap-1.5 sm:px-3.5 md:gap-2 md:px-5 md:text-[13px] md:tracking-[0.16em] ${
             dark ? 'btn-paper bg-paper text-ink' : 'btn-ink bg-ink text-paper'
           }`}
         >
           <IconBook className="text-[17px] md:text-[18px]" />
-          {t('nav.menu')}
+          <span className="hidden sm:inline">{t('nav.menu')}</span>
         </a>
       </div>
     </header>
