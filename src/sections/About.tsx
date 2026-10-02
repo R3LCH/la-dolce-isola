@@ -83,12 +83,6 @@ export function About() {
             >
               {t('about.body')}
             </p>
-            <p
-              data-reveal=""
-              className="mt-3 text-[13px] text-ink/55 italic"
-            >
-              {t('location.closed')}
-            </p>
           </div>
 
           {/* Accent photo — enoteca corner */}
@@ -106,7 +100,13 @@ export function About() {
 
           {/* Facts row */}
           <dl className="mt-10 grid grid-cols-3 gap-3 border-t border-ink/15 pt-6 md:mt-14">
-            {facts.map((f) => (
+            <div data-reveal="">
+              <dt className="sr-only">{facts[0].label}</dt>
+              <dd className="font-display text-[22px] leading-none md:text-[28px]">{facts[0].value}</dd>
+              <dd className="mt-2 text-[12px] leading-snug text-ink/65 md:text-[13px]">{facts[0].label}</dd>
+              <dd className="mt-1 text-[11px] leading-snug text-ink/55 italic md:text-[12px]">{t('location.closed')}</dd>
+            </div>
+            {facts.slice(1).map((f) => (
               <div key={f.label} data-reveal="">
                 <dt className="sr-only">{f.label}</dt>
                 <dd className="font-display text-[22px] leading-none md:text-[28px]">{f.value}</dd>
