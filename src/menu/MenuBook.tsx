@@ -268,7 +268,7 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
 
       {/* columns */}
       {/* columns — skip cols whose nodes are all photos or spacers */}
-      <div className="relative z-10 flex min-h-0 flex-1 min-w-0 overflow-hidden" style={{ gap: 0 }}>
+      <div className="relative z-10 flex min-h-0 flex-1 min-w-0" style={{ gap: '4px' }}>
         {spec.cols.map((col: Col, ci) => {
           const hasContent = col.nodes.some((n) => n.t !== 'photo' && n.t !== 'spacer')
           if (!hasContent) return null
@@ -277,8 +277,8 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
           return (
             <div
               key={ci}
-              style={{ width: `${col.w}%`, minWidth: 0, overflow: 'hidden', flexShrink: 0 }}
-              className={`flex flex-col min-w-0 overflow-hidden ${
+              style={{ flex: `0 0 calc(${col.w}% - 4px)`, minWidth: 0, overflow: 'hidden' }}
+              className={`flex flex-col min-w-0 overflow-y-auto ${
                 col.dark ? 'bg-[var(--color-night)]/80 rounded-lg p-2' : ''
               } ${
                 col.justify === 'end' ? 'justify-end' : col.justify === 'center' ? 'justify-center' : 'justify-start'

@@ -43,7 +43,7 @@ export function Contacts() {
       Icon: IconMail,
       external: false,
     },
-    { key: 'phone', href: VENUE.phoneHref, value: VENUE.phoneDisplay, Icon: IconPhone, external: false, bordeaux: true },
+    { key: 'phone', href: VENUE.phoneHref, value: VENUE.phoneDisplay, Icon: IconPhone, external: false, wide: true, bordeaux: true },
     {
       key: 'whatsapp',
       href: VENUE.whatsappHref,
