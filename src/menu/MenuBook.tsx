@@ -8,7 +8,7 @@ import {
   type PointerEvent as ReactPointerEvent,
 } from 'react'
 import HTMLFlipBook, { type BookSnapshot, type FlipBookHandle } from '@gullabs/react-flipbook'
-import { MENU_CATEGORIES, categoryById, formatPrice, pillColor } from '../data/menu'
+import { MENU_CATEGORIES, formatPrice, pillColor } from '../data/menu'
 import type { MenuCategory, MenuLang } from '../data/menu'
 import { gsap, prefersReducedMotion } from '../components/motion'
 import { replaceMenuCategory } from '../lib/router'
@@ -28,16 +28,15 @@ import type { MenuStrings } from './strings'
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
 
-/** First printed page (1-based) for a category, or null. */
+/** First digital page (1-based) for a category, or null. */
 function firstPageOfCategory(catId: string): number | null {
-  const cat = categoryById.get(catId)
-  if (!cat || !cat.pages.length) return null
-  return cat.pages[0]
+  const index = PAGE_SPECS.findIndex((spec) => pageCategories(spec).includes(catId))
+  return index < 0 ? null : index + 1
 }
 
 /** Category ids visible on a given 1-based page number. */
 function categoriesOnPage(page: number): string[] {
-  const spec = PAGE_SPECS.find((p) => p.page === page)
+  const spec = PAGE_SPECS[leafOf(page)]
   return spec ? pageCategories(spec) : []
 }
 
@@ -80,12 +79,13 @@ function Block({ spec, lang, strings }: BlockProps) {
   const groups = resolveBlock(spec)
   const pillC = pillColor(cat.pages[0] ?? 1)
   const showPill = spec.pill !== false && !spec.cont
+  const showMobilePill = spec.mobilePill === true && !spec.cont
 
   return (
     <div className="mb-3 last:mb-0">
-      {showPill && (
+      {(showPill || showMobilePill) && (
         <div
-          className="mb-2 inline-flex max-w-full items-center gap-1.5 overflow-hidden rounded-full px-3 py-0.5 text-[10px] font-bold uppercase leading-tight tracking-[0.12em] break-words"
+          className={`mb-2 inline-flex max-w-full items-center gap-1.5 overflow-hidden rounded-full px-3 py-0.5 text-[10px] font-bold uppercase leading-tight tracking-[0.12em] break-words ${showPill ? '' : 'md:hidden'}`}
           style={{ background: pillC, color: '#fff' }}
         >
           <span className="min-w-0 break-words">{cat.title[lang]}</span>
@@ -259,13 +259,18 @@ function NodeRenderer({ node, lang }: NodeProps) {
   return null
 }
 
-// ─── single printed page ─────────────────────────────────────────────────────
+// ─── single digital page ─────────────────────────────────────────────────────
 
-type PageLeafProps = { spec: PageSpec; lang: MenuLang }
-function PageLeaf({ spec, lang }: PageLeafProps) {
+type PageLeafProps = { spec: PageSpec; page: number; lang: MenuLang; isPortrait: boolean }
+function PageLeaf({ spec, page, lang, isPortrait }: PageLeafProps) {
   const bg = spec.dark
     ? 'bg-[var(--color-night)] text-[var(--color-paper)]'
     : 'bg-[var(--color-paper)] text-[var(--color-ink)]'
+  const cols = spec.cols.filter((col) => col.nodes.some((node) =>
+    node.t !== 'photo' && node.t !== 'spacer' && node.t !== 'caption' &&
+    (!isPortrait || node.t !== 'zigzag'),
+  ))
+  const totalW = cols.reduce((sum, col) => sum + col.w, 0)
 
   return (
     <div className={`relative flex h-full w-full flex-col overflow-hidden ${bg} p-2`}>
@@ -277,18 +282,13 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
       {/* bleed photo (desktop-only; mobileExtra used on phone) */}
       {/* bleed photo: skipped — text-only layout */}
 
-      {/* columns */}
-      {/* columns — skip cols whose nodes are all photos or spacers */}
+      {/* Mobile content fills the space left by omitted decorative columns. */}
       <div className="relative z-10 flex min-h-0 flex-1 min-w-0" style={{ gap: '4px' }}>
-        {spec.cols.map((col: Col, ci) => {
-          const hasContent = col.nodes.some((n) => n.t !== 'photo' && n.t !== 'spacer')
-          if (!hasContent) return null
-          const captionOnly = col.nodes.every((n) => n.t === 'photo' || n.t === 'spacer' || n.t === 'caption')
-          if (captionOnly) return null
+        {cols.map((col: Col, ci) => {
           return (
             <div
               key={ci}
-            style={{ flex: `0 0 calc(${col.w}% - 4px)`, minWidth: 0, overflowX: 'hidden' }}
+              style={{ flex: `0 0 calc(${isPortrait ? col.w / totalW * 100 : col.w}% - 4px)`, minWidth: 0, overflowX: 'hidden' }}
               className={`flex flex-col min-w-0 overflow-y-auto ${
                 col.dark ? 'bg-[var(--color-night)]/80 rounded-lg p-2' : ''
               } ${
@@ -310,7 +310,7 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
         className="absolute bottom-2 right-3 text-[9px] tabular-nums opacity-30 font-mono"
         aria-hidden
       >
-        {spec.page}
+        {page}
       </span>
     </div>
   )
@@ -500,7 +500,7 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
   const rootRef = useRef<HTMLDivElement>(null)
 
   const [lang, setLang] = useState<MenuLang>(initialMenuLang)
-  const [currentPage, setCurrentPage] = useState(1) // 1-based printed page
+  const [currentPage, setCurrentPage] = useState(1) // 1-based digital page
   const [railCollapsed, setRailCollapsed] = useState(() =>
     typeof window !== 'undefined' && window.innerWidth < 768,
   )
@@ -508,7 +508,7 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
   const [loaded, setLoaded] = useState(false)
   const [isPortrait, setIsPortrait] = useState(false)
 
-  const totalPages = PAGE_SPECS.length // 21
+  const totalPages = PAGE_SPECS.length
   const activeCatId = categoriesOnPage(currentPage)[0] ?? null
 
   // ── size calculation ──────────────────────────────────────────────────────
@@ -629,7 +629,7 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
   const strings = MENU_STRINGS[lang]
 
   const atFirst = currentPage <= 1
-  const atLast = currentPage >= totalPages
+  const atLast = currentPage + (isPortrait ? 0 : 1) >= totalPages
 
   return (
     <div
@@ -743,9 +743,9 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
               onLoaded={onLoaded}
               onPageChange={onPageChange}
             >
-              {PAGE_SPECS.map((spec) => (
+              {PAGE_SPECS.map((spec, index) => (
                 <div key={spec.page} className="page-wrapper" style={{ height: '100%' }}>
-                  <PageLeaf spec={spec} lang={lang} />
+                  <PageLeaf spec={spec} page={index + 1} lang={lang} isPortrait={isPortrait} />
                 </div>
               ))}
             </HTMLFlipBook>
@@ -785,9 +785,10 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
 
       {/* ── page indicator ── */}
       <div className="flex items-center justify-center gap-1 py-2 shrink-0" aria-hidden>
-        {PAGE_SPECS.map((spec) => {
-          const isActive = spec.page === currentPage || (
-            !isPortrait && spec.page === currentPage + 1
+        {PAGE_SPECS.map((spec, index) => {
+          const page = index + 1
+          const isActive = page === currentPage || (
+            !isPortrait && page === currentPage + 1
           )
           return (
             <button
@@ -797,11 +798,11 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
                 isActive ? 'w-4 h-1.5 bg-[var(--color-sun)]' : 'w-1.5 h-1.5 bg-white/20 hover:bg-white/40',
               ].join(' ')}
               onClick={() => {
-                if (prefersReducedMotion()) bookRef.current?.turnToPage(leafOf(spec.page))
-                else bookRef.current?.flipToPage(leafOf(spec.page))
+                if (prefersReducedMotion()) bookRef.current?.turnToPage(leafOf(page))
+                else bookRef.current?.flipToPage(leafOf(page))
               }}
               tabIndex={-1}
-              aria-label={strings.pages([spec.page], totalPages)}
+              aria-label={strings.pages([page], totalPages)}
             />
           )
         })}

@@ -1,12 +1,12 @@
 import { MENU_PAGES, categoryById, type MenuCategory, type MenuCrop, type MenuItem, type T6 } from '../data/menu'
 
 /**
- * How each printed page is rebuilt. One spec per page of the real booklet
+ * Digital leaves rebuilt from the printed booklet
  * (research/menu-pages/menuN.jpeg + layoutNotes in research/menu/*.json).
  *
  * A page is a row of columns; a column is a vertical list of nodes. Blocks
  * reference menu data by category, group and item range, so every item lives
- * in exactly one block (see `assertCoverage`).
+ * in exactly one block. The two printed Food pages share one digital leaf.
  */
 
 /** [groupIndex, from?, to?] — an item slice of one group of a category. */
@@ -18,6 +18,8 @@ export type BlockSpec = {
   parts?: readonly Part[]
   /** Category pill at the top of the block. Default true. */
   pill?: boolean
+  /** Repeat the category pill on phones when the printed spread omits it. */
+  mobilePill?: boolean
   /** Small "title (continued)" line instead of the pill (mobile splits). */
   cont?: boolean
   /** One price printed beside the pill for the whole category. */
@@ -76,6 +78,7 @@ export type Bleed = { crop: MenuCrop; kind: 'ring' | 'cut'; side: 'left' | 'righ
 }
 
 export type PageSpec = {
+  /** First source booklet page; digital page numbers follow array order. */
   page: number
   head?: Node[]
   cols: Col[]
@@ -125,7 +128,7 @@ export const PAGE_SPECS: PageSpec[] = [
     page: 2,
     cols: [
       { w: 38, justify: 'end', nodes: [ph('p02-corona-mojito-moscow-mule', 'cut', 100, 'start')] },
-      { w: 62, nodes: [B({ cat: CL, parts: [[1, 5], [2]], pill: false })] },
+      { w: 62, nodes: [B({ cat: CL, parts: [[1, 5], [2]], pill: false, mobilePill: true })] },
     ],
   },
   {
@@ -221,28 +224,13 @@ export const PAGE_SPECS: PageSpec[] = [
     cols: [
       {
         w: 100,
-        justify: 'center',
         nodes: [
-          row([B({ cat: FD, parts: [[0]], pill: false, groupPrice: true, numbered: 1, leader: true }), ph('p13-focaccia', 'round', 70, 'center')], [64, 36]),
-          row([ph('p13-pan-pizza', 'round', 70, 'center'), B({ cat: FD, parts: [[1]], pill: false, groupPrice: true, numbered: 2, leader: true })], [36, 64]),
-          row([B({ cat: FD, parts: [[2]], pill: false, groupPrice: true, numbered: 4, leader: true }), ph('p13-rustico', 'round', 70, 'center')], [64, 36]),
-          row([ph('p13-tramezzino', 'round', 70, 'center'), B({ cat: FD, parts: [[3]], pill: false, groupPrice: true, numbered: 7, leader: true })], [36, 64]),
+          B({ cat: FD, parts: [[0]], pill: false, groupPrice: true, numbered: 1, leader: true }),
+          B({ cat: FD, parts: [[1]], pill: false, groupPrice: true, numbered: 2, leader: true }),
+          B({ cat: FD, parts: [[2]], pill: false, groupPrice: true, numbered: 4, leader: true }),
+          B({ cat: FD, parts: [[3]], pill: false, groupPrice: true, numbered: 7, leader: true }),
+          B({ cat: FD, parts: [[4]], pill: false, numbered: 9, leader: true }),
           { t: 'note', cat: FD },
-        ],
-      },
-    ],
-  },
-  {
-    page: 14,
-    cols: [
-      {
-        w: 100,
-        justify: 'center',
-        nodes: [
-          row([B({ cat: FD, parts: [[4, 0, 1]], pill: false, numbered: 9, leader: true }), ph('p14-cornetto-salato', 'round', 78, 'center')], [62, 38]),
-          row([ph('p14-toast', 'round', 74, 'center'), B({ cat: FD, parts: [[4, 1, 2]], pill: false, numbered: 10, leader: true })], [38, 62]),
-          row([B({ cat: FD, parts: [[4, 2, 3]], pill: false, numbered: 11, leader: true }), ph('p14-tagliere-calabrese', 'round', 80, 'center')], [62, 38]),
-          row([ph('p14-tartare-di-pesce', 'cut', 70, 'center'), B({ cat: FD, parts: [[4, 3, 4]], pill: false, numbered: 12, leader: true })], [38, 62]),
         ],
       },
     ],
@@ -391,7 +379,7 @@ export function pageNodes(p: PageSpec): Node[] {
   return [...(p.head ?? []), ...p.cols.flatMap((c) => c.nodes)]
 }
 
-/** Category ids on a printed page, in reading order (blocks that show items or a pill). */
+/** Category ids on a digital leaf, in reading order (blocks that show items or a pill). */
 export function pageCategories(p: PageSpec): string[] {
   const out: string[] = []
   walkBlocks(pageNodes(p), (b) => {

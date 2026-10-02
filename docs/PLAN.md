@@ -51,7 +51,7 @@ Routes are hash-based (`#/` and `#/menu/<categoryId>`) so they work on Pages wit
 
 ## 5. Menu book (`#/menu`)
 
-- Book pages are HTML, not photos: each printed page is rebuilt from `menu.json` (category pill, translated item name, description and price). Rendering is text-only; photo nodes in the printed-page specs are omitted.
+- Book pages are HTML, not photos: 20 digital pages are rebuilt from the 21-page `menu.json` source booklet (category pill, translated item name, description and price). Food's 12 entries occupy one page on both devices. Digital numbering and category navigation follow `PAGE_SPECS` order; printed page metadata stays unchanged for source references and pill colors. Rendering is text-only; photo nodes in the printed-page specs are omitted. Phones omit decorative caption columns, expand remaining columns to fill the page, and show one gold category heading on each of the first two cocktail pages; desktop headings retain their printed arrangement.
 - Desktop: two-page spread on a walnut cover. Mobile: single page, swipe to turn.
 - Category rail on the left: full labels when open; collapses to vertical ticks while the reader is flipping; expands on hover (pointer devices) or tap (touch). The active category animates between ticks as pages turn. Clicking a label flips to the first page of that category.
 - Language switcher for six menu languages; prices formatted as `€ 8,00`. Wine glass/bottle amounts use structured `servingPrices` and localized portion labels, never raw editorial `priceNote` text. Brand and producer names remain identifiable.
