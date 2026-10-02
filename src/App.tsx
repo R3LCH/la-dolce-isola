@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useLayoutEffect, useRef, useState, type RefObject } from 'react'
+import { Activity, lazy, Suspense, useEffect, useLayoutEffect, useRef, useState, type RefObject } from 'react'
 import { useTranslation } from 'react-i18next'
 import './components/shell.css'
 import { Header } from './components/Header'
@@ -118,20 +118,22 @@ export default function App() {
         {t('nav.skip')}
       </a>
 
-      <div hidden={view !== 'home'}>
-        {view === 'home' && <Header />}
-        <main id="main">
-          <Hero />
-          <About />
-          <Aperitivo />
-          <Vino />
-          <MenuTeaser />
-          <Reviews />
-          <Location />
-          <Contacts />
-        </main>
-        <Footer />
-      </div>
+      <Activity mode={view === 'home' ? 'visible' : 'hidden'}>
+        <div>
+          {view === 'home' && <Header />}
+          <main id="main">
+            <Hero />
+            <About />
+            <Aperitivo />
+            <Vino />
+            <MenuTeaser />
+            <Reviews />
+            <Location />
+            <Contacts />
+          </main>
+          <Footer />
+        </div>
+      </Activity>
 
       {view === 'menu' && (
         <Suspense fallback={null}>

@@ -39,7 +39,7 @@ Motion: enter `cubic-bezier(0.23,1,0.32,1)`, move `cubic-bezier(0.77,0,0.175,1)`
 
 ## 4. Page structure
 
-Routes are hash-based (`#/` and `#/menu/<categoryId>`) so they work on Pages without server rewrites.
+Routes are hash-based (`#/` and `#/menu/<categoryId>`) so they work on Pages without server rewrites. The homepage is preserved in a React `Activity` boundary: menu mode suspends its Effects instead of merely hiding active ScrollTriggers with CSS. Returning home reconnects animations, retains component state and restores the saved scroll position before the curtain opens.
 
 1. Header: centred brand logo, initially 2× compact size (72px mobile, 88px desktop), shrinking to 36px/44px over the first 160px of scroll. Reduced motion snaps on scrolling. Persistent "Menu" pill top-right, also on mobile; IT/EN toggle.
 2. Hero (`min-h-[100dvh]`): a 3D majolica tile in the brand's cobalt line art, glazed, that tilts towards the pointer and catches a moving highlight. Headline in Bodoni, one line of copy, "Apri il menu" CTA. Poster image when WebGL or motion is unavailable.
