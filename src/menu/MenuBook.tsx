@@ -282,7 +282,7 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
               className={`flex flex-col min-w-0 overflow-y-auto ${
                 col.dark ? 'bg-[var(--color-night)]/80 rounded-lg p-2' : ''
               } ${
-                col.justify === 'end' ? 'justify-end' : col.justify === 'center' ? 'justify-center' : 'justify-start'
+                col.justify === 'end' ? 'justify-start md:justify-end' : col.justify === 'center' ? 'justify-start md:justify-center' : 'justify-start'
               }`}
             >
               {col.nodes.map((node, ni) => (
@@ -645,7 +645,7 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
           className="md:hidden flex items-center justify-center shrink-0"
           aria-label={strings.back}
         >
-          <img src="/logo-header.svg" alt="La Dolce Isola" className="h-7 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}logo-header.svg`} alt="La Dolce Isola" className="h-7 w-auto" />
         </a>
         <p className="hidden md:block truncate min-w-0 font-display text-[var(--color-sun)] text-sm font-normal tracking-widest sm:text-base">
           La Dolce Isola — {strings.menu}
