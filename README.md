@@ -18,6 +18,8 @@ Contact destinations live in `src/lib/venue.ts` and are shared by Contacts and t
 
 The homepage header logo starts at twice its compact size and shrinks over the first 160px of scrolling, on both desktop and mobile; reduced motion snaps between the two sizes. Keep its motion media setup independent of `useMotion`'s desktop/reduced-motion conditions so normal-motion phones also initialize.
 
+Both header logos use `public/logo-header.svg`, cropped from the original artwork in `public/logo.svg` / `public/logo.pdf`. Lettering stays vector; the illustration retains its native 703×315 detail with a transparent background. Preserve the 77:88 aspect ratio so changing artwork does not change layout or scroll sizing; do not downsample the whole logo to a small PNG.
+
 Opening hours are 07:00–01:00, closed on Wednesdays. Hours, contact and review destinations live in `src/lib/venue.ts`. Find us ends with Google and Tripadvisor write-review links. The Calabrian wine section uses the supplied `public/img/wines.jpeg`, converted to responsive WebP renditions; its native 1024px maximum is reflected in `srcSet` rather than advertised as 1600px.
 
 ## Deploy

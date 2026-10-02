@@ -114,7 +114,7 @@ export function Header() {
         >
           <img
             ref={logoRef}
-            src={`${import.meta.env.BASE_URL}logo-header.png`}
+            src={`${import.meta.env.BASE_URL}logo-header.svg`}
             alt="La Dolce Isola"
             className={`h-9 w-auto origin-top md:h-11 transition-[filter] duration-300 ${dark ? 'brightness-0 invert' : ''}`}
             style={{ transform: 'scale(2)' }}
