@@ -16,7 +16,7 @@ const CARDS: {
   { photo: '01', label: { it: 'Vino',      en: 'Wine'      }, focus: '45% 40%' },
   { photo: '34', label: { it: 'Gelato',    en: 'Gelato'    }, focus: '50% 40%' },
   { photo: '17', label: { it: 'Colazione', en: 'Breakfast' }, focus: '62% 50%' },
-  { photo: '14', label: { it: 'Antipasti', en: 'Antipasti' }, focus: '50% 40%' },
+  { photo: '24', label: { it: 'Antipasti', en: 'Antipasti' }, focus: '50% 40%' },
   { photo: '48', label: { it: 'Dolci',     en: 'Desserts'  }, focus: '50% 55%' },
 ]
 

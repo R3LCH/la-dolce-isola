@@ -5,10 +5,8 @@ export const VENUE = {
   city: '87029 Scalea (CS)',
   phoneDisplay: '0985 920136',
   phoneHref: 'tel:+390985920136',
-  // No mobile number is published; WhatsApp falls back to the listed landline (WhatsApp Business supports landlines).
-  whatsappHref: 'https://wa.me/390985920136',
-  // No public email exists in any source; the button opens a pre-filled mail to be replaced by the owner.
-  email: 'info@ladolceisola.it',
+  whatsappHref: 'https://wa.me/393473577381',
+  email: 'ladolceisola30@gmail.com',
   instagram: 'https://www.instagram.com/ladolceisola/',
   mapsHref: 'https://maps.app.goo.gl/hkU6QyTHtpMeHStd8',
   directionsHref:
