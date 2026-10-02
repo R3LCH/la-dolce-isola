@@ -277,7 +277,7 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
           return (
             <div
               key={ci}
-              style={{ flex: `0 0 calc(${col.w}% - 4px)`, minWidth: 0, overflow: 'hidden' }}
+            style={{ flex: `0 0 calc(${col.w}% - 4px)`, minWidth: 0, overflowX: 'hidden' }}
               className={`flex flex-col min-w-0 overflow-y-auto ${
                 col.dark ? 'bg-[var(--color-night)]/80 rounded-lg p-2' : ''
               } ${
