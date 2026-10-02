@@ -282,7 +282,7 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
               className={`flex flex-col min-w-0 overflow-y-auto ${
                 col.dark ? 'bg-[var(--color-night)]/80 rounded-lg p-2' : ''
               } ${
-                col.justify === 'end' ? 'justify-start md:justify-end' : col.justify === 'center' ? 'justify-start md:justify-center' : 'justify-start'
+                'justify-start'
               }`}
             >
               {col.nodes.map((node, ni) => (

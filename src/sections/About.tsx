@@ -83,6 +83,12 @@ export function About() {
             >
               {t('about.body')}
             </p>
+            <p
+              data-reveal=""
+              className="mt-3 text-[13px] text-ink/55 italic"
+            >
+              {t('location.closed')}
+            </p>
           </div>
 
           {/* Accent photo — enoteca corner */}

@@ -63,7 +63,7 @@ export function Vino() {
         <div className="md:col-span-6">
           <figure data-clip="side" className="overflow-hidden rounded-[24px]">
             <Photo
-              id="06"
+              id="30"
               alt={t('vino.photoAlt')}
               sizes="(min-width: 768px) 44vw, 100vw"
               className="aspect-[2/3] w-full object-cover"

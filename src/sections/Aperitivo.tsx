@@ -34,7 +34,7 @@ export function Aperitivo() {
         <div className="md:col-span-5">
           <figure data-clip="up" className="overflow-hidden rounded-[24px]">
             <Photo
-              id="02"
+              id="01"
               alt={t('aperitivo.photoAlt')}
               sizes="(min-width: 768px) 38vw, 100vw"
               className="aspect-[3/4] w-full object-cover"
