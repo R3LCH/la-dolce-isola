@@ -138,7 +138,7 @@ function Block({ spec, lang }: BlockProps) {
                 if (spec.wine) {
                   const parts = item.priceNote?.split('/').map((s) => s.trim()) ?? []
                   return (
-                    <div key={ii} className="py-[2px] overflow-hidden">
+                    <div key={ii} className="py-[3px] overflow-hidden">
                       <span className="block text-[10px] leading-tight break-words">{name}</span>
                       {(parts[0] || parts[1]) && (
                         <span className="block text-[9px] leading-tight tabular-nums text-[var(--color-ink-2)]">
@@ -150,7 +150,7 @@ function Block({ spec, lang }: BlockProps) {
                 }
 
                 return (
-                  <div key={ii} className={`py-[2px] ${spec.priceBelow ? '' : 'flex items-baseline gap-2'}`}>
+                  <div key={ii} className={`py-[3px] ${spec.priceBelow ? '' : 'flex items-baseline gap-2'}`}>
                     <div className="flex-1 min-w-0">
                       {spec.leader ? (
                         <span className="flex items-baseline gap-1 text-[10px] leading-snug">
@@ -257,7 +257,7 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
     : 'bg-[var(--color-paper)] text-[var(--color-ink)]'
 
   return (
-    <div className={`relative h-full w-full overflow-hidden ${bg} p-2`}>
+    <div className={`relative flex h-full w-full flex-col overflow-hidden ${bg} p-2`}>
       {/* head nodes */}
       {spec.head?.map((node, ni) => (
         <NodeRenderer key={ni} node={node} lang={lang} />
@@ -268,7 +268,7 @@ function PageLeaf({ spec, lang }: PageLeafProps) {
 
       {/* columns */}
       {/* columns — skip cols whose nodes are all photos or spacers */}
-      <div className="relative z-10 flex h-full min-w-0 overflow-hidden" style={{ gap: 0 }}>
+      <div className="relative z-10 flex min-h-0 flex-1 min-w-0 overflow-hidden" style={{ gap: 0 }}>
         {spec.cols.map((col: Col, ci) => {
           const hasContent = col.nodes.some((n) => n.t !== 'photo' && n.t !== 'spacer')
           if (!hasContent) return null

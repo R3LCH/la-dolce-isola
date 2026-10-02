@@ -68,7 +68,8 @@
     "kicker": "Wine bar",
     "title": "Calabrian wines by the glass.",
     "body": "A curated selection of whites, reds and rosés from Calabria. To be enjoyed slowly, at the table or at the bar.",
-    "photoAlt": "A tall Calabrian wine bottle"
+    "photoAlt": "A tall Calabrian wine bottle",
+    "cta": "See the wine list"
   },
   "reviews": {
     "kicker": "What guests say",

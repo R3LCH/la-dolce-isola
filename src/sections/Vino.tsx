@@ -1,8 +1,10 @@
 import { useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { drawSwirls, gsap, revealUp, useMotion } from '../components/motion'
+import { IconArrow } from '../components/Icons'
 import { Photo } from '../components/Photo'
 import { SectionHead } from '../components/SectionHead'
+import { menuHref } from '../lib/router'
 
 export function Vino() {
   const { t } = useTranslation()
@@ -44,6 +46,16 @@ export function Vino() {
             >
               {t('vino.body')}
             </p>
+            <a
+              data-reveal=""
+              href={menuHref('selezione-vini')}
+              className="press tile mt-7 inline-flex min-h-12 items-center gap-3 rounded-full bg-ink py-3 pr-4 pl-6 text-[15px] font-semibold text-paper"
+            >
+              {t('vino.cta')}
+              <span className="grid size-8 place-items-center rounded-full bg-paper/15">
+                <IconArrow className="tile-arrow text-[16px]" />
+              </span>
+            </a>
           </SectionHead>
         </div>
 

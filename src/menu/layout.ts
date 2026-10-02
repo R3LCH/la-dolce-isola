@@ -208,7 +208,6 @@ export const PAGE_SPECS: PageSpec[] = [
   },
   {
     page: 12,
-    dark: true,
     cols: [
       { w: 34, nodes: [] },
       { w: 66, nodes: [B({ cat: 'spumanti', panel: true })] },
