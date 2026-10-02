@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "La Dolce Isola · Caffè, Enoteca, Gelateria a Scalea",
-    "description": "Bar, caffè, enoteca, gelateria e creperia sul corso pedonale di Scalea. Aperti tutti i giorni dalle 07:00 alle 03:00. Sfoglia il menu in sei lingue."
+    "description": "Bar, caffè, enoteca, gelateria e creperia sul corso pedonale di Scalea. Aperti tutti i giorni, escluso il mercoledì, dalle 07:00 all'01:00. Sfoglia il menu in sei lingue."
   },
   "nav": {
     "home": "La Dolce Isola, torna all'inizio",
@@ -12,10 +12,10 @@
   },
   "hero": {
     "kicker": "Caffè · Aperitivo · Vino · Gelato",
-    "line1": "Dal primo caffè",
-    "line2a": "all'ultimo ",
-    "line2b": "calice.",
-    "sub": "Sul corso pedonale di Scalea. Dal mattino alla notte.",
+    "line1": "Dal mattino",
+    "line2a": "fino a ",
+    "line2b": "tarda notte",
+    "sub": "Sul corso pedonale di Scalea. Aperti fino all'01:00, escluso il mercoledì.",
     "cta": "Scopri il menu",
     "where": "Come arrivare",
     "posterAlt": "La piastrella in maiolica bianca e blu con la scritta La Dolce Isola"
@@ -43,7 +43,7 @@
     "title2": "tornare.",
     "body": "Al mattino il profumo del caffè e dei cornetti appena sfornati. Nel pomeriggio gelato artigianale e dolci. La sera aperitivo, vino calabrese al calice e cocktail sotto gli ombrelloni.",
     "facts": [
-      { "value": "07 · 03", "label": "ogni giorno" },
+      { "value": "07 · 01", "label": "ogni giorno" },
       { "value": "Gelato", "label": "artigianale" },
       { "value": "Enoteca", "label": "vini calabresi al calice" }
     ],
@@ -68,12 +68,12 @@
     "kicker": "Enoteca",
     "title": "Vini calabresi al calice.",
     "body": "Una selezione di bianchi, rossi e rosati della Calabria. Da bere lentamente, al tavolo o al banco.",
-    "photoAlt": "Bottiglia di vino calabrese",
+    "photoAlt": "Tre bottiglie di vino, tra cui il passito calabrese Santa Venere",
     "cta": "Scopri la carta dei vini"
   },
   "reviews": {
     "kicker": "Dicono di noi",
-    "title": "Le parole dei nostri ospiti.",
+    "title": "Le opinioni dei nostri ospiti.",
     "googleLabel": "su Google",
     "googleCount": "{{count}} recensioni",
     "googleLink": "Leggi su Google",
@@ -97,7 +97,10 @@
     "directions": "Indicazioni",
     "openMaps": "Apri in Google Maps",
     "mapTitle": "Mappa di La Dolce Isola, Via Michele Bianchi 30, Scalea",
-    "note": "Sul corso pedonale, a pochi passi dal centro storico."
+    "note": "Sul corso pedonale, a pochi passi dal centro storico.",
+    "reviewCta": "Ti sei trovato bene da noi? Racconta la tua esperienza: il tuo pensiero ci aiuta a crescere e accompagna altri ospiti alla Dolce Isola.",
+    "reviewGoogle": "Scrivi una recensione su Google",
+    "reviewTripadvisor": "Scrivi su Tripadvisor"
   },
   "contacts": {
     "kicker": "Contatti",

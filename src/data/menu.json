@@ -978,7 +978,7 @@
       "ru": "Джин и водка с тоником или лимонадом",
       "uk": "Джин і горілка з тоніком або лимонадом",
       "pl": "Gin i wódka z tonikiem lub lemoniadą",
-      "de": "Gin & Wodka mit Tonic oder Lemon"
+      "de": "Gin & Wodka mit Tonic Water oder Zitronenlimonade"
      },
      "items": [
       {
@@ -996,11 +996,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 8.0,
        "priceNote": null,
@@ -1012,11 +1012,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 8.0,
        "priceNote": null,
@@ -1028,11 +1028,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 12.0,
        "priceNote": null,
@@ -1044,11 +1044,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 12.0,
        "priceNote": null,
@@ -1060,11 +1060,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 10.0,
        "priceNote": null,
@@ -1076,11 +1076,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 12.0,
        "priceNote": null,
@@ -1092,11 +1092,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 12.0,
        "priceNote": null,
@@ -1108,11 +1108,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 8.0,
        "priceNote": null,
@@ -1124,11 +1124,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 8.0,
        "priceNote": null,
@@ -1140,11 +1140,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 10.0,
        "priceNote": null,
@@ -1160,7 +1160,7 @@
         "ru": "Водка с тоником или лимонадом",
         "uk": "Горілка з тоніком або лимонадом",
         "pl": "Wódka z tonikiem lub lemoniadą",
-        "de": "Wodka mit Tonic oder Lemon"
+        "de": "Wodka mit Tonic Water oder Zitronenlimonade"
        },
        "price": 7.0,
        "priceNote": null,
@@ -1172,11 +1172,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 8.0,
        "priceNote": null,
@@ -1188,11 +1188,11 @@
        "nameT": null,
        "desc": {
         "it": "Tonic o Lemon",
-        "en": "Tonic or Lemon",
+        "en": "Tonic water or lemon soda",
         "ru": "с тоником или лимонадом",
         "uk": "з тоніком або лимонадом",
         "pl": "z tonikiem lub lemoniadą",
-        "de": "mit Tonic oder Lemon"
+        "de": "mit Tonic Water oder Zitronenlimonade"
        },
        "price": 10.0,
        "priceNote": null,
@@ -1608,7 +1608,14 @@
       {
        "id": "prosecco",
        "name": "Prosecco",
-       "nameT": null,
+       "nameT": {
+        "it": "Prosecco",
+        "en": "Prosecco",
+        "ru": "Просекко",
+        "uk": "Просеко",
+        "pl": "Prosecco",
+        "de": "Prosecco"
+       },
        "desc": null,
        "price": 5,
        "priceNote": null,
@@ -1784,7 +1791,7 @@
         "ru": "Шприц с цедратом",
         "uk": "Шприц із цедратом",
         "pl": "Spritz z cedratem",
-        "de": "Zitronat-Spritz"
+        "de": "Zedrat-Spritz"
        },
        "desc": null,
        "price": 8,
@@ -2056,7 +2063,14 @@
       {
        "id": "abracadabra-liquirizia",
        "name": "Abracadabra (Liquirizia)",
-       "nameT": null,
+       "nameT": {
+        "it": "Abracadabra (Liquirizia)",
+        "en": "Abracadabra (liquorice)",
+        "ru": "Abracadabra (лакрица)",
+        "uk": "Abracadabra (лакриця)",
+        "pl": "Abracadabra (lukrecja)",
+        "de": "Abracadabra (Lakritz)"
+       },
        "desc": null,
        "price": 5.0,
        "priceNote": null,
@@ -2276,7 +2290,7 @@
        "nameT": {
         "it": "Meloncello",
         "en": "Meloncello (melon liqueur)",
-        "ru": "Меллончелло (дынный ликёр)",
+        "ru": "Мелончелло (дынный ликёр)",
         "uk": "Мелончело (динний лікер)",
         "pl": "Meloncello (likier melonowy)",
         "de": "Meloncello (Melonenlikör)"
@@ -2432,8 +2446,8 @@
    "title": {
     "it": "Grappe – Distillati di vinacce",
     "en": "Grappas – pomace brandies",
-    "ru": "Граппа – виноградные дистилляты",
-    "uk": "Граппа – виноградні дистиляти",
+    "ru": "Граппа – дистилляты из виноградных выжимок",
+    "uk": "Граппа – дистиляти з виноградних вичавок",
     "pl": "Grappy – destylaty z wytłoków",
     "de": "Grappe – Tresterbrände"
    },
@@ -2757,7 +2771,14 @@
       {
        "id": "bourbon",
        "name": "Bourbon",
-       "nameT": null,
+       "nameT": {
+        "it": "Bourbon",
+        "en": "Bourbon",
+        "ru": "Бурбон",
+        "uk": "Бурбон",
+        "pl": "Bourbon",
+        "de": "Bourbon"
+       },
        "desc": null,
        "price": 6.0,
        "priceNote": null,
@@ -3123,8 +3144,8 @@
        "desc": {
         "it": "Guatemala – 23 anni / Zacapa XO",
         "en": "Guatemala – 23 years / Zacapa XO",
-        "ru": "Гватемала – 23 лет / Zacapa XO",
-        "uk": "Гватемала – 23 років / Zacapa XO",
+        "ru": "Гватемала – 23 года / Zacapa XO",
+        "uk": "Гватемала – 23 роки / Zacapa XO",
         "pl": "Gwatemala – 23 lat / Zacapa XO",
         "de": "Guatemala – 23 Jahre / Zacapa XO"
        },
@@ -3305,7 +3326,14 @@
       {
        "id": "red-bull-vodka",
        "name": "Red Bull & Vodka",
-       "nameT": null,
+       "nameT": {
+        "it": "Red Bull & Vodka",
+        "en": "Red Bull & vodka",
+        "ru": "Red Bull с водкой",
+        "uk": "Red Bull з горілкою",
+        "pl": "Red Bull z wódką",
+        "de": "Red Bull mit Wodka"
+       },
        "desc": null,
        "price": 8.0,
        "priceNote": null,
@@ -3314,7 +3342,14 @@
       {
        "id": "monster-vodka",
        "name": "Monster & Vodka",
-       "nameT": null,
+       "nameT": {
+        "it": "Monster & Vodka",
+        "en": "Monster & vodka",
+        "ru": "Monster с водкой",
+        "uk": "Monster з горілкою",
+        "pl": "Monster z wódką",
+        "de": "Monster mit Wodka"
+       },
        "desc": null,
        "price": 8.0,
        "priceNote": null,
@@ -3617,7 +3652,14 @@
       {
        "id": "greco-calabria",
        "name": "Greco (Calabria)",
-       "nameT": null,
+       "nameT": {
+        "it": "Greco (Calabria)",
+        "en": "Greco (Calabria)",
+        "ru": "Греко (Калабрия)",
+        "uk": "Греко (Калабрія)",
+        "pl": "Greco (Kalabria)",
+        "de": "Greco (Kalabrien)"
+       },
        "desc": {
         "it": "Origine: Calabria",
         "en": "Origin: Calabria",
@@ -3628,12 +3670,20 @@
        },
        "price": 6.0,
        "priceNote": "calice €6,00 / bottiglia €25,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "glass": 6, "bottle": 25 }
       },
       {
        "id": "chardonnay-abruzzo",
        "name": "Chardonnay (Abruzzo)",
-       "nameT": null,
+       "nameT": {
+        "it": "Chardonnay (Abruzzo)",
+        "en": "Chardonnay (Abruzzo)",
+        "ru": "Шардоне (Абруццо)",
+        "uk": "Шардоне (Абруццо)",
+        "pl": "Chardonnay (Abruzja)",
+        "de": "Chardonnay (Abruzzen)"
+       },
        "desc": {
         "it": "Origine: Abruzzo",
         "en": "Origin: Abruzzo",
@@ -3644,12 +3694,20 @@
        },
        "price": 6.0,
        "priceNote": "calice €6,00 / bottiglia €25,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "glass": 6, "bottle": 25 }
       },
       {
        "id": "pecorello-calabria",
        "name": "Pecorello (Calabria)",
-       "nameT": null,
+       "nameT": {
+        "it": "Pecorello (Calabria)",
+        "en": "Pecorello (Calabria)",
+        "ru": "Пекорелло (Калабрия)",
+        "uk": "Пекорелло (Калабрія)",
+        "pl": "Pecorello (Kalabria)",
+        "de": "Pecorello (Kalabrien)"
+       },
        "desc": {
         "it": "Origine: Calabria",
         "en": "Origin: Calabria",
@@ -3660,12 +3718,20 @@
        },
        "price": 6.0,
        "priceNote": "calice €6,00 / bottiglia €25,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "glass": 6, "bottle": 25 }
       },
       {
        "id": "ribolla-gialla-jerman",
        "name": "Ribolla Gialla (Jerman)",
-       "nameT": null,
+       "nameT": {
+        "it": "Ribolla Gialla (Jerman)",
+        "en": "Ribolla Gialla (Jerman)",
+        "ru": "Риболла джалла (Jerman)",
+        "uk": "Ріболла джалла (Jerman)",
+        "pl": "Ribolla Gialla (Jerman)",
+        "de": "Ribolla Gialla (Jerman)"
+       },
        "desc": {
         "it": "Produttore: Jermann",
         "en": "Producer: Jermann",
@@ -3676,12 +3742,20 @@
        },
        "price": 35.0,
        "priceNote": "solo bottiglia €35,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 35 }
       },
       {
        "id": "chardonnay-jerman",
        "name": "Chardonnay (Jerman)",
-       "nameT": null,
+       "nameT": {
+        "it": "Chardonnay (Jerman)",
+        "en": "Chardonnay (Jerman)",
+        "ru": "Шардоне (Jerman)",
+        "uk": "Шардоне (Jerman)",
+        "pl": "Chardonnay (Jerman)",
+        "de": "Chardonnay (Jerman)"
+       },
        "desc": {
         "it": "Produttore: Jermann",
         "en": "Producer: Jermann",
@@ -3692,7 +3766,8 @@
        },
        "price": 35.0,
        "priceNote": "solo bottiglia €35,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 35 }
       }
      ]
     },
@@ -3709,7 +3784,14 @@
       {
        "id": "gaglioppo-calabria",
        "name": "Gaglioppo (Calabria)",
-       "nameT": null,
+       "nameT": {
+        "it": "Gaglioppo (Calabria)",
+        "en": "Gaglioppo (Calabria)",
+        "ru": "Гальоппо (Калабрия)",
+        "uk": "Гальоппо (Калабрія)",
+        "pl": "Gaglioppo (Kalabria)",
+        "de": "Gaglioppo (Kalabrien)"
+       },
        "desc": {
         "it": "Origine: Calabria",
         "en": "Origin: Calabria",
@@ -3720,12 +3802,20 @@
        },
        "price": 6.0,
        "priceNote": "calice €6,00 / bottiglia €25,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "glass": 6, "bottle": 25 }
       },
       {
        "id": "magliocco-calabria",
        "name": "Magliocco (Calabria)",
-       "nameT": null,
+       "nameT": {
+        "it": "Magliocco (Calabria)",
+        "en": "Magliocco (Calabria)",
+        "ru": "Мальокко (Калабрия)",
+        "uk": "Мальокко (Калабрія)",
+        "pl": "Magliocco (Kalabria)",
+        "de": "Magliocco (Kalabrien)"
+       },
        "desc": {
         "it": "Origine: Calabria",
         "en": "Origin: Calabria",
@@ -3736,12 +3826,20 @@
        },
        "price": 6.0,
        "priceNote": "calice €6,00 / bottiglia €25,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "glass": 6, "bottle": 25 }
       },
       {
        "id": "montepulciano-abruzzo",
        "name": "Montepulciano (Abruzzo)",
-       "nameT": null,
+       "nameT": {
+        "it": "Montepulciano (Abruzzo)",
+        "en": "Montepulciano (Abruzzo)",
+        "ru": "Монтепульчано (Абруццо)",
+        "uk": "Монтепульчано (Абруццо)",
+        "pl": "Montepulciano (Abruzja)",
+        "de": "Montepulciano (Abruzzen)"
+       },
        "desc": {
         "it": "Origine: Abruzzo",
         "en": "Origin: Abruzzo",
@@ -3752,25 +3850,42 @@
        },
        "price": 6.0,
        "priceNote": "calice €6,00 / bottiglia €25,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "glass": 6, "bottle": 25 }
       },
       {
        "id": "brunello-di-montalcino",
-       "name": "Brunello di Montalcinio",
-       "nameT": null,
+       "name": "Brunello di Montalcino",
+       "nameT": {
+        "it": "Brunello di Montalcino",
+        "en": "Brunello di Montalcino",
+        "ru": "Брунелло ди Монтальчино",
+        "uk": "Брунелло ді Монтальчино",
+        "pl": "Brunello di Montalcino",
+        "de": "Brunello di Montalcino"
+       },
        "desc": null,
        "price": 70.0,
        "priceNote": "solo bottiglia €70,00 (printed 'Montalcinio', sic: Brunello di Montalcino)",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 70 }
       },
       {
        "id": "amarone",
        "name": "Amarone",
-       "nameT": null,
+       "nameT": {
+        "it": "Amarone",
+        "en": "Amarone",
+        "ru": "Амароне",
+        "uk": "Амароне",
+        "pl": "Amarone",
+        "de": "Amarone"
+       },
        "desc": null,
        "price": 70.0,
        "priceNote": "solo bottiglia €70,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 70 }
       }
      ]
     },
@@ -3787,7 +3902,14 @@
       {
        "id": "santa-venere-calabria",
        "name": "Santa Venere (Calabria)",
-       "nameT": null,
+       "nameT": {
+        "it": "Santa Venere (Calabria)",
+        "en": "Santa Venere (Calabria)",
+        "ru": "Santa Venere (Калабрия)",
+        "uk": "Santa Venere (Калабрія)",
+        "pl": "Santa Venere (Kalabria)",
+        "de": "Santa Venere (Kalabrien)"
+       },
        "desc": {
         "it": "Origine: Calabria",
         "en": "Origin: Calabria",
@@ -3798,12 +3920,20 @@
        },
        "price": 6.0,
        "priceNote": "calice €6,00 / bottiglia €25,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "glass": 6, "bottle": 25 }
       },
       {
        "id": "tenuta-iuzzolini-calabria",
        "name": "Tenuta Iuzzolini (Calabria)",
-       "nameT": null,
+       "nameT": {
+        "it": "Tenuta Iuzzolini (Calabria)",
+        "en": "Tenuta Iuzzolini (Calabria)",
+        "ru": "Tenuta Iuzzolini (Калабрия)",
+        "uk": "Tenuta Iuzzolini (Калабрія)",
+        "pl": "Tenuta Iuzzolini (Kalabria)",
+        "de": "Tenuta Iuzzolini (Kalabrien)"
+       },
        "desc": {
         "it": "Origine: Calabria",
         "en": "Origin: Calabria",
@@ -3814,12 +3944,20 @@
        },
        "price": 6.0,
        "priceNote": "calice €6,00 / bottiglia €25,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "glass": 6, "bottle": 25 }
       },
       {
        "id": "cantina-tollo-calabria",
        "name": "Cantina Tollo (Calabria)",
-       "nameT": null,
+       "nameT": {
+        "it": "Cantina Tollo (Calabria)",
+        "en": "Cantina Tollo (Calabria)",
+        "ru": "Cantina Tollo (Калабрия)",
+        "uk": "Cantina Tollo (Калабрія)",
+        "pl": "Cantina Tollo (Kalabria)",
+        "de": "Cantina Tollo (Kalabrien)"
+       },
        "desc": {
         "it": "Origine: Calabria",
         "en": "Origin: Calabria",
@@ -3830,7 +3968,8 @@
        },
        "price": 6.0,
        "priceNote": "calice €6,00 / bottiglia €25,00",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "glass": 6, "bottle": 25 }
       }
      ]
     },
@@ -3858,7 +3997,8 @@
        "desc": null,
        "price": 7.0,
        "priceNote": "calice €7,00 (price printed in glass column)",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "glass": 7 }
       }
      ]
     }
@@ -3892,20 +4032,36 @@
       {
        "id": "prosecco",
        "name": "Prosecco",
-       "nameT": null,
+       "nameT": {
+        "it": "Prosecco",
+        "en": "Prosecco",
+        "ru": "Просекко",
+        "uk": "Просеко",
+        "pl": "Prosecco",
+        "de": "Prosecco"
+       },
        "desc": null,
        "price": 25,
        "priceNote": "bottiglia €25",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 25 }
       },
       {
        "id": "prosecco-rose",
        "name": "Prosecco Rosè",
-       "nameT": null,
+       "nameT": {
+        "it": "Prosecco Rosé",
+        "en": "Prosecco rosé",
+        "ru": "Розовое просекко",
+        "uk": "Рожеве просеко",
+        "pl": "Prosecco różowe",
+        "de": "Prosecco Rosé"
+       },
        "desc": null,
        "price": 30,
        "priceNote": "bottiglia €30",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 30 }
       },
       {
        "id": "berlucchi",
@@ -3914,7 +4070,8 @@
        "desc": null,
        "price": 30,
        "priceNote": "bottiglia €30",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 30 }
       },
       {
        "id": "ferrari",
@@ -3923,7 +4080,8 @@
        "desc": null,
        "price": 30,
        "priceNote": "bottiglia €30",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 30 }
       },
       {
        "id": "ca-del-bosco",
@@ -3932,7 +4090,8 @@
        "desc": null,
        "price": 50,
        "priceNote": "bottiglia €50",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 50 }
       },
       {
        "id": "ca-del-bosco-rose",
@@ -3941,7 +4100,8 @@
        "desc": null,
        "price": 80,
        "priceNote": "bottiglia €80",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 80 }
       },
       {
        "id": "bellavista",
@@ -3950,7 +4110,8 @@
        "desc": null,
        "price": 50,
        "priceNote": "bottiglia €50",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 50 }
       },
       {
        "id": "bellavista-rose",
@@ -3959,7 +4120,8 @@
        "desc": null,
        "price": 80,
        "priceNote": "bottiglia €80",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 80 }
       },
       {
        "id": "cristal",
@@ -3968,7 +4130,8 @@
        "desc": null,
        "price": 240,
        "priceNote": "bottiglia €240",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 240 }
       },
       {
        "id": "krug",
@@ -3977,7 +4140,8 @@
        "desc": null,
        "price": 240,
        "priceNote": "bottiglia €240",
-       "uncertain": false
+       "uncertain": false,
+       "servingPrices": { "bottle": 240 }
       }
      ]
     }
@@ -4557,7 +4721,7 @@
         "ru": "Натуральный / Крем и крошка / Фрукты дня",
         "uk": "Натуральний / Крем і крихта / Фрукти дня",
         "pl": "Naturalny / Krem i posypka / Owoce dnia",
-        "de": "Natur / Creme und Krokant / Obst des Tages"
+        "de": "Natur / Creme und Topping / Obst des Tages"
        },
        "price": 5.0,
        "priceNote": null,
@@ -4635,7 +4799,14 @@
       {
        "id": "piatto-fruit",
        "name": "Piatto Fruit",
-       "nameT": null,
+       "nameT": {
+        "it": "Piatto Fruit",
+        "en": "Fruit gelato plate",
+        "ru": "Джелато «Fruit» на тарелке",
+        "uk": "Джелато «Fruit» на тарілці",
+        "pl": "Lody Fruit na talerzu",
+        "de": "Eisteller Fruit"
+       },
        "desc": {
         "it": "Fragola, limone, amarena, pistacchio, panna montata",
         "en": "Strawberry, lemon, sour cherry, pistachio, whipped cream",
@@ -4651,7 +4822,14 @@
       {
        "id": "piatto-bounthy",
        "name": "Piatto Bounthy",
-       "nameT": null,
+       "nameT": {
+        "it": "Piatto Bounthy",
+        "en": "Bounthy gelato plate",
+        "ru": "Джелато «Bounthy» на тарелке",
+        "uk": "Джелато «Bounthy» на тарілці",
+        "pl": "Lody Bounthy na talerzu",
+        "de": "Eisteller Bounthy"
+       },
        "desc": {
         "it": "Cioccolato, granella di cocco, cocco, panna montata",
         "en": "Chocolate, coconut flakes, coconut, whipped cream",
@@ -4667,7 +4845,14 @@
       {
        "id": "piatto-delizia",
        "name": "Piatto Delizia",
-       "nameT": null,
+       "nameT": {
+        "it": "Piatto Delizia",
+        "en": "Delizia gelato plate",
+        "ru": "Джелато «Delizia» на тарелке",
+        "uk": "Джелато «Delizia» на тарілці",
+        "pl": "Lody Delizia na talerzu",
+        "de": "Eisteller Delizia"
+       },
        "desc": {
         "it": "Cioccolato, nocciola, fior di latte, panna montata",
         "en": "Chocolate, hazelnut, fior di latte (sweet cream), whipped cream",
@@ -4688,7 +4873,14 @@
       {
        "id": "coppa-kinder",
        "name": "Coppa Kinder",
-       "nameT": null,
+       "nameT": {
+        "it": "Coppa Kinder",
+        "en": "Kinder sundae",
+        "ru": "Креманка «Kinder»",
+        "uk": "Креманка «Kinder»",
+        "pl": "Puchar Kinder",
+        "de": "Eisbecher Kinder"
+       },
        "desc": {
         "it": "vari gusti Kinder, panna montata",
         "en": "Assorted Kinder flavours, whipped cream",
@@ -4704,12 +4896,19 @@
       {
        "id": "coppa-coockies",
        "name": "Coppa Coockies",
-       "nameT": null,
+       "nameT": {
+        "it": "Coppa Cookies",
+        "en": "Cookies sundae",
+        "ru": "Креманка «Cookies»",
+        "uk": "Креманка «Cookies»",
+        "pl": "Puchar Cookies",
+        "de": "Eisbecher Cookies"
+       },
        "desc": {
         "it": "Coockies, nocciola, biscotto, panna montata",
         "en": "Cookies, hazelnut, biscuit, whipped cream",
-        "ru": "Печенье cookies, фундук, бисквит, взбитые сливки",
-        "uk": "Печиво cookies, фундук, бісквіт, збиті вершки",
+        "ru": "Мороженое Cookies, фундук, печенье, взбитые сливки",
+        "uk": "Морозиво Cookies, фундук, печиво, збиті вершки",
         "pl": "Cookies, orzech laskowy, herbatnik, bita śmietana",
         "de": "Cookies, Haselnuss, Keks, Schlagsahne"
        },
@@ -4720,7 +4919,14 @@
       {
        "id": "coppa-amarena",
        "name": "Coppa Amarena",
-       "nameT": null,
+       "nameT": {
+        "it": "Coppa Amarena",
+        "en": "Sour cherry sundae",
+        "ru": "Креманка с вишней амарена",
+        "uk": "Креманка з вишнею амарена",
+        "pl": "Puchar z wiśnią amarena",
+        "de": "Amarenakirsch-Eisbecher"
+       },
        "desc": {
         "it": "Amarena, fior di latte, panna montata",
         "en": "Sour cherry, fior di latte, whipped cream",
@@ -4736,7 +4942,14 @@
       {
        "id": "coppa-meraviglia",
        "name": "Coppa Meraviglia",
-       "nameT": null,
+       "nameT": {
+        "it": "Coppa Meraviglia",
+        "en": "Meraviglia sundae",
+        "ru": "Креманка «Meraviglia»",
+        "uk": "Креманка «Meraviglia»",
+        "pl": "Puchar Meraviglia",
+        "de": "Eisbecher Meraviglia"
+       },
        "desc": {
         "it": "Melone, fragola, limone, panna montata",
         "en": "Melon, strawberry, lemon, whipped cream",
@@ -4752,7 +4965,14 @@
       {
        "id": "coppa-strange-day",
        "name": "Coppa Strange Day",
-       "nameT": null,
+       "nameT": {
+        "it": "Coppa Strange Day",
+        "en": "Strange Day sundae",
+        "ru": "Креманка «Strange Day»",
+        "uk": "Креманка «Strange Day»",
+        "pl": "Puchar Strange Day",
+        "de": "Eisbecher Strange Day"
+       },
        "desc": {
         "it": "Caffè, liquore, panna montata, zuppa inglese, amarena",
         "en": "Coffee, liqueur, whipped cream, zuppa inglese, sour cherry",
@@ -4768,7 +4988,14 @@
       {
        "id": "coppa-sayonara",
        "name": "Coppa Sayonara",
-       "nameT": null,
+       "nameT": {
+        "it": "Coppa Sayonara",
+        "en": "Sayonara sundae",
+        "ru": "Креманка «Sayonara»",
+        "uk": "Креманка «Sayonara»",
+        "pl": "Puchar Sayonara",
+        "de": "Eisbecher Sayonara"
+       },
        "desc": {
         "it": "Yogurt, amarena, panna montata",
         "en": "Yogurt, sour cherry, whipped cream",
@@ -4784,7 +5011,14 @@
       {
        "id": "coppa-coba-cabana",
        "name": "Coppa Coba Cabana",
-       "nameT": null,
+       "nameT": {
+        "it": "Coppa Coba Cabana",
+        "en": "Coba Cabana sundae",
+        "ru": "Креманка «Coba Cabana»",
+        "uk": "Креманка «Coba Cabana»",
+        "pl": "Puchar Coba Cabana",
+        "de": "Eisbecher Coba Cabana"
+       },
        "desc": {
         "it": "Cioccolato, fiordilatte, panna montata",
         "en": "Chocolate, fior di latte, whipped cream",
@@ -4800,7 +5034,14 @@
       {
        "id": "coppa-dolce-isola",
        "name": "Coppa Dolce Isola",
-       "nameT": null,
+       "nameT": {
+        "it": "Coppa Dolce Isola",
+        "en": "Dolce Isola sundae",
+        "ru": "Креманка «Dolce Isola»",
+        "uk": "Креманка «Dolce Isola»",
+        "pl": "Puchar Dolce Isola",
+        "de": "Eisbecher Dolce Isola"
+       },
        "desc": {
         "it": "Nocciola, pistacchio, cioccolato, panna montata",
         "en": "Hazelnut, pistachio, chocolate, whipped cream",
@@ -4816,7 +5057,14 @@
       {
        "id": "coppa-spagnolita",
        "name": "Coppa Spagnolita",
-       "nameT": null,
+       "nameT": {
+        "it": "Coppa Spagnolita",
+        "en": "Spagnolita sundae",
+        "ru": "Креманка «Spagnolita»",
+        "uk": "Креманка «Spagnolita»",
+        "pl": "Puchar Spagnolita",
+        "de": "Eisbecher Spagnolita"
+       },
        "desc": {
         "it": "Caffè, amarena, fior di latte, panna montata",
         "en": "Coffee, sour cherry, fior di latte, whipped cream",
@@ -4901,14 +5149,21 @@
       {
        "id": "coppa-capriccio",
        "name": "Coppa Capriccio",
-       "nameT": null,
+       "nameT": {
+        "it": "Coppa Capriccio",
+        "en": "Capriccio sundae",
+        "ru": "Креманка «Capriccio»",
+        "uk": "Креманка «Capriccio»",
+        "pl": "Puchar Capriccio",
+        "de": "Eisbecher Capriccio"
+       },
        "desc": {
         "it": "Stracciatella, granelle di nocciola, caramello, panna montata",
-        "en": "Stracciatella, hazelnut crumble, caramel, whipped cream",
-        "ru": "Страчателла, ореховая крошка, карамель, взбитые сливки",
-        "uk": "Страчателла, горіхова крихта, карамель, збиті вершки",
+        "en": "Stracciatella, chopped hazelnuts, caramel, whipped cream",
+        "ru": "Страчателла, дроблёный фундук, карамель, взбитые сливки",
+        "uk": "Страчателла, подрібнений фундук, карамель, збиті вершки",
         "pl": "Stracciatella, posypka z orzechów laskowych, karmel, bita śmietana",
-        "de": "Stracciatella, Haselnusskrokant, Karamell, Schlagsahne"
+        "de": "Stracciatella, gehackte Haselnüsse, Karamell, Schlagsahne"
        },
        "price": 7.0,
        "priceNote": null,
@@ -4919,11 +5174,11 @@
    ],
    "notes": {
     "it": "Gelato Revolution – il futuro del gelato",
-    "en": "Gelato Revolution brand logo",
-    "ru": "Логотип Gelato Revolution",
-    "uk": "Логотип Gelato Revolution",
-    "pl": "Logo Gelato Revolution",
-    "de": "Logo von Gelato Revolution"
+    "en": "Gelato Revolution – the future of gelato",
+    "ru": "Gelato Revolution – будущее джелато",
+    "uk": "Gelato Revolution – майбутнє джелато",
+    "pl": "Gelato Revolution – przyszłość lodów",
+    "de": "Gelato Revolution – die Zukunft des Eises"
    }
   },
   {
@@ -5039,14 +5294,21 @@
       {
        "id": "pancake-bigusto",
        "name": "Bigusto",
-       "nameT": null,
+       "nameT": {
+        "it": "Bigusto (due gusti)",
+        "en": "Two flavours",
+        "ru": "Два вкуса",
+        "uk": "Два смаки",
+        "pl": "Dwa smaki",
+        "de": "Zwei Sorten"
+       },
        "desc": {
         "it": "Crema bigusto (cioccolato al latte e bianco)",
-        "en": "Bigusto spread (milk and white chocolate)",
-        "ru": "Крем «бигусто» (молочный и белый шоколад)",
-        "uk": "Крем «бігусто» (молочний і білий шоколад)",
-        "pl": "Krem bigusto (mleczna i biała czekolada)",
-        "de": "Bigusto-Creme (Milch- und weiße Schokolade)"
+        "en": "Two-flavour spread (milk and white chocolate)",
+        "ru": "Крем из молочного и белого шоколада",
+        "uk": "Крем з молочного і білого шоколаду",
+        "pl": "Krem z mlecznej i białej czekolady",
+        "de": "Creme aus Milch- und weißer Schokolade"
        },
        "price": 5.0,
        "priceNote": "single price € 5,00 printed by the 'Pancake' heading; list = topping choices",
@@ -5088,12 +5350,12 @@
     }
    ],
    "notes": {
-    "it": "Pancake € 5,00 – farcitura a scelta (elenco non intitolato sul menu)",
-    "en": "Pancakes € 5.00 – choice of topping (list printed without a sub-heading)",
-    "ru": "Панкейки 5,00 € – топпинг на выбор (список без подзаголовка)",
-    "uk": "Панкейки 5,00 € – топінг на вибір (список без підзаголовка)",
-    "pl": "Pancakes 5,00 € – dodatek do wyboru (lista bez podtytułu)",
-    "de": "Pancakes 5,00 € – Topping nach Wahl (Liste ohne Unterüberschrift)"
+    "it": "Pancake € 5,00 – farcitura a scelta",
+    "en": "Pancakes € 5.00 – choice of topping",
+    "ru": "Панкейки 5,00 € – топпинг на выбор",
+    "uk": "Панкейки 5,00 € – топінг на вибір",
+    "pl": "Pancakes 5,00 € – dodatek do wyboru",
+    "de": "Pancakes 5,00 € – Topping nach Wahl"
    }
   },
   {
@@ -5367,11 +5629,11 @@
        "name": "Crepês Bigusto",
        "nameT": {
         "it": "Crêpes Bigusto (due gusti)",
-        "en": "Bigusto crêpe (two flavours)",
-        "ru": "Креп «Бигусто» (два вкуса)",
-        "uk": "Креп «Бігусто» (два смаки)",
-        "pl": "Naleśnik Bigusto (dwa smaki)",
-        "de": "Crêpe Bigusto (zwei Sorten)"
+        "en": "Two-flavour crêpe",
+        "ru": "Креп с двумя вкусами",
+        "uk": "Креп із двома смаками",
+        "pl": "Naleśnik z dwoma smakami",
+        "de": "Crêpe mit zwei Sorten"
        },
        "desc": null,
        "price": 5.0,
@@ -5636,12 +5898,12 @@
     }
    ],
    "notes": {
-    "it": "Aggiunte a € 0,50 ciascuna; il prezzo è stampato una volta accanto al titolo del gruppo.",
-    "en": "Toppings €0.50 each; the price is printed once next to the group title.",
-    "ru": "Добавки по €0,50 каждая; цена указана один раз рядом с заголовком группы.",
-    "uk": "Добавки по €0,50 кожна; ціну вказано один раз біля заголовка групи.",
-    "pl": "Dodatki po 0,50 € każdy; cena podana raz przy tytule grupy.",
-    "de": "Extras je 0,50 €; der Preis steht einmal neben der Gruppenüberschrift."
+    "it": "Aggiunte a € 0,50 ciascuna.",
+    "en": "Toppings €0.50 each.",
+    "ru": "Добавки по €0,50 каждая.",
+    "uk": "Добавки по €0,50 кожна.",
+    "pl": "Dodatki po 0,50 € każdy.",
+    "de": "Extras je 0,50 €."
    }
   },
   {
@@ -5766,7 +6028,7 @@
         "ru": "Холодный кофе",
         "uk": "Холодна кава",
         "pl": "Kawa mrożona",
-        "de": "Eiskaffee"
+        "de": "Kalter Kaffee"
        },
        "desc": null,
        "price": 2.0,
@@ -6106,7 +6368,7 @@
         "ru": "Кофейный мусс, фундук, сливки, дроблёный фундук",
         "uk": "Кавовий мус, фундук, вершки, подрібнений фундук",
         "pl": "Mus kawowy, orzech laskowy, bita śmietana, posiekane orzechy laskowe",
-        "de": "Kaffeemousse, Haselnuss, Sahne, Haselnusskrokant"
+        "de": "Kaffeemousse, Haselnuss, Sahne, gehackte Haselnüsse"
        },
        "price": 4.5,
        "priceNote": null,
@@ -6122,7 +6384,7 @@
         "ru": "Кофейный мусс, фисташка, сливки, дроблёная фисташка",
         "uk": "Кавовий мус, фісташка, вершки, подрібнена фісташка",
         "pl": "Mus kawowy, pistacja, bita śmietana, posiekane pistacje",
-        "de": "Kaffeemousse, Pistazie, Sahne, Pistazienkrokant"
+        "de": "Kaffeemousse, Pistazie, Sahne, gehackte Pistazien"
        },
        "price": 4.5,
        "priceNote": null,
@@ -6507,12 +6769,12 @@
        "id": "acqua-minerale-50cl",
        "name": "Acqua Minerale",
        "nameT": {
-        "it": "Acqua minerale",
-        "en": "Mineral water",
-        "ru": "Минеральная вода",
-        "uk": "Мінеральна вода",
-        "pl": "Woda mineralna",
-        "de": "Mineralwasser"
+        "it": "Acqua minerale 50 cl",
+        "en": "Mineral water 50 cl",
+        "ru": "Минеральная вода 500 мл",
+        "uk": "Мінеральна вода 500 мл",
+        "pl": "Woda mineralna 50 cl",
+        "de": "Mineralwasser 50 cl"
        },
        "desc": null,
        "price": 1.0,
@@ -6523,12 +6785,12 @@
        "id": "acqua-minerale-150cl",
        "name": "Acqua Minerale",
        "nameT": {
-        "it": "Acqua minerale",
-        "en": "Mineral water",
-        "ru": "Минеральная вода",
-        "uk": "Мінеральна вода",
-        "pl": "Woda mineralna",
-        "de": "Mineralwasser"
+        "it": "Acqua minerale 150 cl",
+        "en": "Mineral water 150 cl",
+        "ru": "Минеральная вода 1,5 л",
+        "uk": "Мінеральна вода 1,5 л",
+        "pl": "Woda mineralna 150 cl",
+        "de": "Mineralwasser 150 cl"
        },
        "desc": null,
        "price": 2.5,

@@ -14,7 +14,7 @@ export const VENUE = {
     'https://www.google.com/maps/dir/?api=1&destination=La+Dolce+Isola+Scalea&destination_place_id=ChIJW17XmiMePxMRJQwxu_nTm08',
   mapsEmbed:
     'https://www.google.com/maps?q=La+Dolce+Isola,+Via+Michele+Bianchi+30,+Scalea&ll=39.8147921,15.7907844&z=17&output=embed',
-  hours: '07:00 – 03:00',
+  hours: '07:00 – 01:00',
   closedDay: 'mercoledì',
   closedDayEn: 'Wednesday',
   google: { rating: 4.3, count: 575 },
@@ -25,6 +25,8 @@ export const VENUE = {
     of: 103,
     href: 'https://www.tripadvisor.it/Restaurant_Review-g194909-d6965643-Reviews-La_Dolce_Isola-Scalea_Province_of_Cosenza_Calabria.html',
   },
+  googleReviewHref: 'https://search.google.com/local/writereview?placeid=ChIJW17XmiMePxMRJQwxu_nTm08',
+  tripadvisorReviewHref: 'https://www.tripadvisor.it/UserReview-g194909-d6965643-La_Dolce_Isola-Scalea_Province_of_Cosenza_Calabria.html',
 } as const
 
 /** Prefix a public asset path with Vite's base (GitHub Pages sub-path). */

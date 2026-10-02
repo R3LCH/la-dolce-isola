@@ -12,6 +12,7 @@ export type MenuItem = {
   price: number | null
   priceNote: string | null
   uncertain: boolean
+  servingPrices?: { glass?: number; bottle?: number }
 }
 export type MenuGroup = { title: T6 | null; items: MenuItem[] }
 export type MenuCategory = { id: string; title: T6; pages: number[]; groups: MenuGroup[]; notes: T6 | null }

@@ -49,10 +49,10 @@ function leafOf(page: number) {
 // ─── sub-components ──────────────────────────────────────────────────────────
 
 type LangProps = { lang: MenuLang; strings: MenuStrings; onChange: (l: MenuLang) => void }
-function LangSwitcher({ lang, strings: _strings, onChange }: LangProps) {
+function LangSwitcher({ lang, strings, onChange }: LangProps) {
   const langs: MenuLang[] = ['it', 'en', 'ru', 'uk', 'pl', 'de']
   return (
-    <div className="flex items-center gap-1" role="group" aria-label="Menu language">
+    <div className="flex items-center gap-1" role="group" aria-label={strings.language}>
       {langs.map((l) => (
         <button
           key={l}
@@ -74,8 +74,8 @@ function LangSwitcher({ lang, strings: _strings, onChange }: LangProps) {
 
 // ─── block node ──────────────────────────────────────────────────────────────
 
-type BlockProps = { spec: BlockSpec; lang: MenuLang }
-function Block({ spec, lang }: BlockProps) {
+type BlockProps = { spec: BlockSpec; lang: MenuLang; strings: MenuStrings }
+function Block({ spec, lang, strings }: BlockProps) {
   const cat = category(spec.cat)
   const groups = resolveBlock(spec)
   const pillC = pillColor(cat.pages[0] ?? 1)
@@ -98,7 +98,7 @@ function Block({ spec, lang }: BlockProps) {
       )}
       {spec.cont && (
         <p className="mb-1 text-[9px] font-semibold uppercase tracking-[0.18em] opacity-50">
-          {cat.title[lang]} (segue)
+          {cat.title[lang]} ({strings.continued})
         </p>
       )}
 
@@ -135,14 +135,24 @@ function Block({ spec, lang }: BlockProps) {
                 const name = item.nameT ? item.nameT[lang] : item.name
                 const desc = item.desc ? item.desc[lang] : null
 
-                if (spec.wine) {
-                  const parts = item.priceNote?.split('/').map((s) => s.trim()) ?? []
+                if (spec.wine || item.servingPrices) {
+                  const sp = item.servingPrices
+                  let priceLabel: string | null = null
+                  if (sp) {
+                    if (sp.glass != null && sp.bottle != null) {
+                      priceLabel = `${strings.glass} ${formatPrice(sp.glass)} · ${strings.bottle} ${formatPrice(sp.bottle)}`
+                    } else if (sp.bottle != null) {
+                      priceLabel = `${strings.bottleOnly} ${formatPrice(sp.bottle)}`
+                    } else if (sp.glass != null) {
+                      priceLabel = `${strings.glass} ${formatPrice(sp.glass)}`
+                    }
+                  }
                   return (
                     <div key={ii} className="py-[3px] overflow-hidden">
                       <span className="block text-[10px] leading-tight break-words">{name}</span>
-                      {(parts[0] || parts[1]) && (
+                      {priceLabel && (
                         <span className="block text-[9px] leading-tight tabular-nums text-[var(--color-ink-2)]">
-                          {[parts[0], parts[1]].filter(Boolean).join(' · ')}
+                          {priceLabel}
                         </span>
                       )}
                     </div>
@@ -190,7 +200,7 @@ function Block({ spec, lang }: BlockProps) {
 
 type NodeProps = { node: LayoutNode; lang: MenuLang }
 function NodeRenderer({ node, lang }: NodeProps) {
-  if (node.t === 'block') return <Block spec={node.b} lang={lang} />
+  if (node.t === 'block') return <Block spec={node.b} lang={lang} strings={MENU_STRINGS[lang]} />
 
   if (node.t === 'photo') return null
 
@@ -320,6 +330,7 @@ type RailProps = {
 function CategoryRail({ categories, activeCatId, lang, collapsed, onCollapsed, onSelect }: RailProps) {
   const railRef = useRef<HTMLDivElement>(null)
   const portrait = typeof window !== 'undefined' && window.innerWidth < 768
+  const strings = MENU_STRINGS[lang]
 
   // keyboard: escape collapses
   const onKey = (e: KeyboardEvent) => {
@@ -345,15 +356,15 @@ function CategoryRail({ categories, activeCatId, lang, collapsed, onCollapsed, o
       }}
       onKeyDown={onKey}
       role="navigation"
-      aria-label="Menu categories"
+      aria-label={strings.categories}
       aria-expanded={!collapsed}
     >
       {/* toggle button */}
       <button
         className="flex items-center justify-center w-full h-8 shrink-0 text-[var(--color-ink-2)] hover:text-[var(--color-ink)] transition-colors"
         onClick={() => onCollapsed(!collapsed)}
-        aria-label={collapsed ? 'Show categories' : 'Hide categories'}
-        title={collapsed ? 'Show categories' : 'Hide categories'}
+        aria-label={collapsed ? strings.showCategories : strings.hideCategories}
+        title={collapsed ? strings.showCategories : strings.hideCategories}
         tabIndex={0}
       >
         {collapsed ? (
@@ -790,7 +801,7 @@ export function MenuBook({ initialCategoryId }: { initialCategoryId: string | nu
                 else bookRef.current?.flipToPage(leafOf(spec.page))
               }}
               tabIndex={-1}
-              aria-label={`Page ${spec.page}`}
+              aria-label={strings.pages([spec.page], totalPages)}
             />
           )
         })}

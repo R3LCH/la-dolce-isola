@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { SITE_LANGS } from '../i18n'
 import { menuHref } from '../lib/router'
 import { IconBook } from './Icons'
-import { scrollToId } from './motion'
+import { gsap, ScrollTrigger, scrollToId } from './motion'
 
 type Tone = 'dark' | 'light'
 
@@ -42,8 +42,42 @@ export function Header() {
   const dark = tone === 'dark'
   const lang = i18n.resolvedLanguage === 'en' ? 'en' : 'it'
 
+  const headerRef = useRef<HTMLElement>(null)
+  const logoRef = useRef<HTMLImageElement>(null)
+
+  useLayoutEffect(() => {
+    const logo = logoRef.current
+    if (!logo) return
+
+    // Match both motion preferences: normal-motion phones match neither
+    // condition in useMotion's desktop/reduced-motion setup.
+    const mm = gsap.matchMedia(headerRef)
+    mm.add({
+      reduce: '(prefers-reduced-motion: reduce)',
+      normal: '(prefers-reduced-motion: no-preference)',
+    }, (ctx) => {
+      if (ctx.conditions?.reduce) {
+        gsap.set(logo, { scale: window.scrollY > 0 ? 1 : 2 })
+        ScrollTrigger.create({
+          start: 1,
+          onEnter: () => gsap.set(logo, { scale: 1 }),
+          onLeaveBack: () => gsap.set(logo, { scale: 2 }),
+        })
+        return
+      }
+
+      gsap.fromTo(logo, { scale: 2 }, {
+        scale: 1,
+        ease: 'none',
+        scrollTrigger: { start: 0, end: 160, scrub: true, invalidateOnRefresh: true },
+      })
+    })
+    return () => mm.revert()
+  }, [])
+
   return (
     <header
+      ref={headerRef}
       className={`nav-bar fixed inset-x-0 top-0 z-50 pt-[env(safe-area-inset-top)] ${
         dark ? 'text-paper' : 'border-b border-ink/10 bg-paper/80 text-ink backdrop-blur-md'
       }`}
@@ -79,9 +113,11 @@ export function Header() {
           className="flex items-center justify-self-center py-1"
         >
           <img
+            ref={logoRef}
             src={`${import.meta.env.BASE_URL}logo-header.png`}
             alt="La Dolce Isola"
-            className={`h-9 w-auto md:h-11 transition-[filter] duration-300 ${dark ? 'brightness-0 invert' : ''}`}
+            className={`h-9 w-auto origin-top md:h-11 transition-[filter] duration-300 ${dark ? 'brightness-0 invert' : ''}`}
+            style={{ transform: 'scale(2)' }}
             draggable={false}
           />
         </a>

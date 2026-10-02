@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "La Dolce Isola · Café, Wine Bar, Gelato in Scalea",
-    "description": "Bar, café, wine bar, gelateria and crêperie on the pedestrian street of Scalea. Open every day from 07:00 to 03:00. Browse the menu in six languages."
+    "description": "Bar, café, wine bar, gelateria and crêperie on the pedestrian street of Scalea. Open every day except Wednesdays, from 07:00 to 01:00. Browse the menu in six languages."
   },
   "nav": {
     "home": "La Dolce Isola, back to top",
@@ -15,7 +15,7 @@
     "line1": "From the first coffee",
     "line2a": "to the last ",
     "line2b": "glass.",
-    "sub": "On the pedestrian street of Scalea. From morning to midnight.",
+    "sub": "On the pedestrian street of Scalea. Open until 01:00, closed on Wednesdays.",
     "cta": "Explore the menu",
     "where": "Find us",
     "posterAlt": "The blue and white majolica tile with the La Dolce Isola script"
@@ -43,7 +43,7 @@
     "title2": "to come back to.",
     "body": "Morning brings fresh coffee and warm cornetti. Afternoons are for artisan gelato and dolci. Evenings fill with aperitivo, Calabrian wine by the glass, and cocktails under the umbrellas.",
     "facts": [
-      { "value": "07 · 03", "label": "every day" },
+      { "value": "07 · 01", "label": "every day" },
       { "value": "Gelato", "label": "artisan" },
       { "value": "Enoteca", "label": "Calabrian wines by the glass" }
     ],
@@ -68,7 +68,7 @@
     "kicker": "Wine bar",
     "title": "Calabrian wines by the glass.",
     "body": "A curated selection of whites, reds and rosés from Calabria. To be enjoyed slowly, at the table or at the bar.",
-    "photoAlt": "A tall Calabrian wine bottle",
+    "photoAlt": "Three wine bottles, including a Calabrian Santa Venere dessert wine",
     "cta": "See the wine list"
   },
   "reviews": {
@@ -97,7 +97,10 @@
     "directions": "Directions",
     "openMaps": "Open in Google Maps",
     "mapTitle": "Map of La Dolce Isola, Via Michele Bianchi 30, Scalea",
-    "note": "On the pedestrian corso, a short walk from the old town."
+    "note": "On the pedestrian corso, a short walk from the old town.",
+    "reviewCta": "Did you enjoy your visit? Share your experience — your review helps us grow and guides other guests to La Dolce Isola.",
+    "reviewGoogle": "Review us on Google",
+    "reviewTripadvisor": "Review us on Tripadvisor"
   },
   "contacts": {
     "kicker": "Contact",

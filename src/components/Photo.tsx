@@ -1,7 +1,7 @@
 import type { ImgHTMLAttributes } from 'react'
 import { asset } from '../lib/venue'
 
-/** Intrinsic size of the 800 px rendition of every photo in public/img (16xx is the 2x of the same frame). */
+/** Intrinsic size of the 800 px rendition of every photo in public/img (1600 rendition is the 2× unless noted otherwise). */
 const SIZES = {
   '01': [800, 600],
   '02': [800, 561],
@@ -19,6 +19,8 @@ const SIZES = {
   '48': [800, 1067],
   '53': [800, 1067],
   '56': [800, 1067],
+  // The source of wines is 1024×1280; the 1600 rendition holds the native frame (no true 2×).
+  'wines': [800, 1000],
 } as const
 
 export type PhotoId = keyof typeof SIZES
@@ -33,7 +35,7 @@ type PhotoProps = Omit<ImgHTMLAttributes<HTMLImageElement>, 'src' | 'srcSet' | '
 export function Photo({ id, alt, sizes, loading = 'lazy', decoding = 'async', ...rest }: PhotoProps) {
   const [w, h] = SIZES[id]
   const small = asset(`img/${id}-800.webp`)
-  const srcSet = w < 800 ? undefined : `${small} 800w, ${asset(`img/${id}-1600.webp`)} 1600w`
+  const srcSet = w < 800 ? undefined : `${small} 800w, ${asset(`img/${id}-1600.webp`)} ${id === 'wines' ? 1024 : 1600}w`
   return (
     <img
       src={small}

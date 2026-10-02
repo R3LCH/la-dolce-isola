@@ -41,20 +41,20 @@ Motion: enter `cubic-bezier(0.23,1,0.32,1)`, move `cubic-bezier(0.77,0,0.175,1)`
 
 Routes are hash-based (`#/` and `#/menu/<categoryId>`) so they work on Pages without server rewrites.
 
-1. Header: wordmark centred, a persistent "Menu" pill button top-right (always visible, also on mobile), IT/EN toggle.
+1. Header: centred brand logo, initially 2× compact size (72px mobile, 88px desktop), shrinking to 36px/44px over the first 160px of scroll. Reduced motion snaps on scrolling. Persistent "Menu" pill top-right, also on mobile; IT/EN toggle.
 2. Hero (`min-h-[100dvh]`): a 3D majolica tile in the brand's cobalt line art, glazed, that tilts towards the pointer and catches a moving highlight. Headline in Bodoni, one line of copy, "Apri il menu" CTA. Poster image when WebGL or motion is unavailable.
 3. Menu teaser: a row of category "tiles" (Caffetteria, Cocktail, Gelato, Crêpes, Vini, Food) with dish photos; each one deep-links into the book.
 4. About: a short paragraph and two photos (17, 53), split layout with a clip-path reveal.
-5. Reviews: small plaques (author, stars, quote clamped to 3 lines) in a slow horizontal drift, as on pasticceria-marylou. Rating summary: Google 4.3 (575) and Tripadvisor 4.3 bubbles (125 reviews, #20 of 103 in Scalea).
-6. Location: address, hours (every day 07:00–03:00), Google Maps embed, "Indicazioni" button.
+5. Reviews: small plaques (author, stars, quote clamped to 3 lines) in a slow horizontal drift, as on pasticceria-marylou. Italian headline: "Le opinioni dei nostri ospiti." Rating summary: Google 4.3 (575) and Tripadvisor 4.3 bubbles (125 reviews, #20 of 103 in Scalea).
+6. Location: address, hours (07:00–01:00, closed Wednesdays), Google Maps embed, "Indicazioni" button; a review invitation and Google/Tripadvisor write-review buttons after the map.
 7. Contacts: Instagram, Facebook, phone, WhatsApp, email buttons with line icons.
 
 ## 5. Menu book (`#/menu`)
 
-- Book pages are HTML, not photos: each printed page is rebuilt from `menu.json` (category pill, item name, description, price aligned right, dish photos in round frames as printed).
+- Book pages are HTML, not photos: each printed page is rebuilt from `menu.json` (category pill, translated item name, description and price). Rendering is text-only; photo nodes in the printed-page specs are omitted.
 - Desktop: two-page spread on a walnut cover. Mobile: single page, swipe to turn.
 - Category rail on the left: full labels when open; collapses to vertical ticks while the reader is flipping; expands on hover (pointer devices) or tap (touch). The active category animates between ticks as pages turn. Clicking a label flips to the first page of that category.
-- Language switcher for six menu languages; prices formatted as `€ 8,00`.
+- Language switcher for six menu languages; prices formatted as `€ 8,00`. Wine glass/bottle amounts use structured `servingPrices` and localized portion labels, never raw editorial `priceNote` text. Brand and producer names remain identifiable.
 
 ## 6. Delivery
 

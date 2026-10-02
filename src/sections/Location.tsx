@@ -94,6 +94,32 @@ export function Location() {
           </div>
         </div>
       </div>
+
+      <div data-reveal="" className="mx-auto mt-12 max-w-[1360px] border-t border-ink/12 pt-10">
+        <p className="max-w-[56ch] text-[16px] leading-relaxed text-ink/75">
+          {t('location.reviewCta')}
+        </p>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <a
+            href={VENUE.googleReviewHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="press btn-ink inline-flex min-h-12 items-center gap-2.5 rounded-full bg-ink px-6 text-[15px] font-semibold text-paper"
+          >
+            {t('location.reviewGoogle')}
+            <IconArrowUpRight className="text-[16px]" />
+          </a>
+          <a
+            href={VENUE.tripadvisorReviewHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="press contact-row inline-flex min-h-12 items-center gap-2 rounded-full border border-ink/25 px-5 text-[15px] font-medium text-ink"
+          >
+            {t('location.reviewTripadvisor')}
+            <IconArrowUpRight className="tile-arrow text-[16px]" />
+          </a>
+        </div>
+      </div>
     </section>
   )
 }

@@ -18,6 +18,7 @@ export type MenuStrings = {
   continued: string
   glass: string
   bottle: string
+  bottleOnly: string
   toppings: string
   thanks: string
   openDaily: string
@@ -45,6 +46,7 @@ export const MENU_STRINGS: Record<MenuLang, MenuStrings> = {
     continued: 'segue',
     glass: 'calice',
     bottle: 'bottiglia',
+    bottleOnly: 'solo bottiglia',
     toppings: 'Farcitura a scelta',
     thanks: 'Grazie e a presto',
     openDaily: 'Aperto tutti i giorni',
@@ -69,6 +71,7 @@ export const MENU_STRINGS: Record<MenuLang, MenuStrings> = {
     continued: 'continued',
     glass: 'glass',
     bottle: 'bottle',
+    bottleOnly: 'bottle only',
     toppings: 'Choice of topping',
     thanks: 'Thank you, see you soon',
     openDaily: 'Open every day',
@@ -93,6 +96,7 @@ export const MENU_STRINGS: Record<MenuLang, MenuStrings> = {
     continued: 'продолжение',
     glass: 'бокал',
     bottle: 'бутылка',
+    bottleOnly: 'только бутылка',
     toppings: 'Начинка на выбор',
     thanks: 'Спасибо, до скорой встречи',
     openDaily: 'Открыто ежедневно',
@@ -117,6 +121,7 @@ export const MENU_STRINGS: Record<MenuLang, MenuStrings> = {
     continued: 'продовження',
     glass: 'келих',
     bottle: 'пляшка',
+    bottleOnly: 'тільки пляшка',
     toppings: 'Начинка на вибір',
     thanks: 'Дякуємо, до зустрічі',
     openDaily: 'Відчинено щодня',
@@ -141,6 +146,7 @@ export const MENU_STRINGS: Record<MenuLang, MenuStrings> = {
     continued: 'ciąg dalszy',
     glass: 'kieliszek',
     bottle: 'butelka',
+    bottleOnly: 'tylko butelka',
     toppings: 'Dodatek do wyboru',
     thanks: 'Dziękujemy, do zobaczenia',
     openDaily: 'Otwarte codziennie',
@@ -165,6 +171,7 @@ export const MENU_STRINGS: Record<MenuLang, MenuStrings> = {
     continued: 'Fortsetzung',
     glass: 'Glas',
     bottle: 'Flasche',
+    bottleOnly: 'nur Flasche',
     toppings: 'Belag nach Wahl',
     thanks: 'Danke und bis bald',
     openDaily: 'Täglich geöffnet',
