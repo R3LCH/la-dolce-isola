@@ -69,21 +69,22 @@
   }
 }
 
-/* Cobalt hero ground: a faint repeat of the same glaze motif in porcelain line. */
+/* Warm red leather tones from the business logo; retain the fine porcelain motif. */
 .hero-ground {
-  background-color: var(--color-ink);
+  --color-sun: #f4d99b;
+  background-color: #802e2a;
   background-image:
-    radial-gradient(120% 90% at 70% 20%, rgb(60 85 153 / 0.55), transparent 60%),
-    radial-gradient(90% 70% at 10% 100%, rgb(15 20 48 / 0.7), transparent 70%),
+    radial-gradient(120% 90% at 70% 20%, rgb(196 100 84 / 0.65), transparent 60%),
+    radial-gradient(90% 70% at 10% 100%, rgb(73 13 24 / 0.75), transparent 70%),
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' fill='none' stroke='%23fbf8f2' stroke-opacity='.09' stroke-width='1'%3E%3Ccircle cx='0' cy='0' r='30'/%3E%3Ccircle cx='96' cy='0' r='30'/%3E%3Ccircle cx='0' cy='96' r='30'/%3E%3Ccircle cx='96' cy='96' r='30'/%3E%3Ccircle cx='48' cy='48' r='14'/%3E%3Cpath d='M48 20c6 8 6 20 0 28-6-8-6-20 0-28ZM48 76c6-8 6-20 0-28-6 8-6 20 0 28ZM20 48c8-6 20-6 28 0-8 6-20 6-28 0ZM76 48c-8-6-20-6-28 0 8 6 20 6 28 0Z'/%3E%3C/svg%3E");
   background-size: auto, auto, 96px 96px;
 }
 
-/* Poster tile hides as soon as the WebGL canvas exists; HeroScene fades itself in over it. */
+/* Keep the static logo until the complete 3D scene has actually rendered. */
 .hero-poster {
   transition: opacity 700ms var(--ease-out);
 }
-.hero-frame:has(canvas) .hero-poster {
+.hero-frame:has([data-logo-ready="true"]) .hero-poster {
   opacity: 0;
 }
 

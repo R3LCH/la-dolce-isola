@@ -4,9 +4,9 @@ Sources: `research/vibe.md` (verified photo palette), `research/design-reference
 
 ## 1. Design read
 
-The venue is a classic Italian caffè-enoteca on the pedestrian street of Scalea. Indoors it is warm yellow walls, walnut wine shelving, cream capitonné, marble and crystal chandeliers. The brand mark is a hand-painted blue-and-white majolica tile with cobalt script. The site is there for the menu, so everything else stays short.
+The venue is a classic Italian caffè-enoteca on the pedestrian street of Scalea. Indoors it is warm yellow walls, walnut wine shelving, cream capitonné, marble and crystal chandeliers. The supplied business logo is a gold reclining figure over a painted blue/cloud disk, with “dal 1996” and “Dolce Isola” script on red leather. The hero follows that red/gold reference; existing porcelain surfaces and fine ornament remain elsewhere. The site is there for the menu, so everything else stays short.
 
-Concept: "La maiolica". Porcelain-white glaze surfaces, cobalt ink, one warm accent from the yellow walls. Ornament comes only from the brand's swirl motif, drawn as thin cobalt line art.
+Concept: warm red/gold business-logo hero with porcelain menu surfaces and restrained brand ornament. Hero artwork replaces the former 3D ceramic plates, not the header logos or menu-book presentation.
 
 Dials: variance 7, motion 6-7, density 3.
 
@@ -42,7 +42,7 @@ Motion: enter `cubic-bezier(0.23,1,0.32,1)`, move `cubic-bezier(0.77,0,0.175,1)`
 Routes are hash-based (`#/` and `#/menu/<categoryId>`) so they work on Pages without server rewrites. The homepage is preserved in a React `Activity` boundary: menu mode suspends its Effects instead of merely hiding active ScrollTriggers with CSS. Returning home reconnects animations, retains component state and restores the saved scroll position before the curtain opens.
 
 1. Header: centred brand logo, initially 2× compact size (72px mobile, 88px desktop), shrinking to 36px/44px over the first 160px of scroll. Reduced motion snaps on scrolling. Persistent "Menu" pill top-right, also on mobile; IT/EN toggle.
-2. Hero (`min-h-[100dvh]`): a 3D majolica tile in the brand's cobalt line art, glazed, that tilts towards the pointer and catches a moving highlight. Headline in Bodoni, one line of copy, "Apri il menu" CTA. Poster image when WebGL or motion is unavailable.
+2. Hero (`min-h-[100dvh]`): red/burgundy gradient retaining the fine repeated motif. A single true 3D gold logo relief with beveled medallion, painted blue/cloud disk, raised reclining figure and script wordmark; restrained pointer tilt and idle movement. `public/hero-logo.svg` is both the static poster and the source of the extruded `#gold-relief` contours. Headline in Bodoni, short copy and "Apri il menu" CTA. The poster remains until the first complete 3D frame and returns on unavailable/lost WebGL; reduced motion shows the still 3D composition on demand. No companion ceramic plates.
 3. Menu teaser: a row of category "tiles" (Caffetteria, Cocktail, Gelato, Crêpes, Vini, Food) with dish photos; each one deep-links into the book.
 4. About: a short paragraph and two photos (17, 53), split layout with a clip-path reveal.
 5. Reviews: small plaques (author, stars, quote clamped to 3 lines) in a slow horizontal drift, as on pasticceria-marylou. Italian headline: "Le opinioni dei nostri ospiti." Rating summary: Google 4.3 (575) and Tripadvisor 4.3 bubbles (125 reviews, #20 of 103 in Scalea).

@@ -46,17 +46,15 @@ export function Hero() {
         data-hero-frame=""
         className="hero-frame hero-ground relative isolate flex min-h-[calc(100dvh-16px)] flex-col overflow-hidden rounded-[22px] text-paper md:min-h-[calc(100dvh-24px)] md:rounded-[32px]"
       >
-        {/* Poster: the real brand tile photographed at the bar. WebGL draws over it once ready. */}
-        <div className="hero-poster pointer-events-none absolute inset-x-0 top-[12%] mx-auto w-[78%] max-w-[420px] md:inset-x-auto md:top-1/2 md:right-[9%] md:w-[34%] md:max-w-[520px] md:-translate-y-1/2">
+        {/* The same clean logo remains visible while 3D loads or when WebGL is unavailable. */}
+        <div className="hero-poster pointer-events-none absolute inset-x-0 top-[13%] mx-auto w-[min(60%,30.4dvh)] max-w-[280px] md:inset-x-auto md:top-1/2 md:right-[8%] md:w-[min(32%,60dvh)] md:max-w-[520px] md:-translate-y-1/2">
           <img
-            src={asset('img/30-800.webp')}
-            srcSet={`${asset('img/30-800.webp')} 800w, ${asset('img/30-1600.webp')} 1600w`}
-            sizes="(min-width: 768px) 34vw, 78vw"
-            width={800}
-            height={1067}
+            src={asset('hero-logo.svg')}
+            width={1000}
+            height={1250}
             alt={t('hero.posterAlt')}
             fetchPriority="high"
-            className="aspect-[1.42/1] w-full rounded-[18px] object-cover object-[50%_42%] shadow-[0_40px_80px_-30px_rgb(5_8_25/0.8)] ring-1 ring-paper/20"
+            className="h-auto w-full drop-shadow-[0_24px_30px_rgb(46_7_16/0.35)]"
           />
         </div>
 
